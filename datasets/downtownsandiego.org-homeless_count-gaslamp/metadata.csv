@@ -1,0 +1,39 @@
+Declare,metatab-latest
+Title,Gaslamp Homeless Counts
+Description,Monthly homeless counts for the Gaslamp district in Downtown San Diego
+Identifier,c5a245ab-7c88-4e98-bcfd-08703fb1ce1e
+Name,downtownsandiego.org-homeless_count-gaslamp-2
+Dataset,homeless_count
+Origin,downtownsandiego.org
+Time,
+Space,gaslamp
+Grain,
+Variant,
+Version,2
+Created,2019-06-11T21:14:44
+Modified,2019-06-11T23:26:58
+Giturl,https://github.com/sandiegodata-projects/downtown-partnership.git
+""
+Section,Contacts,Email,Organization,Url
+Wrangler,Eric Busboom,eric@civicknowledge.com,Civic Knowledge,http://civicknowledge.com
+""
+Section,Documentation,Title,Description,
+Documentation,file:README.md,README,,
+""
+Section,References,Name,Description,
+""
+Section,Resources,Name,Description,
+Datafile,file:data/gaslamp_data.csv,gaslamp,,
+""
+Section,Schema,DataType,Description,Transform
+Table,gaslamp,,,
+Table.Column,id,integer,,
+Table.Column,date,date,,
+Table.Column,neighborhood,string,Neighborhood name; always 'gaslamp',v.lower()
+Table.Column,map_id,integer,Map number,
+Table.Column,type,string,"Type of group: 'ind' for individuals, or 'encampment'","v.replace('individual_sleeper','ind')"
+Table.Column,count,integer,Number of homeless people in the count point,
+Table.Column,rain,string,"Does the map record rain? 'yes', 'no' or blank if no record","v.replace('na','')"
+Table.Column,temperature,string,"Temperature in F, if recorded on the map",
+Table.Column,lon,number,Longitude of count point,
+Table.Column,lat,number,Latitude of count point,

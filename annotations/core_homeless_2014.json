@@ -1,0 +1,120 @@
+{
+    "_via_settings": {
+        "ui": {
+            "annotation_editor_height": 0,
+            "annotation_editor_fontsize": 0.8,
+            "leftsidebar_width": 18,
+            "image_grid": {
+                "img_height": 80,
+                "rshape_fill": "none",
+                "rshape_fill_opacity": 0.3,
+                "rshape_stroke": "yellow",
+                "rshape_stroke_width": 2,
+                "show_region_shape": true,
+                "show_image_policy": "all"
+            },
+            "image": {
+                "region_label": "__via_region_id__",
+                "region_color": "__via_default_region_color__",
+                "region_label_font": "10px Sans",
+                "on_image_annotation_editor_placement": "NEAR_REGION"
+            }
+        },
+        "core": {
+            "buffer_size": 18,
+            "filepath": {},
+            "default_filepath": ""
+        },
+        "project": {
+            "name": "core_homeless_2014"
+        }
+    },
+    "_via_img_metadata": {
+        "http://ds.civicknowledge.org/downtownsandiego.org/homeless-count/core/201402-003.png-1": {
+            "filename": "http://ds.civicknowledge.org/downtownsandiego.org/homeless-count/core/201402-003.png",
+            "size": -1,
+            "regions": [],
+            "file_attributes": {}
+        },
+        "http://ds.civicknowledge.org/downtownsandiego.org/homeless-count/core/201403-003.png-1": {
+            "filename": "http://ds.civicknowledge.org/downtownsandiego.org/homeless-count/core/201403-003.png",
+            "size": -1,
+            "regions": [],
+            "file_attributes": {}
+        },
+        "http://ds.civicknowledge.org/downtownsandiego.org/homeless-count/core/201404-003.png-1": {
+            "filename": "http://ds.civicknowledge.org/downtownsandiego.org/homeless-count/core/201404-003.png",
+            "size": -1,
+            "regions": [],
+            "file_attributes": {}
+        },
+        "http://ds.civicknowledge.org/downtownsandiego.org/homeless-count/core/201405-005.png-1": {
+            "filename": "http://ds.civicknowledge.org/downtownsandiego.org/homeless-count/core/201405-005.png",
+            "size": -1,
+            "regions": [],
+            "file_attributes": {}
+        },
+        "http://ds.civicknowledge.org/downtownsandiego.org/homeless-count/core/201406-003.png-1": {
+            "filename": "http://ds.civicknowledge.org/downtownsandiego.org/homeless-count/core/201406-003.png",
+            "size": -1,
+            "regions": [],
+            "file_attributes": {}
+        },
+        "http://ds.civicknowledge.org/downtownsandiego.org/homeless-count/core/201407-003.png-1": {
+            "filename": "http://ds.civicknowledge.org/downtownsandiego.org/homeless-count/core/201407-003.png",
+            "size": -1,
+            "regions": [],
+            "file_attributes": {}
+        },
+        "http://ds.civicknowledge.org/downtownsandiego.org/homeless-count/core/201408-003.png-1": {
+            "filename": "http://ds.civicknowledge.org/downtownsandiego.org/homeless-count/core/201408-003.png",
+            "size": -1,
+            "regions": [],
+            "file_attributes": {}
+        },
+        "http://ds.civicknowledge.org/downtownsandiego.org/homeless-count/core/201409-003.png-1": {
+            "filename": "http://ds.civicknowledge.org/downtownsandiego.org/homeless-count/core/201409-003.png",
+            "size": -1,
+            "regions": [],
+            "file_attributes": {}
+        },
+        "http://ds.civicknowledge.org/downtownsandiego.org/homeless-count/core/201410-003.png-1": {
+            "filename": "http://ds.civicknowledge.org/downtownsandiego.org/homeless-count/core/201410-003.png",
+            "size": -1,
+            "regions": [],
+            "file_attributes": {}
+        },
+        "http://ds.civicknowledge.org/downtownsandiego.org/homeless-count/core/201411-003.png-1": {
+            "filename": "http://ds.civicknowledge.org/downtownsandiego.org/homeless-count/core/201411-003.png",
+            "size": -1,
+            "regions": [],
+            "file_attributes": {}
+        },
+        "http://ds.civicknowledge.org/downtownsandiego.org/homeless-count/core/201412-004.png-1": {
+            "filename": "http://ds.civicknowledge.org/downtownsandiego.org/homeless-count/core/201412-004.png",
+            "size": -1,
+            "regions": [],
+            "file_attributes": {}
+        }
+    },
+    "_via_attributes": {
+        "region": {
+            "Type": {
+                "type": "radio",
+                "description": "",
+                "options": {
+                    "Individual": "",
+                    "Structure": "",
+                    "Vehicle": ""
+                },
+                "default_options": {}
+            },
+            "count": {
+                "type": "text",
+                "description": "",
+                "default_value": ""
+            }
+        },
+        "file": {}
+    }
+}

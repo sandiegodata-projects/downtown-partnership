@@ -1,0 +1,131 @@
+{
+    "project": {
+        "pid": "9e25dc18-018a-42d4-8900-17d17163ba12",
+        "rev": "2",
+        "rev_timestamp": "1566159772205",
+        "pname": "test project",
+        "creator": "VGG Image Annotator (http://www.robots.ox.ac.uk/~vgg/software/via)",
+        "created": 1566159467578,
+        "vid_list": [
+        ]
+    },
+    "config": {
+        "file": {
+            "loc_prefix": {
+                "1": "",
+                "2": "",
+                "3": "",
+                "4": ""
+            }
+        },
+        "ui": {
+            "file_content_align": "center"
+        }
+    },
+    "attribute": {
+        "1": {
+            "aname": "Type",
+            "anchor_id": "FILE1_Z0_XY1",
+            "type": 3,
+            "desc": "",
+            "options": {
+                "0": "Individual",
+                "1": "Vehicle",
+                "2": "Structure"
+            },
+            "default_option_id": ""
+        },
+        "2": {
+            "aname": "Count",
+            "anchor_id": "FILE1_Z0_XY1",
+            "type": 1,
+            "desc": "",
+            "options": {},
+            "default_option_id": ""
+        },
+        "3": {
+            "aname": "Neighborhood",
+            "anchor_id": "FILE1_Z0_XY0",
+            "type": 1,
+            "desc": "",
+            "options": {},
+            "default_option_id": ""
+        },
+        "4": {
+            "aname": "Date",
+            "anchor_id": "FILE1_Z0_XY0",
+            "type": 1,
+            "desc": "",
+            "options": {},
+            "default_option_id": ""
+        }
+    },
+    "file": {
+
+    },
+    "metadata": {
+
+    },
+    "view": {
+        "1": {
+            "fid_list": [
+                "1"
+            ]
+        },
+        "2": {
+            "fid_list": [
+                "2"
+            ]
+        },
+        "3": {
+            "fid_list": [
+                "3"
+            ]
+        },
+        "4": {
+            "fid_list": [
+                "4"
+            ]
+        },
+        "5": {
+            "fid_list": [
+                "5"
+            ]
+        },
+        "6": {
+            "fid_list": [
+                "6"
+            ]
+        },
+        "7": {
+            "fid_list": [
+                "7"
+            ]
+        },
+        "8": {
+            "fid_list": [
+                "8"
+            ]
+        },
+        "9": {
+            "fid_list": [
+                "9"
+            ]
+        },
+        "10": {
+            "fid_list": [
+                "10"
+            ]
+        },
+        "11": {
+            "fid_list": [
+                "11"
+            ]
+        },
+        "12": {
+            "fid_list": [
+                "12"
+            ]
+        }
+    }
+}
