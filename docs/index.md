@@ -38,7 +38,7 @@ accounting for the 500 to 1000 homeless people in the Downtown neighborhood,
 about 20% of all unsheltered homeless in the county.
 
 All of the maps for this project are [online in Google
-Drive](https://drive.google.com/drive/folders/1kRxyu-pfx20NjpD8-vfHFb9h4hgWMkws?usp=sharing).
+Drive](https://drive.google.com/drive/u/3/folders/1mEhOX3k6vNi1CIrXDIZfxh0nGUM-pr9u).
  Last year, A student group at the Kearney High School of Science, Connections and
 Technology are spending the end of the year digitizing and analyzing a few of the
 neighborhoods. [See the maps and dataset results from this awesome student project.](https://www.sandiegodata.org/2019/06/homeless-in-the-gaslamp-district/) 
