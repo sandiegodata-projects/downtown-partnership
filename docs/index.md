@@ -28,25 +28,37 @@ Here is one of the maps that we will digitize:
 
 This project will involve:
 * Extracting images for each of the neighborhood maps for each month.
-* Geo-referencing the images in QGIS
+* Geo-referencing
 * Digitizing each of the count locations
 * Combining all of the digitized datasets into a single combined dataset.
 * Analyzing the combined data.
-
 
 When the project is complete, we will have a monthly, geographically precise
 accounting for the 500 to 1000 homeless people in the Downtown neighborhood,
 about 20% of all unsheltered homeless in the county.
 
-All of the maps for this project are [online in Google Drive](https://drive.google.com/drive/folders/1kRxyu-pfx20NjpD8-vfHFb9h4hgWMkws?usp=sharing)
+All of the maps for this project are [online in Google
+Drive](https://drive.google.com/drive/folders/1kRxyu-pfx20NjpD8-vfHFb9h4hgWMkws?usp=sharing).
+ Last year, A student group at the Kearney High School of Science, Connections and
+Technology are spending the end of the year digitizing and analyzing a few of the
+neighborhoods. [See the maps and dataset results from this awesome student project.](https://www.sandiegodata.org/2019/06/homeless-in-the-gaslamp-district/) 
 
-# Sub Projects
+# Help with the Project
 
-* A student group at theKearney High School of Science, Connections and Technology are spending the end of the year digitizing and analyzing a few of the neighborhoods. 
-* We'll be building a web application to digitize the rest of the maps. [See the draft specification](https://docs.google.com/document/d/1CP0AtmKOrtUQ7Ius6nbSMeclmggZyfCt0F1lz56Ih-A/edit?usp=sharing) for an overview of the application. 
+Getting involved in this project is really easy! Visit our list of tasks, 
+
+https://github.com/sandiegodata-projects/downtown-partnership/issues
+
+And select one of the tasks. Everything you need, including detailed instructions, is linked from the Github issues.
+
+There are two major kinds of tasks: 
+
+* Geo-refrerencing maps, to identify four road intersections on each map by placing ground control ppoints. [See the detailed instructions for ground control point tasks.](https://docs.google.com/document/d/1Rh1EB405sHHgFKuIfyLE9JAA1VUPzOGa1_iUwfb8h6g/edit?usp=sharing)
+* Digitizing handwritten homeless count marks, putting circles around numbers in the maps that indicates where homeless people were found. [See the detailed instructions for count digivization tasks.](https://docs.google.com/document/d/1E_ZJXS3GjzxOPLRHuTBhde-jQrbn4uc7D57YGoXlyuo/edit?usp=sharing)
+
 
 # Joining the Project
-* [Follow the instructions](https://www.sandiegodata.org/projects/join/) for setting up your Redmine and Github accounts.
+* 
 * Email eric@sandiegodata.org that you'd like to join
 * Attend one of the [Meetups](https://www.meetup.com/San-Diego-Regional-Data-Library/).
 
