@@ -45,12 +45,15 @@ neighborhoods. [See the maps and dataset results from this awesome student proje
 
 # Help with the Project
 
-Getting involved in this project is really easy! [Visit our list of tasks](https://github.com/sandiegodata-projects/downtown-partnership/issues) and select one of the tasks. Everything you need, including detailed instructions, is linked from the Github issues.
+Getting involved in this project is really easy! [Visit our list of
+tasks](https://github.com/sandiegodata-projects/downtown-partnership/issues) and select one
+of the tasks. Everything you need, including detailed instructions, is linked from the
+Github issues.
 
 There are two major kinds of tasks: 
 
 * Geo-refrerencing maps, to identify four road intersections on each map by placing ground
-  control ppoints. [See the detailed instructions for ground control point
+  control points. [See the detailed instructions for ground control point
   tasks.](https://docs.google.com/document/d/1Rh1EB405sHHgFKuIfyLE9JAA1VUPzOGa1_iUwfb8h6g/edi
   t?usp=sharing) 
 * Digitizing handwritten homeless count marks, putting circles around
@@ -59,9 +62,12 @@ There are two major kinds of tasks:
   tasks.](https://docs.google.com/document/d/1E_ZJXS3GjzxOPLRHuTBhde-jQrbn4uc7D57YGoXlyuo/edi
   t?usp=sharing)
 
+As we get data back for these two kinds of tasks, we'll use a program that analyzes the GCP
+results to produce a transformation function that can convert the pixel locations of the
+handwritten homeless count numbers into geographic positions ( latitude / longitude ). Then
+we'll collect all of the data into a dataset for analysis.
 
 # Joining the Project
-* 
 * Email eric@sandiegodata.org that you'd like to join
 * Attend one of the [Meetups](https://www.meetup.com/San-Diego-Regional-Data-Library/).
 
