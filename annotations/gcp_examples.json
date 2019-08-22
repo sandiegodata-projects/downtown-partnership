@@ -1,0 +1,539 @@
+{
+    "_via_settings": {
+        "ui": {
+            "annotation_editor_height": 25,
+            "annotation_editor_fontsize": 0.8,
+            "leftsidebar_width": 18,
+            "image_grid": {
+                "img_height": 80,
+                "rshape_fill": "none",
+                "rshape_fill_opacity": 0.3,
+                "rshape_stroke": "yellow",
+                "rshape_stroke_width": 2,
+                "show_region_shape": true,
+                "show_image_policy": "all"
+            },
+            "image": {
+                "region_label": "__via_region_id__",
+                "region_color": "Intersection",
+                "region_label_font": "10px Sans",
+                "on_image_annotation_editor_placement": "NEAR_REGION"
+            }
+        },
+        "core": {
+            "buffer_size": 18,
+            "filepath": {},
+            "default_filepath": ""
+        },
+        "project": {
+            "name": "gcp_examples"
+        }
+    },
+    "_via_img_metadata": {
+        "http://ds.civicknowledge.org/downtownsandiego.org/homeless-count/columbia/201509-004.png-1": {
+            "filename": "http://ds.civicknowledge.org/downtownsandiego.org/homeless-count/columbia/201509-004.png",
+            "size": -1,
+            "regions": [
+                {
+                    "shape_attributes": {
+                        "name": "rect",
+                        "x": 245,
+                        "y": 855,
+                        "width": 29,
+                        "height": 52
+                    },
+                    "region_attributes": {
+                        "neighborhood": "Ketner_Broadway",
+                        "Intersection": "Ketner_A"
+                    }
+                },
+                {
+                    "shape_attributes": {
+                        "name": "rect",
+                        "x": 572,
+                        "y": 855,
+                        "width": 24,
+                        "height": 54
+                    },
+                    "region_attributes": {
+                        "neighborhood": "State_Broadway",
+                        "Intersection": "State_Broadway"
+                    }
+                },
+                {
+                    "shape_attributes": {
+                        "name": "rect",
+                        "x": 571,
+                        "y": 242,
+                        "width": 34,
+                        "height": 34
+                    },
+                    "region_attributes": {
+                        "neighborhood": "State_A",
+                        "Intersection": "State_A"
+                    }
+                },
+                {
+                    "shape_attributes": {
+                        "name": "rect",
+                        "x": 247,
+                        "y": 245,
+                        "width": 31,
+                        "height": 29
+                    },
+                    "region_attributes": {
+                        "neighborhood": "Ketner_A",
+                        "Intersection": "Ketner_A"
+                    }
+                }
+            ],
+            "file_attributes": {
+                "neighborhood": "columbia"
+            }
+        },
+        "http://ds.civicknowledge.org/downtownsandiego.org/homeless-count/core/201402-003.png-1": {
+            "filename": "http://ds.civicknowledge.org/downtownsandiego.org/homeless-count/core/201402-003.png",
+            "size": -1,
+            "regions": [
+                {
+                    "shape_attributes": {
+                        "name": "rect",
+                        "x": 226,
+                        "y": 583,
+                        "width": 27,
+                        "height": 42
+                    },
+                    "region_attributes": {
+                        "Intersection": "Ketner_Broadway"
+                    }
+                },
+                {
+                    "shape_attributes": {
+                        "name": "rect",
+                        "x": 229,
+                        "y": 142,
+                        "width": 28,
+                        "height": 34
+                    },
+                    "region_attributes": {
+                        "Intersection": "Ketner_A"
+                    }
+                },
+                {
+                    "shape_attributes": {
+                        "name": "rect",
+                        "x": 1494,
+                        "y": 595,
+                        "width": 24,
+                        "height": 36
+                    },
+                    "region_attributes": {
+                        "Intersection": "11th_Broadway"
+                    }
+                },
+                {
+                    "shape_attributes": {
+                        "name": "rect",
+                        "x": 1490,
+                        "y": 290,
+                        "width": 27,
+                        "height": 29
+                    },
+                    "region_attributes": {
+                        "Intersection": "11th_B"
+                    }
+                }
+            ],
+            "file_attributes": {
+                "neighborhood": "core_columbia"
+            }
+        },
+        "http://ds.civicknowledge.org/downtownsandiego.org/homeless-count/cortez/201401-006.png-1": {
+            "filename": "http://ds.civicknowledge.org/downtownsandiego.org/homeless-count/cortez/201401-006.png",
+            "size": -1,
+            "regions": [
+                {
+                    "shape_attributes": {
+                        "name": "rect",
+                        "x": 693,
+                        "y": 663,
+                        "width": 80,
+                        "height": 88
+                    },
+                    "region_attributes": {
+                        "Intersection": "1st_Cedar"
+                    }
+                },
+                {
+                    "shape_attributes": {
+                        "name": "rect",
+                        "x": 693,
+                        "y": 1467,
+                        "width": 73,
+                        "height": 90
+                    },
+                    "region_attributes": {
+                        "Intersection": "1st_Ash"
+                    }
+                },
+                {
+                    "shape_attributes": {
+                        "name": "rect",
+                        "x": 2680,
+                        "y": 668,
+                        "width": 80,
+                        "height": 93
+                    },
+                    "region_attributes": {
+                        "Intersection": "9th_Cedar"
+                    }
+                },
+                {
+                    "shape_attributes": {
+                        "name": "rect",
+                        "x": 2680,
+                        "y": 1462,
+                        "width": 83,
+                        "height": 103
+                    },
+                    "region_attributes": {
+                        "Intersection": "9th_Ash"
+                    }
+                }
+            ],
+            "file_attributes": {
+                "neighborhood": "cortez"
+            }
+        },
+        "http://ds.civicknowledge.org/downtownsandiego.org/homeless-count/east_villiage/201401-002.png-1": {
+            "filename": "http://ds.civicknowledge.org/downtownsandiego.org/homeless-count/east_villiage/201401-002.png",
+            "size": -1,
+            "regions": [
+                {
+                    "shape_attributes": {
+                        "name": "rect",
+                        "x": 319,
+                        "y": 2934,
+                        "width": 55,
+                        "height": 84
+                    },
+                    "region_attributes": {
+                        "Intersection": "7th_Market"
+                    }
+                },
+                {
+                    "shape_attributes": {
+                        "name": "rect",
+                        "x": 333,
+                        "y": 1000,
+                        "width": 61,
+                        "height": 52
+                    },
+                    "region_attributes": {
+                        "Intersection": "7th_E"
+                    }
+                },
+                {
+                    "shape_attributes": {
+                        "name": "rect",
+                        "x": 2195,
+                        "y": 1026,
+                        "width": 52,
+                        "height": 52
+                    },
+                    "region_attributes": {
+                        "Intersection": "16th_E"
+                    }
+                },
+                {
+                    "shape_attributes": {
+                        "name": "rect",
+                        "x": 2182,
+                        "y": 2970,
+                        "width": 56,
+                        "height": 52
+                    },
+                    "region_attributes": {
+                        "Intersection": "16th_Imperial"
+                    }
+                }
+            ],
+            "file_attributes": {
+                "neighborhood": "east_villiage"
+            }
+        },
+        "http://ds.civicknowledge.org/downtownsandiego.org/homeless-count/east_villiage_south/201704-001.png-1": {
+            "filename": "http://ds.civicknowledge.org/downtownsandiego.org/homeless-count/east_villiage_south/201704-001.png",
+            "size": -1,
+            "regions": [
+                {
+                    "shape_attributes": {
+                        "name": "rect",
+                        "x": 376,
+                        "y": 503,
+                        "width": 34,
+                        "height": 20
+                    },
+                    "region_attributes": {
+                        "Intersection": "7th_Market"
+                    }
+                },
+                {
+                    "shape_attributes": {
+                        "name": "rect",
+                        "x": 387,
+                        "y": 1234,
+                        "width": 31,
+                        "height": 27
+                    },
+                    "region_attributes": {
+                        "Intersection": "7th_Imperial"
+                    }
+                },
+                {
+                    "shape_attributes": {
+                        "name": "rect",
+                        "x": 1675,
+                        "y": 499,
+                        "width": 31,
+                        "height": 20
+                    },
+                    "region_attributes": {
+                        "Intersection": "16th_Market"
+                    }
+                },
+                {
+                    "shape_attributes": {
+                        "name": "rect",
+                        "x": 1684,
+                        "y": 1254,
+                        "width": 29,
+                        "height": 29
+                    },
+                    "region_attributes": {
+                        "Intersection": "16th_Imperial"
+                    }
+                }
+            ],
+            "file_attributes": {
+                "neighborhood": "east_villiage_south"
+            }
+        },
+        "http://ds.civicknowledge.org/downtownsandiego.org/homeless-count/gaslamp/201401-003.png-1": {
+            "filename": "http://ds.civicknowledge.org/downtownsandiego.org/homeless-count/gaslamp/201401-003.png",
+            "size": -1,
+            "regions": [
+                {
+                    "shape_attributes": {
+                        "name": "rect",
+                        "x": 1312,
+                        "y": 143,
+                        "width": 87,
+                        "height": 69
+                    },
+                    "region_attributes": {
+                        "Intersection": "4th_Broadway"
+                    }
+                },
+                {
+                    "shape_attributes": {
+                        "name": "rect",
+                        "x": 2022,
+                        "y": 139,
+                        "width": 82,
+                        "height": 61
+                    },
+                    "region_attributes": {
+                        "Intersection": "6th_Broadway"
+                    }
+                },
+                {
+                    "shape_attributes": {
+                        "name": "rect",
+                        "x": 1303,
+                        "y": 2442,
+                        "width": 104,
+                        "height": 69
+                    },
+                    "region_attributes": {
+                        "Intersection": "4th_K"
+                    }
+                },
+                {
+                    "shape_attributes": {
+                        "name": "rect",
+                        "x": 2030,
+                        "y": 2437,
+                        "width": 91,
+                        "height": 65
+                    },
+                    "region_attributes": {
+                        "Intersection": "6th_K"
+                    }
+                }
+            ],
+            "file_attributes": {
+                "neighborhood": "gaslamp"
+            }
+        },
+        "http://ds.civicknowledge.org/downtownsandiego.org/homeless-count/marina/201401-marina.png-1": {
+            "filename": "http://ds.civicknowledge.org/downtownsandiego.org/homeless-count/marina/201401-marina.png",
+            "size": -1,
+            "regions": [
+                {
+                    "shape_attributes": {
+                        "name": "rect",
+                        "x": 286,
+                        "y": 1420,
+                        "width": 69,
+                        "height": 82
+                    },
+                    "region_attributes": {
+                        "Intersection": "Ketner_Market"
+                    }
+                },
+                {
+                    "shape_attributes": {
+                        "name": "rect",
+                        "x": 273,
+                        "y": 1134,
+                        "width": 82,
+                        "height": 65
+                    },
+                    "region_attributes": {
+                        "Intersection": "Ketner_G"
+                    }
+                },
+                {
+                    "shape_attributes": {
+                        "name": "rect",
+                        "x": 2329,
+                        "y": 1147,
+                        "width": 69,
+                        "height": 65
+                    },
+                    "region_attributes": {
+                        "Intersection": "3rd_G"
+                    }
+                },
+                {
+                    "shape_attributes": {
+                        "name": "rect",
+                        "x": 2333,
+                        "y": 2316,
+                        "width": 61,
+                        "height": 61
+                    },
+                    "region_attributes": {
+                        "Intersection": "3rd_K"
+                    }
+                }
+            ],
+            "file_attributes": {
+                "neighborhood": "marina"
+            }
+        },
+        "http://ds.civicknowledge.org/downtownsandiego.org/homeless-count/core/201609-001.png": {
+            "filename": "http://ds.civicknowledge.org/downtownsandiego.org/homeless-count/core/201609-001.png",
+            "size": -1,
+            "regions": [
+                {
+                    "shape_attributes": {
+                        "name": "rect",
+                        "x": 351,
+                        "y": 1011,
+                        "width": 22,
+                        "height": 34
+                    },
+                    "region_attributes": {
+                        "Intersection": "Front_Broadway"
+                    }
+                },
+                {
+                    "shape_attributes": {
+                        "name": "rect",
+                        "x": 351,
+                        "y": 751,
+                        "width": 27,
+                        "height": 27
+                    },
+                    "region_attributes": {
+                        "Intersection": "Front_B"
+                    }
+                },
+                {
+                    "shape_attributes": {
+                        "name": "rect",
+                        "x": 1811,
+                        "y": 760,
+                        "width": 20,
+                        "height": 25
+                    },
+                    "region_attributes": {
+                        "Intersection": "11th_B"
+                    }
+                },
+                {
+                    "shape_attributes": {
+                        "name": "rect",
+                        "x": 1809,
+                        "y": 1013,
+                        "width": 22,
+                        "height": 34
+                    },
+                    "region_attributes": {
+                        "Intersection": "11th_Broadway"
+                    }
+                }
+            ],
+            "file_attributes": {
+                "neighborhood": "core"
+            }
+        }
+    },
+    "_via_attributes": {
+        "region": {
+            "Intersection": {
+                "type": "dropdown",
+                "description": "",
+                "options": {
+                    "State_Broadway": "State_Broadway",
+                    "State_A": "State_A",
+                    "Ketner_Market": "Ketner_Market",
+                    "Ketner_G": "Ketner_G",
+                    "Ketner_Broadway": "Ketner_Broadway",
+                    "Ketner_A": "Ketner_A",
+                    "Front_Broadway": "Front_Broadway",
+                    "Front_B": "Front_B",
+                    "9th_Cedar": "9th_Cedar",
+                    "9th_Ash": "9th_Ash",
+                    "7th_Market": "7th_Market",
+                    "7th_L": "7th_L",
+                    "7th_Imperial": "7th_Imperial",
+                    "7th_E": "7th_E",
+                    "6th_K": "6th_K",
+                    "6th_Broadway": "6th_Broadway",
+                    "4th_K": "4th_K",
+                    "4th_Broadway": "4th_Broadway",
+                    "3rd_K": "3rd_K",
+                    "3rd_G": "3rd_G",
+                    "1st_Cedar": "1st_Cedar",
+                    "1st_Ash": "1st_Ash",
+                    "16th_Market": "16th_Market",
+                    "16th_Imperial": "16th_Imperial",
+                    "16th_E": "16th_E",
+                    "11th_Broadway": "11th_Broadway",
+                    "11th_B": "11th_B"
+                },
+                "default_options": {}
+            }
+        },
+        "file": {
+            "neighborhood": {
+                "type": "text",
+                "description": "",
+                "default_value": ""
+            }
+        }
+    }
+}

@@ -1,1 +1,188 @@
-{"_via_settings": {"ui": {"annotation_editor_height": 25, "annotation_editor_fontsize": 0.8, "leftsidebar_width": 18, "image_grid": {"img_height": 80, "rshape_fill": "none", "rshape_fill_opacity": 0.3, "rshape_stroke": "yellow", "rshape_stroke_width": 2, "show_region_shape": true, "show_image_policy": "all"}, "image": {"region_label": "__via_region_id__", "region_color": "__via_default_region_color__", "region_label_font": "10px Sans", "on_image_annotation_editor_placement": "NEAR_REGION"}}, "core": {"buffer_size": 18, "filepath": {}, "default_filepath": ""}, "project": {"name": "cortez-gcp-2016"}}, "_via_img_metadata": {"http://ds.civicknowledge.org/downtownsandiego.org/homeless-count/cortez/201601-004.png": {"file_attributes": {}, "filename": "http://ds.civicknowledge.org/downtownsandiego.org/homeless-count/cortez/201601-004.png", "regions": [], "size": -1}, "http://ds.civicknowledge.org/downtownsandiego.org/homeless-count/cortez/201602-004.png": {"file_attributes": {}, "filename": "http://ds.civicknowledge.org/downtownsandiego.org/homeless-count/cortez/201602-004.png", "regions": [], "size": -1}, "http://ds.civicknowledge.org/downtownsandiego.org/homeless-count/cortez/201603-004.png": {"file_attributes": {}, "filename": "http://ds.civicknowledge.org/downtownsandiego.org/homeless-count/cortez/201603-004.png", "regions": [], "size": -1}, "http://ds.civicknowledge.org/downtownsandiego.org/homeless-count/cortez/201604-004.png": {"file_attributes": {}, "filename": "http://ds.civicknowledge.org/downtownsandiego.org/homeless-count/cortez/201604-004.png", "regions": [], "size": -1}, "http://ds.civicknowledge.org/downtownsandiego.org/homeless-count/cortez/201605-004.png": {"file_attributes": {}, "filename": "http://ds.civicknowledge.org/downtownsandiego.org/homeless-count/cortez/201605-004.png", "regions": [], "size": -1}, "http://ds.civicknowledge.org/downtownsandiego.org/homeless-count/cortez/201606-004.png": {"file_attributes": {}, "filename": "http://ds.civicknowledge.org/downtownsandiego.org/homeless-count/cortez/201606-004.png", "regions": [], "size": -1}, "http://ds.civicknowledge.org/downtownsandiego.org/homeless-count/cortez/201607-004.png": {"file_attributes": {}, "filename": "http://ds.civicknowledge.org/downtownsandiego.org/homeless-count/cortez/201607-004.png", "regions": [], "size": -1}, "http://ds.civicknowledge.org/downtownsandiego.org/homeless-count/cortez/201608-004.png": {"file_attributes": {}, "filename": "http://ds.civicknowledge.org/downtownsandiego.org/homeless-count/cortez/201608-004.png", "regions": [], "size": -1}, "http://ds.civicknowledge.org/downtownsandiego.org/homeless-count/cortez/201609-004.png": {"file_attributes": {}, "filename": "http://ds.civicknowledge.org/downtownsandiego.org/homeless-count/cortez/201609-004.png", "regions": [], "size": -1}, "http://ds.civicknowledge.org/downtownsandiego.org/homeless-count/cortez/201610-004.png": {"file_attributes": {}, "filename": "http://ds.civicknowledge.org/downtownsandiego.org/homeless-count/cortez/201610-004.png", "regions": [], "size": -1}, "http://ds.civicknowledge.org/downtownsandiego.org/homeless-count/cortez/201611-004.png": {"file_attributes": {}, "filename": "http://ds.civicknowledge.org/downtownsandiego.org/homeless-count/cortez/201611-004.png", "regions": [], "size": -1}, "http://ds.civicknowledge.org/downtownsandiego.org/homeless-count/cortez/201612-004.png": {"file_attributes": {}, "filename": "http://ds.civicknowledge.org/downtownsandiego.org/homeless-count/cortez/201612-004.png", "regions": [], "size": -1}}, "_via_attributes": {"region": {"N/S Street": {"type": "dropdown", "description": "North/South Street", "options": {"4": "4th street", "6": "6th Street", "17": "17th Street", "PHW": "Pacific Highway", "Ketner": "Ketner", "Union": "Union Street"}, "default_options": {}}, "E/W Street": {"type": "dropdown", "description": "East/West Street", "options": {"Cedar": "", "Ash": "", "A": "", "E": "", "Broadway": "", "G": "", "J": "", "K": "", "L": "", "Market": "", "Imperial": ""}, "default_options": {}}}, "file": {"Neighborhood": {"type": "text", "description": "", "default_value": ""}, "Date": {"type": "text", "description": "", "default_value": ""}}}}
+{
+    "_via_settings": {
+        "ui": {
+            "annotation_editor_height": 25,
+            "annotation_editor_fontsize": 0.8,
+            "leftsidebar_width": 18,
+            "image_grid": {
+                "img_height": 80,
+                "rshape_fill": "none",
+                "rshape_fill_opacity": 0.3,
+                "rshape_stroke": "yellow",
+                "rshape_stroke_width": 2,
+                "show_region_shape": true,
+                "show_image_policy": "all"
+            },
+            "image": {
+                "region_label": "__via_region_id__",
+                "region_color": "__via_default_region_color__",
+                "region_label_font": "10px Sans",
+                "on_image_annotation_editor_placement": "NEAR_REGION"
+            }
+        },
+        "core": {
+            "buffer_size": 18,
+            "filepath": {},
+            "default_filepath": ""
+        },
+        "project": {
+            "name": "cortez-gcp-2016"
+        }
+    },
+    "_via_img_metadata": {
+        "example": {
+            "filename": "http://ds.civicknowledge.org/downtownsandiego.org/homeless-count/cortez/201401-006.png",
+            "size": -1,
+            "regions": [
+                {
+                    "shape_attributes": {
+                        "name": "rect",
+                        "x": 693,
+                        "y": 663,
+                        "width": 80,
+                        "height": 88
+                    },
+                    "region_attributes": {
+                        "Intersection": "1st_Cedar"
+                    }
+                },
+                {
+                    "shape_attributes": {
+                        "name": "rect",
+                        "x": 693,
+                        "y": 1467,
+                        "width": 73,
+                        "height": 90
+                    },
+                    "region_attributes": {
+                        "Intersection": "1st_Ash"
+                    }
+                },
+                {
+                    "shape_attributes": {
+                        "name": "rect",
+                        "x": 2680,
+                        "y": 668,
+                        "width": 80,
+                        "height": 93
+                    },
+                    "region_attributes": {
+                        "Intersection": "9th_Cedar"
+                    }
+                },
+                {
+                    "shape_attributes": {
+                        "name": "rect",
+                        "x": 2680,
+                        "y": 1462,
+                        "width": 83,
+                        "height": 103
+                    },
+                    "region_attributes": {
+                        "Intersection": "9th_Ash"
+                    }
+                }
+            ],
+            "file_attributes": {}
+        },
+        "http://ds.civicknowledge.org/downtownsandiego.org/homeless-count/cortez/201601-004.png": {
+            "file_attributes": {},
+            "filename": "http://ds.civicknowledge.org/downtownsandiego.org/homeless-count/cortez/201601-004.png",
+            "regions": [],
+            "size": -1
+        },
+        "http://ds.civicknowledge.org/downtownsandiego.org/homeless-count/cortez/201602-004.png": {
+            "file_attributes": {},
+            "filename": "http://ds.civicknowledge.org/downtownsandiego.org/homeless-count/cortez/201602-004.png",
+            "regions": [],
+            "size": -1
+        },
+        "http://ds.civicknowledge.org/downtownsandiego.org/homeless-count/cortez/201603-004.png": {
+            "file_attributes": {},
+            "filename": "http://ds.civicknowledge.org/downtownsandiego.org/homeless-count/cortez/201603-004.png",
+            "regions": [],
+            "size": -1
+        },
+        "http://ds.civicknowledge.org/downtownsandiego.org/homeless-count/cortez/201604-004.png": {
+            "file_attributes": {},
+            "filename": "http://ds.civicknowledge.org/downtownsandiego.org/homeless-count/cortez/201604-004.png",
+            "regions": [],
+            "size": -1
+        },
+        "http://ds.civicknowledge.org/downtownsandiego.org/homeless-count/cortez/201605-004.png": {
+            "file_attributes": {},
+            "filename": "http://ds.civicknowledge.org/downtownsandiego.org/homeless-count/cortez/201605-004.png",
+            "regions": [],
+            "size": -1
+        },
+        "http://ds.civicknowledge.org/downtownsandiego.org/homeless-count/cortez/201606-004.png": {
+            "file_attributes": {},
+            "filename": "http://ds.civicknowledge.org/downtownsandiego.org/homeless-count/cortez/201606-004.png",
+            "regions": [],
+            "size": -1
+        },
+        "http://ds.civicknowledge.org/downtownsandiego.org/homeless-count/cortez/201607-004.png": {
+            "file_attributes": {},
+            "filename": "http://ds.civicknowledge.org/downtownsandiego.org/homeless-count/cortez/201607-004.png",
+            "regions": [],
+            "size": -1
+        },
+        "http://ds.civicknowledge.org/downtownsandiego.org/homeless-count/cortez/201608-004.png": {
+            "file_attributes": {},
+            "filename": "http://ds.civicknowledge.org/downtownsandiego.org/homeless-count/cortez/201608-004.png",
+            "regions": [],
+            "size": -1
+        },
+        "http://ds.civicknowledge.org/downtownsandiego.org/homeless-count/cortez/201609-004.png": {
+            "file_attributes": {},
+            "filename": "http://ds.civicknowledge.org/downtownsandiego.org/homeless-count/cortez/201609-004.png",
+            "regions": [],
+            "size": -1
+        },
+        "http://ds.civicknowledge.org/downtownsandiego.org/homeless-count/cortez/201610-004.png": {
+            "file_attributes": {},
+            "filename": "http://ds.civicknowledge.org/downtownsandiego.org/homeless-count/cortez/201610-004.png",
+            "regions": [],
+            "size": -1
+        },
+        "http://ds.civicknowledge.org/downtownsandiego.org/homeless-count/cortez/201611-004.png": {
+            "file_attributes": {},
+            "filename": "http://ds.civicknowledge.org/downtownsandiego.org/homeless-count/cortez/201611-004.png",
+            "regions": [],
+            "size": -1
+        },
+        "http://ds.civicknowledge.org/downtownsandiego.org/homeless-count/cortez/201612-004.png": {
+            "file_attributes": {},
+            "filename": "http://ds.civicknowledge.org/downtownsandiego.org/homeless-count/cortez/201612-004.png",
+            "regions": [],
+            "size": -1
+        }
+    },
+    "_via_attributes": {
+        "region": {
+            "Intersection": {
+                "type": "dropdown",
+                "description": "GCP Intersection",
+                "options": {
+                    "9th_Cedar": "9th_Cedar",
+                    "9th_Ash": "9th_Ash",
+                    "1st_Cedar": "1st_Cedar",
+                    "1st_Ash": "1st_Ash"
+                },
+                "default_options": {}
+            }
+        },
+        "file": {
+            "Neighborhood": {
+                "type": "text",
+                "description": "",
+                "default_value": ""
+            },
+            "Date": {
+                "type": "text",
+                "description": "",
+                "default_value": ""
+            }
+        }
+    }
+}

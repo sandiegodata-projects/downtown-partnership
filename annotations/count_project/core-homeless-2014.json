@@ -1,7 +1,7 @@
 {
     "_via_settings": {
         "ui": {
-            "annotation_editor_height": 0,
+            "annotation_editor_height": 25,
             "annotation_editor_fontsize": 0.8,
             "leftsidebar_width": 18,
             "image_grid": {
@@ -26,75 +26,75 @@
             "default_filepath": ""
         },
         "project": {
-            "name": "core_homeless_2014"
+            "name": "core-homeless-2014"
         }
     },
     "_via_img_metadata": {
-        "http://ds.civicknowledge.org/downtownsandiego.org/homeless-count/core/201402-003.png-1": {
+        "http://ds.civicknowledge.org/downtownsandiego.org/homeless-count/core/201402-003.png": {
+            "file_attributes": {},
             "filename": "http://ds.civicknowledge.org/downtownsandiego.org/homeless-count/core/201402-003.png",
-            "size": -1,
             "regions": [],
-            "file_attributes": {}
+            "size": -1
         },
-        "http://ds.civicknowledge.org/downtownsandiego.org/homeless-count/core/201403-003.png-1": {
+        "http://ds.civicknowledge.org/downtownsandiego.org/homeless-count/core/201403-003.png": {
+            "file_attributes": {},
             "filename": "http://ds.civicknowledge.org/downtownsandiego.org/homeless-count/core/201403-003.png",
-            "size": -1,
             "regions": [],
-            "file_attributes": {}
+            "size": -1
         },
-        "http://ds.civicknowledge.org/downtownsandiego.org/homeless-count/core/201404-003.png-1": {
+        "http://ds.civicknowledge.org/downtownsandiego.org/homeless-count/core/201404-003.png": {
+            "file_attributes": {},
             "filename": "http://ds.civicknowledge.org/downtownsandiego.org/homeless-count/core/201404-003.png",
-            "size": -1,
             "regions": [],
-            "file_attributes": {}
+            "size": -1
         },
-        "http://ds.civicknowledge.org/downtownsandiego.org/homeless-count/core/201405-005.png-1": {
+        "http://ds.civicknowledge.org/downtownsandiego.org/homeless-count/core/201405-005.png": {
+            "file_attributes": {},
             "filename": "http://ds.civicknowledge.org/downtownsandiego.org/homeless-count/core/201405-005.png",
-            "size": -1,
             "regions": [],
-            "file_attributes": {}
+            "size": -1
         },
-        "http://ds.civicknowledge.org/downtownsandiego.org/homeless-count/core/201406-003.png-1": {
+        "http://ds.civicknowledge.org/downtownsandiego.org/homeless-count/core/201406-003.png": {
+            "file_attributes": {},
             "filename": "http://ds.civicknowledge.org/downtownsandiego.org/homeless-count/core/201406-003.png",
-            "size": -1,
             "regions": [],
-            "file_attributes": {}
+            "size": -1
         },
-        "http://ds.civicknowledge.org/downtownsandiego.org/homeless-count/core/201407-003.png-1": {
+        "http://ds.civicknowledge.org/downtownsandiego.org/homeless-count/core/201407-003.png": {
+            "file_attributes": {},
             "filename": "http://ds.civicknowledge.org/downtownsandiego.org/homeless-count/core/201407-003.png",
-            "size": -1,
             "regions": [],
-            "file_attributes": {}
+            "size": -1
         },
-        "http://ds.civicknowledge.org/downtownsandiego.org/homeless-count/core/201408-003.png-1": {
+        "http://ds.civicknowledge.org/downtownsandiego.org/homeless-count/core/201408-003.png": {
+            "file_attributes": {},
             "filename": "http://ds.civicknowledge.org/downtownsandiego.org/homeless-count/core/201408-003.png",
-            "size": -1,
             "regions": [],
-            "file_attributes": {}
+            "size": -1
         },
-        "http://ds.civicknowledge.org/downtownsandiego.org/homeless-count/core/201409-003.png-1": {
+        "http://ds.civicknowledge.org/downtownsandiego.org/homeless-count/core/201409-003.png": {
+            "file_attributes": {},
             "filename": "http://ds.civicknowledge.org/downtownsandiego.org/homeless-count/core/201409-003.png",
-            "size": -1,
             "regions": [],
-            "file_attributes": {}
+            "size": -1
         },
-        "http://ds.civicknowledge.org/downtownsandiego.org/homeless-count/core/201410-003.png-1": {
+        "http://ds.civicknowledge.org/downtownsandiego.org/homeless-count/core/201410-003.png": {
+            "file_attributes": {},
             "filename": "http://ds.civicknowledge.org/downtownsandiego.org/homeless-count/core/201410-003.png",
-            "size": -1,
             "regions": [],
-            "file_attributes": {}
+            "size": -1
         },
-        "http://ds.civicknowledge.org/downtownsandiego.org/homeless-count/core/201411-003.png-1": {
+        "http://ds.civicknowledge.org/downtownsandiego.org/homeless-count/core/201411-003.png": {
+            "file_attributes": {},
             "filename": "http://ds.civicknowledge.org/downtownsandiego.org/homeless-count/core/201411-003.png",
-            "size": -1,
             "regions": [],
-            "file_attributes": {}
+            "size": -1
         },
-        "http://ds.civicknowledge.org/downtownsandiego.org/homeless-count/core/201412-004.png-1": {
+        "http://ds.civicknowledge.org/downtownsandiego.org/homeless-count/core/201412-004.png": {
+            "file_attributes": {},
             "filename": "http://ds.civicknowledge.org/downtownsandiego.org/homeless-count/core/201412-004.png",
-            "size": -1,
             "regions": [],
-            "file_attributes": {}
+            "size": -1
         }
     },
     "_via_attributes": {
@@ -107,7 +107,9 @@
                     "Structure": "",
                     "Vehicle": ""
                 },
-                "default_options": {}
+                "default_options": {
+                    "Individual": true
+                }
             },
             "count": {
                 "type": "text",
@@ -115,6 +117,38 @@
                 "default_value": ""
             }
         },
-        "file": {}
+        "file": {
+            "date": {
+                "type": "text",
+                "description": "",
+                "default_value": ""
+            },
+            "temp": {
+                "type": "text",
+                "description": "Temperature",
+                "default_value": ""
+            },
+            "rain": {
+                "type": "radio",
+                "description": "",
+                "options": {
+                    "rain": "",
+                    "clear": ""
+                },
+                "default_options": {
+                    "clear": true
+                }
+            },
+            "neighborhood": {
+                "type": "text",
+                "description": "",
+                "default_value": ""
+            },
+            "total_count": {
+                "type": "text",
+                "description": "",
+                "default_value": ""
+            }
+        }
     }
 }
