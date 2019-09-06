@@ -59,8 +59,6 @@ def solve_transform(primary, secondary):
 
     return A, primary, secondary
 
-
-
 def invert_point(p):
     x,y = p
 
@@ -70,7 +68,6 @@ def invert_point(p):
 def invert_poly(poly):
 
     return Polygon( invert_point(p) for p in poly_to_array(poly))
-
 
 def transform_point(A, x):
     # The extra np.array in pad() presumes this is a point, not a matrix

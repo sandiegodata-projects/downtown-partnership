@@ -67,6 +67,15 @@ results to produce a transformation function that can convert the pixel location
 handwritten homeless count numbers into geographic positions ( latitude / longitude ). Then
 we'll collect all of the data into a dataset for analysis.
 
+## Special Thanks
+
+Special thanks to volunteer digitizers: 
+
+* Kelly Abbott
+* Jorge Bonilla
+* Marketne Noel 
+
+
 # Joining the Project
 * Email eric@sandiegodata.org that you'd like to join
 * Attend one of the [Meetups](https://www.meetup.com/San-Diego-Regional-Data-Library/).

@@ -48,11 +48,10 @@ def load_gcp_files(p):
     return pd.DataFrame(rows, columns=['source', 'image'] + cols + ['intersection'])
 
 
-def make_gcp_transform_df( gcp_df, intersections_file):
+def make_gcp_transform_df(gcp_df, intersections_file):
     intr = pd.read_csv(intersections_file)
     intr_gpd = gpd.GeoDataFrame(intr,
                                 geometry=intr.WKT.apply(wkt.loads)).drop(columns='WKT')
-
 
     gcp_m = gcp_df.merge(intr_gpd, on='intersection').sort_values(['image', 'neighborhood', 'intersection'])
     df = gpd.GeoDataFrame(gcp_m)
@@ -104,9 +103,11 @@ gcp_df = load_gcp_files(p)
 
 gcp_df.to_csv('../data/raw_gcp.csv', index=False)
 
-df = make_gcp_transform_df( gcp_df, intersections_file)
+df = make_gcp_transform_df(gcp_df, intersections_file)
 
 df.to_csv('../data/gcp_transforms.csv', index=False)
+
+print(len(df))
 
 
 def test_gcp():
