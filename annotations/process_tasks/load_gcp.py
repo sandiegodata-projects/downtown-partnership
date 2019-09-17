@@ -9,7 +9,7 @@ from shapely import wkt
 from pt_lib import *
 
 p = Path('/Users/eric/Google Sync/sandiegodata.org/Projects/Downtown Partnership Homeless'
-         '/Annotations/Complete GCP')
+         '/Annotations/complete/gcp')
 
 intersections_file = '../data/gcp_intersections_2230.csv'
 

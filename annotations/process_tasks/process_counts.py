@@ -19,6 +19,7 @@ reg_cols = 'Type count'.split()
 reg_ig = itemgetter(*reg_cols)
 reg_cols = [e.lower() for e in reg_cols]
 
+
 shape_cols = 'cx cy r'.split()
 shape_ig = itemgetter(*shape_cols)
 
@@ -68,6 +69,11 @@ file_df = pd.DataFrame(file_rows, columns=['filename', 'url'] + file_cols).merge
 
 df = pd.DataFrame(rows, columns=['filename', 'url'] + shape_cols + reg_cols).merge(file_df, on='url')
 
+df = df.drop(columns=['filename_x','neighborhood_x'])\
+        .rename(columns={'filename_y':'filename', 'neighborhood_y':'neighborhood'})
+df['count'] = df['count'].replace('',1)
+
+
 df.to_csv('../data/raw_points.csv')
 # Load the transforms
 
@@ -85,7 +91,7 @@ for idx, row in df.iterrows():
         A = tf_map[url]
         p = transform_point(A, invert_point(np.array([row.cx,row.cy])))
         count = int(row['count'] or 1)
-        row = [row.neighborhood_y, row.date, count, p[0], p[1]]
+        row = [row.neighborhood, row.date, count, p[0], p[1]]
         rows.append(row)
 
 
