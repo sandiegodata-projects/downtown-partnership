@@ -24,6 +24,10 @@ post on the subject.
 
 ## Developer notes
 
+To build this package, the ``dtcv`` package must be installed, from the ``lib`` directory at the root of the repository.
+
+    $  pip install -e ../../lib/dtcv/
+
 After anotation JSON files are copied into S#, the list of S# urls must be
 updated. To refresh the list of urls run
 
