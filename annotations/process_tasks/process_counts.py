@@ -1,5 +1,5 @@
 
-from pt_lib import *
+from .pt_lib import *
 
 from pathlib import Path
 import json
