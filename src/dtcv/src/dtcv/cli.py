@@ -135,12 +135,12 @@ def load_counts(args, source, dest):
     fdf_out = dest.joinpath('raw_file_annotations.csv')
     _logger.info(f'Writing {fdf_out}')
     fdf = file_df(source)
-    fdf.to_csv(fdf_out)
+    fdf.to_csv(fdf_out, index=False)
 
     fdf_out = dest.joinpath('raw_count_annotations.csv')
     _logger.info(f'Writing {fdf_out}')
     fdf = count_df(source)
-    fdf.to_csv(fdf_out)
+    fdf.to_csv(fdf_out, index=False)
 
 
 def run_clean_files(args, source, dest):
@@ -152,7 +152,7 @@ def run_clean_files(args, source, dest):
     fdf_out = dest.joinpath('files.csv')
     _logger.info(f'Writing {fdf_out}')
     df = clean_file_annotations(file_df)
-    df.to_csv(fdf_out)
+    df.to_csv(fdf_out, index=False)
 
 
 def run_clean_counts(args, source, dest):
@@ -168,4 +168,4 @@ def run_clean_counts(args, source, dest):
     df_out = dest.joinpath('counts.csv')
     _logger.info(f'Writing {df_out}')
 
-    df.to_csv(df_out)
+    df.to_csv(df_out, index=False)

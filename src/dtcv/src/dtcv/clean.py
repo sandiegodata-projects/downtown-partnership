@@ -7,7 +7,7 @@ import numpy as np
 import pandas as pd
 from dtcv.pt_lib import transform_point, invert_point
 from shapely.geometry import Polygon
-
+from pathlib import Path
 def uninvert_point(p):
     x, y = p
 
@@ -93,6 +93,9 @@ def intersection_regions_df(gcp_transform_df, gcp_df):
 
 
 def clean_file_annotations(file_df):
+    import hashlib, base64
+    import re
+
     fa = file_df.copy()
 
     n_map = {
@@ -100,26 +103,57 @@ def clean_file_annotations(file_df):
         'east_vllage': 'east_village',
         'East Village': 'east_village',
         'East Village N': 'east_village',
+        'East Village South': 'east_village_south',
         'east villiage': 'east_village',
+        'Core Columbia': 'core',
+        'Core': 'core',
+        'Cortez': 'cortez',
         'Gaslamp': 'gaslamp',
         'Marina': 'marina',
+        '' : 'gaslamp',
+        float('nan'): 'gaslamp'
     }
+
 
     fa = fa.replace('2017-03-30\n', '2017-03-30')  # Error in one of the dates
     fa['neighborhood'] = fa.neighborhood.replace(n_map)
     fa['rain'] = fa.rain.fillna('')
-    fa['temp'] = pd.to_numeric(fa.temp, errors='ignore')
-
-    from pathlib import Path
+    fa['temp'] = pd.to_numeric(fa.temp, errors='coerce')
 
     fa['url_year'] = fa.image_url.apply(lambda v: int(Path(v.strip()).stem[0:4]))
     fa['url_month'] = fa.image_url.apply(lambda v: int(Path(v.strip()).stem[4:6]))
     fa['date'] = pd.to_datetime(fa.apply(lambda r: r.date if r.date else f'{r.url_year}-{r.url_month:02d}-01', axis=1))
     fa['url_neighborhood'] = fa.image_url.apply(lambda v: v.strip().split('/')[-2])
-    fa['neighborhood'] = fa.apply(lambda r: r.neighborhood if r.neighborhood else r.url_neighborhood, axis=1)
+    #fa['neighborhood'] = fa.apply(lambda r: r.neighborhood if r.neighborhood else r.url_neighborhood, axis=1)
+
+    # Fix Dates. Maps for November 2016 and October 2016 both have
+    # dates of enumeration in October 2016. The maps with enumeration dates
+    # of 2016-10-23 are in the map set for November 2016, so these
+    # dates were changed to 2016-11-23
+
+    fa.loc[fa.date == '2016-10-23', 'date'] = pd.to_datetime('2016-11-23')
+
+    # Remove some files. These files have errors. See the documentation README for more information.
+
+    fa['keep'] = True
+    fa.loc[(fa.date.dt.month == 9) & (fa.date.dt.year == 2014), 'keep'] = False
+    fa.loc[(fa.date.dt.month == 8) & (fa.date.dt.year == 2014), 'keep'] = False
+    fa.loc[(fa.date.dt.month == 6) & (fa.date.dt.year == 2015), 'keep'] = False
+    fa = fa[fa.keep].drop(columns='keep')
+
+    pd.set_option('display.width', 1000)
+
+    def file_id_hash(v):
+        # Git rid of digits, so Excel doesn't mangle the ids.
+        return base64.b64encode(hashlib.sha224(v.encode('utf8')).digest()).decode('ascii')
+
+    fa['file_id'] = fa.image_url.apply(file_id_hash)
+
+    # Choke if there are duplicated file_ids. If there is, increase the length of the file id
+    assert len(fa[fa.duplicated(subset='file_id', keep=False)]) == 0
 
     fa = fa[
-        ['image_url', 'url_year', 'url_month', 'date', 'neighborhood', 'url_neighborhood', 'total_count', 'temp',
+        ['image_url', 'file_id', 'source_file', 'url_year', 'url_month', 'date', 'neighborhood', 'url_neighborhood', 'total_count', 'temp',
          'rain', ]]
 
     return fa
@@ -135,7 +169,7 @@ def clean_counts(rc_df, f_df, tf_df):
 
     rc_df['count'] = rc_df['count'].replace('', 1).fillna(1)
 
-    t = rc_df.merge(f_df, on='image_url')
+    t = f_df.merge(rc_df, on='image_url')
 
     tf_df['tf'] = tf_df.matrix.apply(json.loads)
     tf_map = {r.url: np.array(r.tf) for idx, r in tf_df.iterrows()}
@@ -149,7 +183,7 @@ def clean_counts(rc_df, f_df, tf_df):
             A = tf_map[url]
             p = transform_point(A, invert_point(np.array([row.cx, row.cy])))
             count = int(row['count'] or 1)
-            row = [row.neighborhood, row.date, count, row['type'], p[0], p[1]]
-            rows.append(row)
+            new_row = [row.file_id, row.neighborhood, row.date, count, row['type'], p[0], p[1]]
+            rows.append(new_row)
 
-    return pd.DataFrame(rows, columns='neighborhood date count type x y'.split())
+    return pd.DataFrame(rows, columns='file_id neighborhood date count type x y'.split())

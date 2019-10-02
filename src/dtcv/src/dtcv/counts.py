@@ -110,9 +110,13 @@ def extract_file_annotations(o):
             continue
 
         o={'image_url':v['filename']}
-        o.update(get_file_cols(v['file_attributes']))
+        row = get_file_cols(v['file_attributes'])
 
-        yield o
+        if(any(row.values())):
+            o.update(row)
+            yield o
+        else:
+            pass # probabl read the wrong kind of file.
 
 
 def load_file_rows(fn=None):
@@ -135,9 +139,10 @@ def load_file_rows(fn=None):
 
             for a in extract_file_annotations(o):
                 if headers is None:
-                    headers = list(a.keys())
+                    headers = list(a.keys())+['source_file']
 
-                rows.append(list(a.values()))
+                rows.append(list(a.values())+[str(e)])
+
 
     return headers, rows
 

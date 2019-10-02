@@ -1,35 +1,35 @@
-Declare,metatab-latest
-Title,San Diego Downtown Homless Computer Vision Package
-Description,Files and code for analyzing San Diego downtown homelessness  data with computer
-Description,vision
-Identifier,e53f2ae8-44ad-47db-8b79-fd6717fcb5e5
-Name,sandiegodata.org-downtown_cv-5
-Dataset,downtown_cv
-Origin,sandiegodata.org
-Time,
-Space,
-Grain,
-Variant,
-Version,5
-Created,2019-09-08T15:17:51
-Modified,2019-09-13T03:43:52
-Giturl,https://github.com/sandiegodata-projects/homelessness.git
-
+Declare,metatab-latest,,,
+Title,San Diego Downtown Homless Computer Vision Package,,,
+Description,Files and code for analyzing San Diego downtown homelessness  data with computer,,,
+Description,vision,,,
+Identifier,e53f2ae8-44ad-47db-8b79-fd6717fcb5e5,,,
+Name,sandiegodata.org-downtown_cv-5,,,
+Dataset,downtown_cv,,,
+Origin,sandiegodata.org,,,
+Time,,,,
+Space,,,,
+Grain,,,,
+Variant,,,,
+Version,5,,,
+Created,2019-09-08T15:17:51,,,
+Modified,2019-09-13T03:43:52,,,
+Giturl,https://github.com/sandiegodata-projects/homelessness.git,,,
+,,,,
 Section,Contacts,Email,Organization,Url
 Wrangler,Eric Busboom,eric@civicknowledge.com,Civic Knowledge,http://civicknowledge.com
-
+,,,,
 Section,Documentation,Title,Description,
 Documentation,file:README.md,README,,
-
+,,,,
 Section,References,Name,Description,
-
+,,,,
 Section,Resources,Name,Description,
 Datafile,notebooks/rundf.ipynb#gcp,gcp,Ground control points,
 Datafile,notebooks/rundf.ipynb#intersection_regions,intersection_regions,Polygon transformations for each the intersections of each map,
 Datafile,notebooks/rundf.ipynb#intersections,intersections,List of intersections.,
 Datafile,notebooks/rundf.ipynb#fa,file_annotations,File annotations on count files,
 Datafile,notebooks/rundf.ipynb#count,counts,"Annotation position, types and counts of handwritten marks",
-
+,,,,
 Section,Schema,DataType,Description,
 Table,gcp,,,
 Table.Column,image_url,string,Map image url,
