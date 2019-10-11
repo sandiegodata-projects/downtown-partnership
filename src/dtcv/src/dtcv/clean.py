@@ -114,7 +114,6 @@ def clean_file_annotations(file_df):
         float('nan'): 'gaslamp'
     }
 
-
     fa = fa.replace('2017-03-30\n', '2017-03-30')  # Error in one of the dates
     fa['neighborhood'] = fa.neighborhood.replace(n_map)
     fa['rain'] = fa.rain.fillna('')

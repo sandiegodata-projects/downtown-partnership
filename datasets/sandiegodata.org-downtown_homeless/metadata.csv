@@ -1,39 +1,40 @@
-Declare,metatab-latest,,,,
-Title,Downtown San Diego Homeless Sleepers,,,,
-Description,Five years of monthly geographic positions for homeless sleepers in Downtown San,,,,
-Description,Diego,,,,
-Identifier,995fe60d-905a-47cd-885d-fd3f06df9121,,,,
-Name,sandiegodata.org-dowtown_homeless-7,,,,
-Dataset,dowtown_homeless,,,,
-Origin,sandiegodata.org,,,,
-Time,,,,,
-Space,,,,,
-Grain,,,,,
-Variant,,,,,
-Version,7,,,,
-Group,homelessness,,,,
-Tag,homelessness,,,,
-Tag,san_diego,,,,
-Modified,2019-10-02T03:59:43,,,,
-Giturl,https://github.com/sandiegodata-projects/downtown-partnership.git,,,,
-,,,,,
+Declare,metatab-latest
+Title,Downtown San Diego Homeless Sleepers
+Description,Five years of monthly geographic positions for homeless sleepers in Downtown San
+Description,Diego
+Identifier,995fe60d-905a-47cd-885d-fd3f06df9121
+Name,sandiegodata.org-dowtown_homeless-10
+Dataset,dowtown_homeless
+Origin,sandiegodata.org
+Time,
+Space,
+Grain,
+Variant,
+Version,10
+Group,homelessness
+Tag,homelessness
+Tag,san_diego
+Modified,2019-10-08T03:47:35
+Giturl,https://github.com/sandiegodata-projects/downtown-partnership.git
+""
 Section,Contacts,Email,Organization,Url,
 Wrangler,Eric Busboom,eric@civicknowledge.com,Civic Knowledge,http://civicknowledge.com,
-,,,,,
+""
 Section,Documentation,Title,Description,,
 Documentation,file:README.md,README,,,
-,,,,,
+""
 Section,References,Name,Description,,
 Reference,metapack+http://library.metatab.org/sandiegodata.org-downtown_homeless-source-6.csv#counts,counts,Final homeless sleeper counts,,
 Reference,metapack+http://library.metatab.org/sandiegodata.org-downtown_homeless-source-6.csv#files,files,"Final file annotations, including total counts, temperature and weather.",,
 Reference,shape+https://www2.census.gov/geo/pvs/tiger2010st/06_California/06073/tl_2010_06073_tabblock10.zip,blocks,2010 Census blocks for San Diego County,,
-,,,,,
+""
 Section,Resources,Name,Description,,
 Datafile,file:data/neighborhood_totals.csv#&encoding=ascii,neighborhood_totals,"Totals for each of the neighborhoods for 2018 and 2019, from the published Downtown San Diego Partnership statistics",,
 Datafile,file:data/monthly_totals.csv#&encoding=ascii,monthly_totals,"Monthly totals since 2012, from the published Downtown San Diego Partnership statistics",,
-Datafile,notebooks/Impute.ipynb#imputed,imputed_counts,The homeless_counts file with missing months probablistically imputed,,
 Datafile,notebooks/Counts.ipynb#homeless_counts,homeless_counts,"Counts of homeless sleepers in Downtown San Diego, 2014 to mid 2018.",,
-,,,,,
+Datafile,notebooks/Impute.ipynb#imputed,imputed_counts,The homeless_counts file with missing months probablistically imputed,,
+Datafile,notebooks/Counts.ipynb#dataset_blocks,downtown_blocks,Census TIGER geographic regions for the blocks that have one or more homeless sleepers in this dataset.,,
+""
 Section,Schema,DataType,Description,Altname,Has_Codes
 Table,homeless_counts,,,,
 Table.Column,neighborhood,string,"Neighborhood, from the label on the source map",,
@@ -55,8 +56,6 @@ Table.Column,geoid,string,"Census geoid for the 2010 Census block the observatio
 Table.Column,x,number,"X geographic position, in California State Plane 6, EPSG:2230",,
 Table.Column,y,number,"Y geographic position, in California State Plane 6, EPSG:2230",,
 Table.Column,geometry,string,"Geographic position of observation, in Lat/Lon, EPSG:4326",,
-,,,,,
-,,,,,
 Table,neighborhood_totals,,,,
 Table.Column,date,date,Date of count. Only the month and year are significant.,,
 Table.Column,east_village,integer,Neighborhood count,,
@@ -68,3 +67,19 @@ Table.Column,gaslamp,integer,Neighborhood count,,
 Table,monthly_totals,,,,
 Table.Column,date,date,Date of total. Only the year and month are significant,,
 Table.Column,count,integer,Total count,,
+Table,downtown_blocks,,,,
+Table.Column,statefp10,string,,,
+Table.Column,countyfp10,string,,,
+Table.Column,tractce10,string,,,
+Table.Column,blockce10,string,,,
+Table.Column,geoid10,string,,,
+Table.Column,name10,string,,,
+Table.Column,mtfcc10,string,,,
+Table.Column,ur10,string,,,
+Table.Column,uace10,string,,,
+Table.Column,funcstat10,string,,,
+Table.Column,aland10,integer,,,
+Table.Column,awater10,integer,,,
+Table.Column,intptlat10,number,,,
+Table.Column,intptlon10,number,,,
+Table.Column,geometry,string,,,

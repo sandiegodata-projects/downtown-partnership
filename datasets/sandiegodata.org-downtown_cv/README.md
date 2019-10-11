@@ -18,8 +18,8 @@ These datasets link to map urls and annotations, for three kinds of annotations:
 * [Blog Post](https://www.sandiegodata.org/2019/09/computer-vision-for-greater-good/). For more discussion about the GCP and handwritten marks, and the tasks in volved
 in developing computer vision algorithms for these data, see our recent blog
 post on the subject.
-* [Clustering Notebook](https://nbviewer.jupyter.org/github/sandiegodata-projects/homelessness/blob/master/datasets/sandiegodata.org-downtown_cv/notebooks/Template%20Matching%20Clusters.ipynb). For some examples of using OpenCV to extract and match templates, to georeference maps, see the Templates and Clustering Jupyter Notebook].
-* [Extract Marks Notebook](https://nbviewer.jupyter.org/github/sandiegodata-projects/homelessness/blob/master/datasets/sandiegodata.org-downtown_cv/notebooks/Extract%20Marks.ipynb). For examples of extracting ( but not recognizing ) handwritten marks, see this notebook. 
+* [Clustering Notebook](https://nbviewer.jupyter.org/github/sandiegodata-projects/downtown-partnership/blob/master/datasets/sandiegodata.org-downtown_cv/notebooks/Template%20Matching%20Clusters.ipynb). For some examples of using OpenCV to extract and match templates, to georeference maps, see the Templates and Clustering Jupyter Notebook].
+* [Extract Marks Notebook](https://nbviewer.jupyter.org/github/sandiegodata-projects/downtown-partnership/blob/master/datasets/sandiegodata.org-downtown_cv/notebooks/Extract%20Marks.ipynb). For examples of extracting ( but not recognizing ) handwritten marks, see this notebook. 
 
 
 ## Developer notes

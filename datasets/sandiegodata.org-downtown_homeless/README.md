@@ -35,6 +35,33 @@ The result is an imputed month that has the same number of records as the
 official count for the month and as the same portion of sleepers in each census
 block as in adjacent months.
 
+## Notes
+
+Notes for the source dataset, as of April 2019:
+
+The preliminary methodology (shown in yellow) [ March 2017 and earlier] counted
+two individuals per tent and two individuals per vehicle.
+
+On April 27, 2017, the Clean & Safe program adopted the counting methodology
+used by the Regional Task Force on the Homeless. Per the methodology
+(represented above by the dark green cells), [April 2017 to April 2018,
+inclusive ] Clean & Safe staff counted 1.75 individuals per visible
+tent/structure and 1.66 individuals per vehicle that showed clear signs of
+habitation.
+
+In May 2018, the Regional Task Force on the Homeless updated the methodology
+for vehicles to 2.03 that shows clear signs of habitation (the methodology of
+1.75 individuals per tent/structure remained the same). The Clean & Safe
+program implemented this methodology on May 31, 2018 (represented in orange).
+
+\* Denotes the months that The Downtown Fellowship of Ministries and Churches collaborated with us on the monthly homeless sleep count.
+
+\*\*East Village breakout areas include the following:
+    * North East East Village is the area north of Market Street & east of Park Ave. 
+    * North West is the area north of Market Street & west of Park Ave.
+    * South East is the area east of Park Ave. south of Market Street
+    * South West is the area west of Park Ave. south of Market Street
+
 ## Caveats
 
 Because this data is extracted, manually, from manually recorded maps, there
@@ -48,7 +75,7 @@ are several months of data that are excluded from this dataset
 * **August 2014**. In the original datasets, August 2014 was a duplicate of September 2014. 
 * **September 2014**. Comfusion related to the duplication of September and August resulted in September being incompletely processed. 
 * **June 2015**. All of the map images for this month were blank. An alternate source PDF exists that is not blank, but this file was not used.     
-
+* **March 2018 on**. The converted data includes months up to July 2018, but the data for April, May, June and July 2018 shows very low values for the East Village neghborhood, so these months are excluded.
 These months are re-created, probabilistically, in the ``imputed_counts``
 dataset.
 
@@ -94,3 +121,6 @@ new-vs-official.png" width="700px"></a></center>
 5. Updates to version 5 of source package, which excluded several months with quality problems, improved documentation
 6. Added column for source file, removed duplicated data form marina, 2016
 7. Added imputed counts dataset. 
+8. Updated the ``monthly_totals`` dataset
+9. Added downtown_blocks geography and removed April 2018 on. 
+10. Corrected geometry from POLYGON ( of the city block ) to the POINT of the observation
