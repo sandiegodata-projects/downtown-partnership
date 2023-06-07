@@ -26,7 +26,8 @@ def parse_args(args):
       :obj:`argparse.Namespace`: command line parameters namespace
     """
 
-    parser = argparse.ArgumentParser(description='')
+    parser = argparse.ArgumentParser(description='',
+                                     formatter_class=argparse.ArgumentDefaultsHelpFormatter)
 
     parser.add_argument(
         '-v',
@@ -43,16 +44,20 @@ def parse_args(args):
         action='store_const',
         const=logging.DEBUG)
 
-    parser.add_argument('-c', '--counts', action='store_true', help='Process counts')
+    cwd = Path().cwd()
 
-    parser.add_argument('-g', '--gcp', action='store_true', help='Process ground control points')
+    parser.add_argument('source_dir', default=cwd, nargs='?',
+                        help='Source directory for GCP files. If none, get files from S3')
+
+    parser.add_argument('-c', '--counts', default=cwd.joinpath('Counts'), help='Process counts from the given directory')
+
+    parser.add_argument('-g', '--gcp', default=cwd.joinpath('GCP'), help='Process ground control points from the given directory')
 
     parser.add_argument('-f', '--final', action='store_true', help='Create final datasets')
 
     parser.add_argument('-i', '--intersections', default=None, help='Path to intersections file')
 
-    parser.add_argument('source_dir', default=None, nargs='?',
-                        help='Source directory for GCP files. If none, get files from S3')
+
     parser.add_argument('dest_dir', default=None, nargs='?',
                         help='Destination directory for output files')
 
@@ -98,6 +103,9 @@ def run():
 
     if not any([args.gcp, args.counts, args.final ]):
         args.gcp, args.counts, args.final = True, True, True
+        print("Source", source)
+        print("Dest", dest)
+
 
     if args.gcp:
         load_gcp(args, source, dest)

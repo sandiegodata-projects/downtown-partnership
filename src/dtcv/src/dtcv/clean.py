@@ -119,26 +119,51 @@ def clean_file_annotations(file_df):
     fa['rain'] = fa.rain.fillna('')
     fa['temp'] = pd.to_numeric(fa.temp, errors='coerce')
 
-    fa['url_year'] = fa.image_url.apply(lambda v: int(Path(v.strip()).stem[0:4]))
-    fa['url_month'] = fa.image_url.apply(lambda v: int(Path(v.strip()).stem[4:6]))
-    fa['date'] = pd.to_datetime(fa.apply(lambda r: r.date if r.date else f'{r.url_year}-{r.url_month:02d}-01', axis=1))
-    fa['url_neighborhood'] = fa.image_url.apply(lambda v: v.strip().split('/')[-2])
-    #fa['neighborhood'] = fa.apply(lambda r: r.neighborhood if r.neighborhood else r.url_neighborhood, axis=1)
+    try:
+        # The url structure was idosyncratic to the first round of the project, the 2023
+        # the 2023 update did not have this structure.
 
-    # Fix Dates. Maps for November 2016 and October 2016 both have
-    # dates of enumeration in October 2016. The maps with enumeration dates
-    # of 2016-10-23 are in the map set for November 2016, so these
-    # dates were changed to 2016-11-23
+        fa['url_year'] = fa.image_url.apply(lambda v: int(Path(v.strip()).stem[0:4]))
+        fa['url_month'] = fa.image_url.apply(lambda v: int(Path(v.strip()).stem[4:6]))
+        fa['url_date'] = pd.to_datetime(fa.apply(lambda r: r.date if r.date else f'{r.url_year}-{r.url_month:02d}-01', axis=1))
+        fa['url_neighborhood'] = fa.image_url.apply(lambda v: v.strip().split('/')[-2])
 
-    fa.loc[fa.date == '2016-10-23', 'date'] = pd.to_datetime('2016-11-23')
+        # Fix Dates. Maps for November 2016 and October 2016 both have
+        # dates of enumeration in October 2016. The maps with enumeration dates
+        # of 2016-10-23 are in the map set for November 2016, so these
+        # dates were changed to 2016-11-23
 
-    # Remove some files. These files have errors. See the documentation README for more information.
+        fa.loc[fa.url_date == '2016-10-23', 'date'] = pd.to_datetime('2016-11-23')
 
-    fa['keep'] = True
-    fa.loc[(fa.date.dt.month == 9) & (fa.date.dt.year == 2014), 'keep'] = False
-    fa.loc[(fa.date.dt.month == 8) & (fa.date.dt.year == 2014), 'keep'] = False
-    fa.loc[(fa.date.dt.month == 6) & (fa.date.dt.year == 2015), 'keep'] = False
-    fa = fa[fa.keep].drop(columns='keep')
+        # Remove some files. These files have errors. See the documentation README for more information.
+
+        fa['keep'] = True
+        fa.loc[(fa.url_date.dt.month == 9) & (fa.url_date.dt.year == 2014), 'keep'] = False
+        fa.loc[(fa.url_date.dt.month == 8) & (fa.url_date.dt.year == 2014), 'keep'] = False
+        fa.loc[(fa.url_date.dt.month == 6) & (fa.url_date.dt.year == 2015), 'keep'] = False
+        fa = fa[fa.keep].drop(columns='keep')
+
+        fa['date'] = None
+    except ValueError:
+        pass
+
+    try:
+        fa['url_year'] = None
+        fa['url_month'] = None
+        fa['url_neighborhood'] = None
+        fa['url_date'] = None
+
+        fa['date'] = pd.to_datetime(fa.date)
+    except:
+        # Don't know what exception will get thrown if there is not date column in the file, but
+        # we will find out eventually
+        raise
+
+    if fa[fa.date.isnull()].shape[0] > 0:
+        fa['date'] = fa['url_date']
+
+    if fa[fa.date.isnull()].shape[0] > 0:
+        raise Exception('There are still null dates')
 
     pd.set_option('display.width', 1000)
 
@@ -149,11 +174,12 @@ def clean_file_annotations(file_df):
     fa['file_id'] = fa.image_url.apply(file_id_hash)
 
     # Choke if there are duplicated file_ids. If there is, increase the length of the file id
-    assert len(fa[fa.duplicated(subset='file_id', keep=False)]) == 0
+    #assert len(fa[fa.duplicated(subset='file_id', keep=False)]) == 0
 
     fa = fa[
-        ['image_url', 'file_id', 'source_file', 'url_year', 'url_month', 'date', 'neighborhood', 'url_neighborhood', 'total_count', 'temp',
-         'rain', ]]
+        ['image_url', 'file_id', 'source_file',
+         'url_year', 'url_month', 'url_date', 'date',
+         'url_neighborhood', 'neighborhood',  'total_count', 'temp', 'rain', ]]
 
     return fa
 

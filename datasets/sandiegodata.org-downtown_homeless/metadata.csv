@@ -3,18 +3,21 @@ Title,Downtown San Diego Homeless Sleepers
 Description,Five years of monthly geographic positions for homeless sleepers in Downtown San
 Description,Diego
 Identifier,995fe60d-905a-47cd-885d-fd3f06df9121
-Name,sandiegodata.org-dowtown_homeless-10
+Name,sandiegodata.org-dowtown_homeless-2.1.1
 Dataset,dowtown_homeless
 Origin,sandiegodata.org
 Time,
 Space,
 Grain,
 Variant,
-Version,10
+Version,2.1.1
+Version.Major,2
+Version.Minor,1
+Version.Patch,1
 Group,homelessness
 Tag,homelessness
 Tag,san_diego
-Modified,2019-10-08T03:47:35
+Modified,2022-04-20T20:29:32
 Giturl,https://github.com/sandiegodata-projects/downtown-partnership.git
 ""
 Section,Contacts,Email,Organization,Url,
