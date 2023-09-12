@@ -1,0 +1,779 @@
+image_url,date,neighborhood,total_count,temp,rain,source_file
+"https://drive.google.com/uc?export=view&id=1SN7akRhgzmSiBwA18GM-1L64ed999gDp
+",2019-01-31,Core,,55,2,Count/Core_2019_count.json
+"https://drive.google.com/uc?export=view&id=1togSan8igrYznfGzXRpAEDR8YP8w8_KC
+",2019-02-27,Core,,55,2,Count/Core_2019_count.json
+"https://drive.google.com/uc?export=view&id=12XquwoO26jiu6jzbqgLPDKjGY4Z7yi-i
+",2019-03-01,Core,,,2,Count/Core_2019_count.json
+"https://drive.google.com/uc?export=view&id=1vy_UojvJq5lLE3accBTqrjAOptliLD2s
+",2019-04-25,Core,,59,2,Count/Core_2019_count.json
+"https://drive.google.com/uc?export=view&id=1Nnc12BsNS1mcy1lro_SPDcgZ061HeHCx
+",2019-05-29,Core,,60,2,Count/Core_2019_count.json
+"https://drive.google.com/uc?export=view&id=1svhsf_oHSq6BPtHLQSTThJVBN4CrBnGU
+",2019-06-26,Core,,63,2,Count/Core_2019_count.json
+"https://drive.google.com/uc?export=view&id=1XgXzKJr2kqJDKutsj20EJVKplhpaIq-3
+",2019-07-24,Core,,,2,Count/Core_2019_count.json
+"https://drive.google.com/uc?export=view&id=1uUUVSaL1y3kqVlAcam3nHgaR58ATUETZ
+",2019-08-01,Core,,,2,Count/Core_2019_count.json
+"https://drive.google.com/uc?export=view&id=1OUTv1MwWdEGhw-n_NRBMc8Ylnz8LbFM7
+",2019-09-01,Core,,,2,Count/Core_2019_count.json
+"https://drive.google.com/uc?export=view&id=1LhDtVr39IAZao3T2JU1q4m-vkfkaE8rZ
+",2019-10-30,Core,,,2,Count/Core_2019_count.json
+"https://drive.google.com/uc?export=view&id=1V7-vADUDfhpxK2OkDXzVD1c2p8iw6vaH
+",2019-11-29,Core,,,2,Count/Core_2019_count.json
+"https://drive.google.com/uc?export=view&id=1VQoYwiKybUFrwUwpZoCyl4aWLGMquMu0
+",2020-01-01,City Center,,48,2,Count/City Center_2020_count.json
+"https://drive.google.com/uc?export=view&id=1vahe3W6EHX2oIWsVxup8J6xzZ_g3qHlj
+",2020-02-26,City Center,,55,2,Count/City Center_2020_count.json
+"https://drive.google.com/uc?export=view&id=1rhdIPN_lp8T-TpTY47zR6uUOsgBwpqKr
+",2020-03-26,City Center,,55,2,Count/City Center_2020_count.json
+"https://drive.google.com/uc?export=view&id=1NjWQ9Eb0LGKdJhRg91r_7bcgEiTefBQv
+",2020-04-30,City Center,,63,2,Count/City Center_2020_count.json
+"https://drive.google.com/uc?export=view&id=1pS89hc01A9ig48s-30kbMVxxv6BwjdDI
+",2022-05-01,City Center,,,2,Count/City Center_2020_count.json
+"https://drive.google.com/uc?export=view&id=1irFT6-ILEpGxt3p2HY_3szZnhn7EajD9
+",2020-06-25,City Center,,60,2,Count/City Center_2020_count.json
+"https://drive.google.com/uc?export=view&id=17y76zB0DgP5JZcDxELmh7w4G7kFvzTCT
+",2020-07-29,City Center,,64,2,Count/City Center_2020_count.json
+"https://drive.google.com/uc?export=view&id=1pei5OsQgZLURJJrujrOGnChYRMV9tiKr
+",2020-08-27,City Center,,76,2,Count/City Center_2020_count.json
+"https://drive.google.com/uc?export=view&id=1vGwRRJSL7D08wUlDlWuVlI0Ws1gob5t1
+",2020-09-29,City Center,,70,2,Count/City Center_2020_count.json
+"https://drive.google.com/uc?export=view&id=1uCPpe66iuKJOD8QG8PVm7YNvuss4iXE5
+",2020-10-29,City Center,,61,2,Count/City Center_2020_count.json
+"https://drive.google.com/uc?export=view&id=1c0o6ijZ5NBnwvenETHcVlxvEcFn9dRze
+",2020-11-24,City Center,,59,2,Count/City Center_2020_count.json
+"https://drive.google.com/uc?export=view&id=1RX4768ySWOtRKYPoGwOzqaHhrnakaqgz
+",2020-12-29,City Center,,53,1,Count/City Center_2020_count.json
+"https://drive.google.com/uc?export=view&id=19hJ6AujQX1udDQ-XYsoAVRUVPADmUC_n
+",2019-01-31,Gaslamp,,55,2,Count/Gaslamp_2019_count.json
+"https://drive.google.com/uc?export=view&id=12xeUBGjhvEbaoIPcFqleh0AEwMg22Dkn
+",2019-02-27,Gaslamp,,55,2,Count/Gaslamp_2019_count.json
+"https://drive.google.com/uc?export=view&id=1qfexE1s5JaROnLSl6mzMWELGeWw2QPPd
+",2019-03-01,Gaslamp,,,2,Count/Gaslamp_2019_count.json
+"https://drive.google.com/uc?export=view&id=1NHbYSYrGGoNqtQorGAuBLbbUElMlN6b6
+",2019-04-25,Gaslamp,,59,2,Count/Gaslamp_2019_count.json
+"https://drive.google.com/uc?export=view&id=10tL6u70igQTh58xfV1A0ZuQ8KzsW-Yso
+",2019-05-29,Gaslamp,,60,2,Count/Gaslamp_2019_count.json
+"https://drive.google.com/uc?export=view&id=1L3PZRtvOY3D-0zpv8rwjLo45e-4Z1lgw
+",2019-06-26,Gaslamp,,63,2,Count/Gaslamp_2019_count.json
+"https://drive.google.com/uc?export=view&id=1NVz66Dpk9dYLNKhPzuXXAaNHnIBLQErA
+",2019-07-24,Gaslamp,,73,2,Count/Gaslamp_2019_count.json
+"https://drive.google.com/uc?export=view&id=1xpBwB1v7YGYRhdDY9CWfmICC8GjovSKv
+",2019-08-01,Gaslamp,,,2,Count/Gaslamp_2019_count.json
+"https://drive.google.com/uc?export=view&id=1BByCXYvqWLSzaj7KX8SwT-sd6CPZ7y_4
+",2019-09-01,Gaslamp,,,1,Count/Gaslamp_2019_count.json
+"https://drive.google.com/uc?export=view&id=1PXxMIwP6y-DFQfYUCAop_Uut9PALVuWl
+",2019-10-30,Gaslamp,,,2,Count/Gaslamp_2019_count.json
+"https://drive.google.com/uc?export=view&id=15iDXSOmiEzCMZ2Rsd8I95KPm0cnlh1bh
+",2019-11-26,Gaslamp,,,2,Count/Gaslamp_2019_count.json
+"https://drive.google.com/uc?export=view&id=1X8koOniLcdClneGfsWFHRkiGm1yZgtO3
+",2021-01-28,Cortez,,46,2,Count/Cortez_2021_count.json
+"https://drive.google.com/uc?export=view&id=1K0tWEXY9QiBVmvSyA75JPIheOGqyg7ZV
+",2021-02-01,Cortez,,,2,Count/Cortez_2021_count.json
+"https://drive.google.com/uc?export=view&id=1btdfG3Eyj2sqLA3PZ6xA77RtANznpMYC
+",2021-03-25,Cortez,,54,2,Count/Cortez_2021_count.json
+"https://drive.google.com/uc?export=view&id=1q9LBJQdaAaFyhQY1FqKlDrZ8vI9WGBM0
+",2021-04-29,Cortez,,61,2,Count/Cortez_2021_count.json
+"https://drive.google.com/uc?export=view&id=10I--PO0hS8MmdkIPZ71TVS7OebG6UB8g
+",2021-05-27,Cortez,,,2,Count/Cortez_2021_count.json
+"https://drive.google.com/uc?export=view&id=1IQHH2Afy4-EKdiwPUXguwQ-JE4K_CCHM
+",2021-06-01,Cortez,,,2,Count/Cortez_2021_count.json
+"https://drive.google.com/uc?export=view&id=1ux4pqc_D6yWhJh34OQ2mvnhMRpMCQDJX
+",2021-07-21,Cortez,,60,2,Count/Cortez_2021_count.json
+"https://drive.google.com/uc?export=view&id=1_xOiZKFj5XjESZm0amiAQWQb3vydfwIp
+",2021-08-01,Cortez,,,2,Count/Cortez_2021_count.json
+"https://drive.google.com/uc?export=view&id=1WoFmeVPEToTMKSLTF2ryLF7RPrmPvpxU
+",2021-09-30,Cortez,,66,2,Count/Cortez_2021_count.json
+"https://drive.google.com/uc?export=view&id=10paqX818qHrndbzVInrT492iogLQ7DXb
+",2021-10-28,Cortez,,61,2,Count/Cortez_2021_count.json
+"https://drive.google.com/uc?export=view&id=1g3vaHyg-d-ZYkb1oK4dNlfB78aF7Ox3H
+",2021-11-23,Cortez,,61,2,Count/Cortez_2021_count.json
+"https://drive.google.com/uc?export=view&id=1IeuLxIC1KwLvEpYzJg19IB9QdE_c88Wx
+",2021-12-01,Cortez,,,2,Count/Cortez_2021_count.json
+"https://drive.google.com/uc?export=view&id=1hNKn78kPz8z_YjqopKnCuT9nnMGiMewl
+",2019-01-31,Columbia,,55,2,Count/Columbia_2019_count.json
+"https://drive.google.com/uc?export=view&id=1heYWnktW26FfL2gUz54b-lySXms-z4kB
+",2019-02-22,Columbia,,55,2,Count/Columbia_2019_count.json
+"https://drive.google.com/uc?export=view&id=1XpI8PeRFmU26Ygt9dipbc3LPH4b7BtA3
+",2019-03-01,Columbia,,,2,Count/Columbia_2019_count.json
+"https://drive.google.com/uc?export=view&id=1guJmSiEXStPv9zD9HhWCgTCMm1L2jzFu
+",2019-04-25,Columbia,,59,2,Count/Columbia_2019_count.json
+"https://drive.google.com/uc?export=view&id=1P0bGvWDoSUTBSfOi2tSrxZ9rBiUXSaoj
+",2019-05-29,Columbia,,60,2,Count/Columbia_2019_count.json
+"https://drive.google.com/uc?export=view&id=1-5m1Vz95cfW9oB7r0RYWNOdVXCQplv89
+",2019-06-26,Columbia,,63,2,Count/Columbia_2019_count.json
+"https://drive.google.com/uc?export=view&id=1ebZUdRpZ3SR9v_VX8UUake8e1Oj7i_r7
+",2019-07-01,Columbia,,,2,Count/Columbia_2019_count.json
+"https://drive.google.com/uc?export=view&id=1CTYZ_s_r_etK4gDa0kj8EyzWuk_N9EOi
+",2019-08-01,Columbia,,,2,Count/Columbia_2019_count.json
+"https://drive.google.com/uc?export=view&id=1U6euNeHwiffTJacs57DYrKfwv8jTsmhL
+",2019-09-01,Columbia,,,1,Count/Columbia_2019_count.json
+"https://drive.google.com/uc?export=view&id=1NBVXHlNf4Ge0f01CdGXgVAQsfUbEKWt_
+",2019-10-30,Columbia,,,2,Count/Columbia_2019_count.json
+"https://drive.google.com/uc?export=view&id=1xErSRvVVeSgknZRa-VSHzt6gs676QqKn
+",2019-11-26,Columbia,,,2,Count/Columbia_2019_count.json
+"https://drive.google.com/uc?export=view&id=1wHGZOjlTowBNVs-a0EQctuy6pqKaZjZX
+",2019-01-31,East Village South,,55,2,Count/East Village South_2019_count.json
+"https://drive.google.com/uc?export=view&id=1DN5H9WPniifEgJGxClvw4fnse2OiD1tP
+",2019-02-27,East Village South,,55,2,Count/East Village South_2019_count.json
+"https://drive.google.com/uc?export=view&id=1Dzv5TYimConjzgzlXWpSUt8NnYSJkJty
+",2019-03-01,East Village South,,,2,Count/East Village South_2019_count.json
+"https://drive.google.com/uc?export=view&id=1jVNf9p7bFEiASOk06ATNhnlspe4MFl8r
+",2019-04-25,East Village South,,59,2,Count/East Village South_2019_count.json
+"https://drive.google.com/uc?export=view&id=11pKEmV4VB1R6phes4dRALaXnnzWL9TqI
+",2019-05-29,East Village South,,60,2,Count/East Village South_2019_count.json
+"https://drive.google.com/uc?export=view&id=1nAIkVB1Ro6nuJOy7kozmsgdVRDlD9uWo
+",2019-06-26,East Village South,,63,2,Count/East Village South_2019_count.json
+"https://drive.google.com/uc?export=view&id=1yfSTkXQyf93qtvEiyPdXfCBD7YFBANBQ
+",2019-07-24,East Village South,,73,2,Count/East Village South_2019_count.json
+"https://drive.google.com/uc?export=view&id=1EOFIpk5WmL98YgxODPxbJ7tHkHU-IIkY
+",2019-08-01,East Village South,,,2,Count/East Village South_2019_count.json
+"https://drive.google.com/uc?export=view&id=1-YRcw04UbM55V_9hp2otRaexIt8_9CEl
+",2019-09-01,East Village South,,,2,Count/East Village South_2019_count.json
+"https://drive.google.com/uc?export=view&id=1kT2DMR5UFiUOl8O0I2L-2MmXSoM663v7
+",2019-10-30,East Village South,,,2,Count/East Village South_2019_count.json
+"https://drive.google.com/uc?export=view&id=1dpvNrQwfnn_-Lp-nREwCxaqaENCFt0aa
+",2019-11-01,East Village South,,,2,Count/East Village South_2019_count.json
+"https://drive.google.com/uc?export=view&id=1unb_tYCIgCBujCQP0I23ptQ03d8DOg0T
+",2021-05-01,Barrio Logan,,,2,Count/Barrio Logan_2021_count.json
+"https://drive.google.com/uc?export=view&id=1kL2pvwexKMAxM_dpasE_4gukuSUoGWmj
+",2021-06-01,Barrio Logan,,,2,Count/Barrio Logan_2021_count.json
+"https://drive.google.com/uc?export=view&id=1NLXu4uZduGkWKuPKq_Vd1-ixIGqKiADV
+",2021-07-01,Barrio Logan,,,2,Count/Barrio Logan_2021_count.json
+"https://drive.google.com/uc?export=view&id=1JW0G_6R9ER3Aw1ZbuEtQuukwz4kIKHZJ
+",2021-08-01,Barrio Logan,,68,2,Count/Barrio Logan_2021_count.json
+"https://drive.google.com/uc?export=view&id=1DrGpl-XLZ9dls8MbR_aKyi9lT_wmsTCM
+",2021-09-01,Barrio Logan,,,2,Count/Barrio Logan_2021_count.json
+"https://drive.google.com/uc?export=view&id=1NkXj7cuhAQ0tGLiTVlbpRgevHu7Cm5y7
+",2021-10-01,Barrio Logan,,,2,Count/Barrio Logan_2021_count.json
+"https://drive.google.com/uc?export=view&id=15hYO9r7sm1kzerSrhz-g9fc1wO5eZYHo
+",2021-11-01,Barrio Logan,,,2,Count/Barrio Logan_2021_count.json
+"https://drive.google.com/uc?export=view&id=1aQZ5XbW3FDX-1eNDrzXJqY3dFNx4cD_3
+",2021-12-01,Barrio Logan,,,2,Count/Barrio Logan_2021_count.json
+"https://drive.google.com/uc?export=view&id=1ZJZBsqYXXCkWhViNcxxLfp000eYUbi9t
+",2021-01-28,Marina,,46,2,Count/Marina_2021_count.json
+"https://drive.google.com/uc?export=view&id=1A5ypoK7ytblIQRCwc5_-gk5WaPBzC9Tt
+",2021-02-25,Marina,,54,2,Count/Marina_2021_count.json
+"https://drive.google.com/uc?export=view&id=11urDxx-zJnq7TilbYY5rz4PYjkv3vkvz
+",2021-03-25,Marina,,54,2,Count/Marina_2021_count.json
+"https://drive.google.com/uc?export=view&id=1nhCiddcwPWsMQ9wlvlaSqxFnYmGOOw_a
+",2021-04-29,Marina,,61,2,Count/Marina_2021_count.json
+"https://drive.google.com/uc?export=view&id=1ncGrzQ9ktyt_05zQ2kUsmf0k9CaDA4PF
+",2021-05-27,Marina,,59,2,Count/Marina_2021_count.json
+"https://drive.google.com/uc?export=view&id=1ybuqENnGg7urJU50_GJmbqebERFqArmv
+",2021-06-24,Marina,,,2,Count/Marina_2021_count.json
+"https://drive.google.com/uc?export=view&id=1fKQxP70f99-ep0GiociB-BTwosIbNr6-
+",2021-07-30,Marina,,66,2,Count/Marina_2021_count.json
+"https://drive.google.com/uc?export=view&id=1Dsibyd9ZKHiEv92sqrhif-a3HiPJ6FIb
+",2021-08-27,Marina,,70,2,Count/Marina_2021_count.json
+"https://drive.google.com/uc?export=view&id=1yaK-JzrwBepwiRskKBL5zna4WIQaGwBS
+",2021-09-30,Marina,,66,2,Count/Marina_2021_count.json
+"https://drive.google.com/uc?export=view&id=1nXqJBd4MlYdACVWd295T7tUmaFT9cqae
+",2021-10-28,Marina,,61,2,Count/Marina_2021_count.json
+"https://drive.google.com/uc?export=view&id=10vWkdxy3baNkkM08f48P5_BkeOlFIg0D
+",2021-11-23,Marina,,59,2,Count/Marina_2021_count.json
+"https://drive.google.com/uc?export=view&id=1LjbEqZEVmSgOlSndlZ_ch6H9aVrkQeWd
+",2021-12-22,Marina,,52,2,Count/Marina_2021_count.json
+"https://drive.google.com/uc?export=view&id=18q86Dlz0PDofx2_r8Fh3UN7yE5cWGZd-
+",2020-01-01,East Village,,48,2,Count/East Village_2020_count.json
+"https://drive.google.com/uc?export=view&id=1qKUg90iPjMaS8gfRQrBiXIfKq7RAbGkV
+",2020-02-26,East Village,,55,2,Count/East Village_2020_count.json
+"https://drive.google.com/uc?export=view&id=1S27xheT7IzTCnVEMMkQhDQuhQ2y4qJGs
+",2020-03-26,East Village,,55,2,Count/East Village_2020_count.json
+"https://drive.google.com/uc?export=view&id=14ovzd-93h0WYJKZ0yyo1O14P8N5yzK84
+",2020-04-30,East Village,,63,2,Count/East Village_2020_count.json
+"https://drive.google.com/uc?export=view&id=1jw6Heel-FKZ4YSefI_B2New5PWd1RWBB
+",2020-05-28,East Village,,,2,Count/East Village_2020_count.json
+"https://drive.google.com/uc?export=view&id=1UkZaY2G1ecM6XkydV-Tg2952ICpkP9ZO
+",2020-06-25,East Village,,60,2,Count/East Village_2020_count.json
+"https://drive.google.com/uc?export=view&id=1irIUw_dNa0bHFzBhxVqCPh4U7ISpxC7j
+",2020-07-29,East Village,,67,2,Count/East Village_2020_count.json
+"https://drive.google.com/uc?export=view&id=1IW0F5qtMzp03xeK1ugJBUny-ivdZh98q
+",2020-08-27,East Village,,76,2,Count/East Village_2020_count.json
+"https://drive.google.com/uc?export=view&id=1OjHN8Y3Sq-6TDhPb-yoNZLxO7kKCSe48
+",2020-09-29,East Village,,70,2,Count/East Village_2020_count.json
+"https://drive.google.com/uc?export=view&id=1ZxcmgbSXcuf7j0P40jNKSfhRQP5uq5NN
+",2020-10-29,East Village,,61,2,Count/East Village_2020_count.json
+"https://drive.google.com/uc?export=view&id=176jKcwppmVbzfLgh6TvgM9EmJdOJcNna
+",2020-11-24,East Village,,59,2,Count/East Village_2020_count.json
+"https://drive.google.com/uc?export=view&id=1breARWx_qF7WYkesvJLWH2W05H1_xW14
+",2020-12-29,East Village,,53,1,Count/East Village_2020_count.json
+"https://drive.google.com/uc?export=view&id=11oPElPkZMxpE_a1nzmbKjifFcQJn903g
+",2022-01-27,City Center,,48,2,Count/City Center_2022_count.json
+"https://drive.google.com/uc?export=view&id=1qCHQyuZtOaZpGiMrX6sDtlbEEg_4CXhL
+",2022-03-01,City Center,,53,2,Count/City Center_2022_count.json
+"https://drive.google.com/uc?export=view&id=1jIb9-NkzCZu7ExwfJrr1zExjKIYfWb5X
+",2022-03-29,City Center,,57,2,Count/City Center_2022_count.json
+"https://drive.google.com/uc?export=view&id=1CGf7799AUhtTDQTuN4djLD9rttjmaib2
+",2022-04-29,City Center,,55,2,Count/City Center_2022_count.json
+"https://drive.google.com/uc?export=view&id=1hnSZlVz5_MXUS4evvJcwBZGQ--pJSkHy
+",2022-05-27,City Center,,61,2,Count/City Center_2022_count.json
+"https://drive.google.com/uc?export=view&id=1y3UBdp3zUBvR-YrS-DPdSWQ-f7QA72H8
+",2022-06-30,City Center,,67,2,Count/City Center_2022_count.json
+"https://drive.google.com/uc?export=view&id=1MX4gpH6iQaj0XnTDHFzFRLc1Fu8m8Fvd
+",2022-07-29,City Center,,70,2,Count/City Center_2022_count.json
+"https://drive.google.com/uc?export=view&id=1wDhNd3guGYG7edvPV2H3i4DEKckC87FN
+",2022-08-25,City Center,,68,2,Count/City Center_2022_count.json
+"https://drive.google.com/uc?export=view&id=1QoKAH71SF15154m6W25UlIoIOvscVUwm
+",2022-09-30,City Center,,67,2,Count/City Center_2022_count.json
+"https://drive.google.com/uc?export=view&id=1zJirERdHa2eSD9rrJN4KFvjdWBDnczqd
+",2022-10-28,City Center,,56,2,Count/City Center_2022_count.json
+"https://drive.google.com/uc?export=view&id=1xK4Wl99uvPPDa2LuPqnnCILzIlmadZRG
+",2022-11-23,City Center,,50,2,Count/City Center_2022_count.json
+"https://drive.google.com/uc?export=view&id=1cfLIcB6ObIUrCXGqzEk8wBGZP8cpbjiP
+",2022-12-24,City Center,,54,2,Count/City Center_2022_count.json
+"https://drive.google.com/uc?export=view&id=1vgtOADW1kDdyo1BcfWMIRYGMKWwpjkMA
+",2021-01-28,Columbia,,46,2,Count/Columbia_2021_count.json
+"https://drive.google.com/uc?export=view&id=1T9PuSuS6hCKKfdXZMis2IdTq44WO0fUY
+",2021-02-25,Columbia,,54,2,Count/Columbia_2021_count.json
+"https://drive.google.com/uc?export=view&id=1748lhO1V-flNo6hwvugjRlyH5caCXI7x
+",2021-03-25,Columbia,,54,2,Count/Columbia_2021_count.json
+"https://drive.google.com/uc?export=view&id=1FEd1Y4JmJjaXAunO0GWZVr7I3arq50Yp
+",2021-04-29,Columbia,,61,2,Count/Columbia_2021_count.json
+"https://drive.google.com/uc?export=view&id=1DfIHuWcQ0ZAFQyJjtbGMICj18Dnyal0M
+",2021-05-27,Columbia,,59,2,Count/Columbia_2021_count.json
+"https://drive.google.com/uc?export=view&id=19C_kT_Bd753Soe0WJuQUvdC9nNZPSU_O
+",2021-06-01,Columbia,,,2,Count/Columbia_2021_count.json
+"https://drive.google.com/uc?export=view&id=1pYlheI9J6Qw98fk6oRNzmPMc4JNDmfvq
+",2021-07-30,Columbia,,66,2,Count/Columbia_2021_count.json
+"https://drive.google.com/uc?export=view&id=1ztYdo4jWSTXKrXxDkHgnONycpXbRmG22
+",2021-08-27,Columbia,,70,2,Count/Columbia_2021_count.json
+"https://drive.google.com/uc?export=view&id=1RCmm204UNZ10SWwYcyQlDyfKeACdpm2s
+",2021-09-30,Columbia,,64,2,Count/Columbia_2021_count.json
+"https://drive.google.com/uc?export=view&id=1G7myV6gUfJm6kgrZNZrkJzq1rjUG9Jvv
+",2021-10-28,Columbia,,61,2,Count/Columbia_2021_count.json
+"https://drive.google.com/uc?export=view&id=1PZ-GdoI8VM_AEJg45Lg6Ym4_I4H0uMCm
+",2021-11-23,Columbia,,61,2,Count/Columbia_2021_count.json
+"https://drive.google.com/uc?export=view&id=1exgwA40NoOCLAwHgyXvthZvWukYKLpie
+",2021-12-22,Columbia,,54,2,Count/Columbia_2021_count.json
+"https://drive.google.com/uc?export=view&id=1GJU8_CQSkS1pLmiqma3wW8t27uE-TyrD
+",2021-01-28,East Village South,,46,2,Count/East Village South_2021_count.json
+"https://drive.google.com/uc?export=view&id=1f72GIIt86gCwWh3HN6ckb2xu4mjckjdX
+",2021-02-25,East Village South,,55,2,Count/East Village South_2021_count.json
+"https://drive.google.com/uc?export=view&id=1p4HQrmbdbdqN7vAxKdsqbWUgLKD9KM0C
+",2021-03-24,East Village South,,54,2,Count/East Village South_2021_count.json
+"https://drive.google.com/uc?export=view&id=1hxD3hCJqt-xJHgATgLoe1KCV7DgXHaHn
+",2021-04-29,East Village South,,61,2,Count/East Village South_2021_count.json
+"https://drive.google.com/uc?export=view&id=1PhQ_os09wqCzj9bMfes6YKOhzjIKv6vS
+",2021-05-27,East Village South,,59,2,Count/East Village South_2021_count.json
+"https://drive.google.com/uc?export=view&id=116a87DIYudQwdOL5tzlRvlPxslfSHBsC
+",2021-06-24,East Village South,,,2,Count/East Village South_2021_count.json
+"https://drive.google.com/uc?export=view&id=16YrxlswBcZwAepgOUIZ4T5DWuNlQaMnd
+",2021-07-30,East Village South,,66,2,Count/East Village South_2021_count.json
+"https://drive.google.com/uc?export=view&id=1AKiMSrFGzm8Tdl60jY9XwHNFFpbqiCnC
+",2021-08-27,East Village South,,72,2,Count/East Village South_2021_count.json
+"https://drive.google.com/uc?export=view&id=1_Ny7ae0ecHg67tc3cbvp7Q701b-wo4Cc
+",2021-09-30,East Village South,,66,2,Count/East Village South_2021_count.json
+"https://drive.google.com/uc?export=view&id=10OjziZvZ4tZjSbMLJyin2yQCFJDP96_X
+",2021-10-28,East Village South,,61,2,Count/East Village South_2021_count.json
+"https://drive.google.com/uc?export=view&id=1Ndqc9OsEtLjfXPCQCWbxMuArMzJwN5EJ
+",2021-11-23,East Village South,,63,2,Count/East Village South_2021_count.json
+"https://drive.google.com/uc?export=view&id=10dDjnVJMllv46jIVJDIfjYoLzOYPYY6g
+",2021-12-22,East Village South,,54,2,Count/East Village South_2021_count.json
+"https://drive.google.com/uc?export=view&id=1IeJxzMWWHFFrQXwXTqDNR1AvMYR4D-jv
+",2019-01-31,Cortez,,55,2,Count/Cortez_2019_count.json
+"https://drive.google.com/uc?export=view&id=1JMJ7yyUq7bi3xlyfdwf-y3o1y-Oq3vqV
+",2019-02-27,Cortez,,55,2,Count/Cortez_2019_count.json
+"https://drive.google.com/uc?export=view&id=16LhByfOiu8yxCyqgbgLo-kYjo74P9Lpf
+",2019-03-01,Cortez,,,2,Count/Cortez_2019_count.json
+"https://drive.google.com/uc?export=view&id=1oWdJ8uzEknQrG5VRbnH4R7rcCwrL7U7S
+",2019-04-25,Cortez,,59,2,Count/Cortez_2019_count.json
+"https://drive.google.com/uc?export=view&id=1fQUNjvd9l2wYnIvrJxlOcTckhhxsAEYy
+",2019-05-24,Cortez,,60,2,Count/Cortez_2019_count.json
+"https://drive.google.com/uc?export=view&id=1PWPYt21CKo7mAu-TJUMQLPAdQMt8tXrk
+",2019-06-24,Cortez,,63,2,Count/Cortez_2019_count.json
+"https://drive.google.com/uc?export=view&id=1BUdJuR6JmBdbcj3_kYXRbGZ6eUoM93WV
+",2019-07-24,Cortez,,73,2,Count/Cortez_2019_count.json
+"https://drive.google.com/uc?export=view&id=1S36wgavsEfNJ1KNksdPxMpzIN0byj1ar
+",2019-08-01,Cortez,,,2,Count/Cortez_2019_count.json
+"https://drive.google.com/uc?export=view&id=1d65BkWq8AU4pLZAd7zJS1Nzf0QV5hIEa
+",2019-09-01,Cortez,,,2,Count/Cortez_2019_count.json
+"https://drive.google.com/uc?export=view&id=1StcdPwYtncsFATz4PYvBvfjSSFsD-SQQ
+",2019-10-30,Cortez,,,2,Count/Cortez_2019_count.json
+"https://drive.google.com/uc?export=view&id=18lX4O8mCJhNhwVdkMZMunN9sV-BVoz8j
+",2019-11-26,Cortez,,55,2,Count/Cortez_2019_count.json
+"https://drive.google.com/uc?export=view&id=1K4RA6AdwysD-MDFQjIKGTOveFjotYx2o
+",2022-01-27,Sherman Height,,,2,Count/Sherman Height_2022_count.json
+"https://drive.google.com/uc?export=view&id=1gFJlbxzUqtf_ztQv_r19OEHab77K33xA
+",2022-03-01,Sherman Height,,,2,Count/Sherman Height_2022_count.json
+"https://drive.google.com/uc?export=view&id=1tT4NwcMv2icpplVzFa7uuru-mUFOmvB3
+",2022-03-29,Sherman Height,,,2,Count/Sherman Height_2022_count.json
+"https://drive.google.com/uc?export=view&id=1K1Wngbe5L0nXLf0Tep4XYNsMUcrGS1NG
+",2022-04-29,Sherman Height,,,2,Count/Sherman Height_2022_count.json
+"https://drive.google.com/uc?export=view&id=1DNNomGWc0g_xN1YAHTJnBuktX7hmlHHo
+",2022-05-27,Sherman Height,,,2,Count/Sherman Height_2022_count.json
+"https://drive.google.com/uc?export=view&id=15t2vGr61LBNvX3-5fSPna4EsAP-C7JkN
+",2022-06-30,Sherman Height,,,2,Count/Sherman Height_2022_count.json
+"https://drive.google.com/uc?export=view&id=1iVSivlVd2RVq8IMKKc5N6V242wYxbFcs
+",2022-07-29,Sherman Height,,,2,Count/Sherman Height_2022_count.json
+"https://drive.google.com/uc?export=view&id=1HChBmN5GQYlkhg-TBUTL7Y1a06Z_OKny
+",2022-08-25,Sherman Height,,,2,Count/Sherman Height_2022_count.json
+"https://drive.google.com/uc?export=view&id=1i9a3WESGIPDGNUt0sl8pB0ELlIwD4CbM
+",2022-09-30,Sherman Height,,,2,Count/Sherman Height_2022_count.json
+"https://drive.google.com/uc?export=view&id=1OXlHkKrTLbAyXv9FOIHHflR6e-CIE40m
+",2022-10-28,Sherman Height,,,2,Count/Sherman Height_2022_count.json
+"https://drive.google.com/uc?export=view&id=19L17TkUjHlEg3KWkNwNXQRiITLznjoMp
+",2022-11-23,Sherman Height,,,2,Count/Sherman Height_2022_count.json
+"https://drive.google.com/uc?export=view&id=1ALAvHKbwA3_VX4g_OXoe1sUFmieYBM4y
+",2022-12-29,Sherman Height,,,2,Count/Sherman Height_2022_count.json
+"https://drive.google.com/uc?export=view&id=1uQkdtmroSHdZTPtTU3ZJBWCht5as0Jvg
+",2021-01-28,Gaslamp,,46,2,Count/Gaslamp_2021_count.json
+"https://drive.google.com/uc?export=view&id=1gCgXkpmcZKqOnJTwMip_LTcRhY5Gd52I
+",2021-02-25,Gaslamp,,54,2,Count/Gaslamp_2021_count.json
+"https://drive.google.com/uc?export=view&id=1QfQ8p4FrKDI0W5Rm-zby5YG2RyCAZGEl
+",2021-03-25,Gaslamp,,52,2,Count/Gaslamp_2021_count.json
+"https://drive.google.com/uc?export=view&id=1n_b46dGH00uE2lurBlBuWnp-nQBAKMke
+",2021-04-29,Gaslamp,,61,2,Count/Gaslamp_2021_count.json
+"https://drive.google.com/uc?export=view&id=1dpJLb1rFTBH0cW9NT-pdWM1vG-hAwKZw
+",2021-05-27,Gaslamp,,59,2,Count/Gaslamp_2021_count.json
+"https://drive.google.com/uc?export=view&id=1u-IZoO7Fh9T44WaBfWo6OMZ3wkO7wXTH
+",2021-06-24,Gaslamp,,,2,Count/Gaslamp_2021_count.json
+"https://drive.google.com/uc?export=view&id=1rZLlHmWHuiKcDJDigjen79lEJpKGNkDU
+",2021-07-30,Gaslamp,,66,2,Count/Gaslamp_2021_count.json
+"https://drive.google.com/uc?export=view&id=1hhqQIe9jAhNzvukVUqeGwXjXbljVYr-Y
+",2021-08-27,Gaslamp,,70,2,Count/Gaslamp_2021_count.json
+"https://drive.google.com/uc?export=view&id=1HpDf6AGMNmolh-xsWlIfYoTMHFHtmqoq
+",2021-09-30,Gaslamp,,66,2,Count/Gaslamp_2021_count.json
+"https://drive.google.com/uc?export=view&id=12dDviqfg_Hmtj1VgNpsV3KzAgMF2o-yX
+",2021-10-28,Gaslamp,,61,2,Count/Gaslamp_2021_count.json
+"https://drive.google.com/uc?export=view&id=1JW88g_0-OVKaqrn6lZr1p46BEYMRQ5Jm
+",2021-11-23,Gaslamp,,59,2,Count/Gaslamp_2021_count.json
+"https://drive.google.com/uc?export=view&id=1EiZmiO2TYnsyDsNygEQDYqqFbHoEPSBt
+",2021-12-22,Gaslamp,,52,2,Count/Gaslamp_2021_count.json
+"https://drive.google.com/uc?export=view&id=1w_MIbQSENLw130XMboUkeJAHJ7vx_vqD
+",2019-01-31,Marina,,55,2,Count/Marina_2019_count.json
+"https://drive.google.com/uc?export=view&id=18y47noHf-zhJKBLsIz9eZGRwt_yab3wG
+",2019-02-27,Marina,,55,2,Count/Marina_2019_count.json
+"https://drive.google.com/uc?export=view&id=1CDmmTC4IQ2qXCwO8Om3GOZf7g3sMt4Mk
+",2019-03-01,Marina,,,2,Count/Marina_2019_count.json
+"https://drive.google.com/uc?export=view&id=1P_tEKBrXNMdCd-waVE0ETkTbGX_ZKSWI
+",2019-04-25,Marina,,59,2,Count/Marina_2019_count.json
+"https://drive.google.com/uc?export=view&id=1_JlHjJXLcS9HBdDojQD-OU5YLcR51SfT
+",2019-05-29,Marina,,60,2,Count/Marina_2019_count.json
+"https://drive.google.com/uc?export=view&id=1hOImT1D1Qk3vBX5AEuwTfJ_87zlwzVvq
+",2019-06-26,Marina,,63,2,Count/Marina_2019_count.json
+"https://drive.google.com/uc?export=view&id=15w6ItGIVfcYh2AvuJJGMjTxTeFeIk0wN
+",2019-07-24,Marina,,73,2,Count/Marina_2019_count.json
+"https://drive.google.com/uc?export=view&id=1KnA6A5RHz3ecQRM6YxTsLE9ogMVCAcQJ
+",2019-08-01,Marina,,,2,Count/Marina_2019_count.json
+"https://drive.google.com/uc?export=view&id=1DEuUWSBzK06nR06Jj-2O9l4naDRM-pp3
+",2019-09-01,Marina,,,1,Count/Marina_2019_count.json
+"https://drive.google.com/uc?export=view&id=1wT3lMCoJaFsM6zcyZRySpbMlymKNPGgd
+",2019-10-30,Marina,,,2,Count/Marina_2019_count.json
+"https://drive.google.com/uc?export=view&id=15wGRdlmbi782SPsMS6mk8nWK7AZ4kiqG
+",2019-11-26,Marina,,55,2,Count/Marina_2019_count.json
+"https://drive.google.com/uc?export=view&id=1J_KWlaYaozdQJ1-USAN01FhSfwFAdBtG
+",2021-05-27,Golden Hill,,,2,Count/Golden Hill_2021_count.json
+"https://drive.google.com/uc?export=view&id=1Lj8Ae4XUMUIRhZT5Kshm4fdKwJw2mM60
+",2021-06-24,Golden Hill,,,2,Count/Golden Hill_2021_count.json
+"https://drive.google.com/uc?export=view&id=1Ni4CMuvTtR9N0upCg2VwwqmsIHcvCMnH
+",2021-07-30,Golden Hill,,,2,Count/Golden Hill_2021_count.json
+"https://drive.google.com/uc?export=view&id=1oUaB206Xq46HAi5hgCjl9ncSXf9jySV9
+",2021-08-27,Golden Hill,,,2,Count/Golden Hill_2021_count.json
+"https://drive.google.com/uc?export=view&id=10eypInUI518GMNDszg2MJr-EkboVxDUy
+",2021-09-30,Golden Hill,,,2,Count/Golden Hill_2021_count.json
+"https://drive.google.com/uc?export=view&id=1XliDGHnr69WBoWv8SH4xU-YVVMcu8nCE
+",2021-10-28,Golden Hill,,,2,Count/Golden Hill_2021_count.json
+"https://drive.google.com/uc?export=view&id=1CyrolyyonzaZO8RZcuL485Wjcw5zHyW7
+",2021-11-23,Golden Hill,,,2,Count/Golden Hill_2021_count.json
+"https://drive.google.com/uc?export=view&id=1dEjWAZvWhexNzIad5t5Ag_kHbzk0BEgE
+",2021-12-22,Golden Hill,,,2,Count/Golden Hill_2021_count.json
+"https://drive.google.com/uc?export=view&id=1Ssx831bTWmZVVELGj2hlvZ3b5gemIDko
+",2022-01-27,East Village,,50,2,Count/East Village_2022_count.json
+"https://drive.google.com/uc?export=view&id=1-QeJIbcgTfKKXNkMe_fx-OaDeB4-mR37
+",2022-03-01,East Village,,55,2,Count/East Village_2022_count.json
+"https://drive.google.com/uc?export=view&id=1tXFmygj9QW2glxP0rchTJ9SJDQ1rufgv
+",2022-03-29,East Village,,55,2,Count/East Village_2022_count.json
+"https://drive.google.com/uc?export=view&id=1qDHPHe6KdMGkq79c47PfFH7bKGS8sMxS
+",2022-04-29,East Village,,58,2,Count/East Village_2022_count.json
+"https://drive.google.com/uc?export=view&id=1Hg83LKkgKGFGSaghHHDAXI0K0hAla84u
+",2022-05-27,East Village,,61,2,Count/East Village_2022_count.json
+"https://drive.google.com/uc?export=view&id=1cOK6q9EDwVfT0gyxgjFE-yvj-d55I3Ns
+",2022-06-30,East Village,,67,2,Count/East Village_2022_count.json
+"https://drive.google.com/uc?export=view&id=10FZE_Ugccb-9KG2LZLZttwgWOhtLD47d
+",2022-07-29,East Village,,70,2,Count/East Village_2022_count.json
+"https://drive.google.com/uc?export=view&id=1K5SwfkubWuWVL8piIkulPsAvduZavvO1
+",2022-08-25,East Village,,68,2,Count/East Village_2022_count.json
+"https://drive.google.com/uc?export=view&id=1mZcDno3R62KXS7gMMGQw4GpWC6cw5l5d
+",2022-09-30,East Village,,67,2,Count/East Village_2022_count.json
+"https://drive.google.com/uc?export=view&id=1c4TZ9VIZ1OUjOnCiHHNLgeGMtm2QyoL_
+",2022-10-28,East Village,,57,2,Count/East Village_2022_count.json
+"https://drive.google.com/uc?export=view&id=1gDtlOvbRcmPO30YDF9SgqE6zrldMdHO9
+",2022-11-23,East Village,,50,2,Count/East Village_2022_count.json
+"https://drive.google.com/uc?export=view&id=1nNeqcSO6a6p0x2CDChWap13L73Ch3EV-
+",2022-12-29,East Village,,59,2,Count/East Village_2022_count.json
+"https://drive.google.com/uc?export=view&id=1UD3Op4xNbhHwSnfK7Cj25n91gohY6TAL
+",2021-01-01,Marina,,48,2,Count/Marina_2020_count.json
+"https://drive.google.com/uc?export=view&id=1JFEdT1InoKSVAD-6X5a9kQfV5mwCzMiQ
+",2020-02-26,Marina,,55,2,Count/Marina_2020_count.json
+"https://drive.google.com/uc?export=view&id=1gOFPSCrJPSuriO_ve7kDBUTClY_d8b1G
+",2020-03-26,Marina,,55,1,Count/Marina_2020_count.json
+"https://drive.google.com/uc?export=view&id=1vQUF6aqPn9reM5YI4RFU9xSimm5aHENe
+",2020-04-30,Marina,,63,2,Count/Marina_2020_count.json
+"https://drive.google.com/uc?export=view&id=1hlmmocPlwu5nPlDCdLO6JPyQ1S-kaiEw
+",2020-05-28,Marina,,,2,Count/Marina_2020_count.json
+"https://drive.google.com/uc?export=view&id=1J1b0sUxuyqEmC7AaUe_5p0343qKGJHFa
+",2020-06-25,Marina,,60,2,Count/Marina_2020_count.json
+"https://drive.google.com/uc?export=view&id=1CI1QNuPoHTmeSsF6_z_dpRrjcd7KNYe6
+",2020-07-29,Marina,,,2,Count/Marina_2020_count.json
+"https://drive.google.com/uc?export=view&id=1gIT3PK90FCP09tPyJyKsBNSgrxGCZrBp
+",2020-08-27,Marina,,76,2,Count/Marina_2020_count.json
+"https://drive.google.com/uc?export=view&id=1mfxxTSnkaKBtHk7JoE9ibBfBqZ5oPM8Y
+",2020-09-29,Marina,,,2,Count/Marina_2020_count.json
+"https://drive.google.com/uc?export=view&id=1ozG0BfcPLX0PSswEG7RCDYOIavfUYdJI
+",2020-10-29,Marina,,61,2,Count/Marina_2020_count.json
+"https://drive.google.com/uc?export=view&id=1u27CEEdNHSL-lM3oIgMFrLjG6mfEdrgw
+",2020-11-24,Marina,,59,2,Count/Marina_2020_count.json
+"https://drive.google.com/uc?export=view&id=1Jyyt1IZT0D8H2ybdfz_AYhrI8q7awY_Q
+",2020-12-29,Marina,,53,1,Count/Marina_2020_count.json
+"https://drive.google.com/uc?export=view&id=1P-99KGv2QOerVrwIya1OO_rslVRvFTEX
+",2021-01-28,East Village,,46,2,Count/East Village_2021_count.json
+"https://drive.google.com/uc?export=view&id=1E-rqKtmpl6ctbo6TOpJt5qLaCeaC0LQz
+",2021-02-25,East Village,,55,2,Count/East Village_2021_count.json
+"https://drive.google.com/uc?export=view&id=15KR9PvnzMmBqK9EJM9XCX_ofRzauAM_c
+",2021-03-25,East Village,,54,2,Count/East Village_2021_count.json
+"https://drive.google.com/uc?export=view&id=1A90uJvViHXDXuHX2EF3M7IBkOg2MM--k
+",2021-04-29,East Village,,61,2,Count/East Village_2021_count.json
+"https://drive.google.com/uc?export=view&id=1ZIAx8yEhyotF8dyfmpTAwT9sXpMbMgdc
+",2021-05-27,East Village,,59,2,Count/East Village_2021_count.json
+"https://drive.google.com/uc?export=view&id=1xhv82ZGXauHF6BoSEozqHXTfgB5p9-1l
+",2021-06-24,East Village,,,2,Count/East Village_2021_count.json
+"https://drive.google.com/uc?export=view&id=1Xy-jCfOGxR-1YtWPsVyDcPrHvDel_Nd0
+",2021-07-30,East Village,,66,2,Count/East Village_2021_count.json
+"https://drive.google.com/uc?export=view&id=1qzG4-qufZj61sJNA3IjWOKOVzKQLIlsc
+",2021-08-27,East Village,,72,2,Count/East Village_2021_count.json
+"https://drive.google.com/uc?export=view&id=1EIxcZFlQKzCS3NVnngPnXiWhWR2Cd3KV
+",2021-09-30,East Village,,66,2,Count/East Village_2021_count.json
+"https://drive.google.com/uc?export=view&id=17u-u5Cfi3KgctfnUCXQca05RmbMosKQI
+",2021-10-28,East Village,,61,2,Count/East Village_2021_count.json
+"https://drive.google.com/uc?export=view&id=1trG7IalPt7HVmiA7vLtCXb4JbGTP_DJi
+",2021-11-23,East Village,,61,2,Count/East Village_2021_count.json
+"https://drive.google.com/uc?export=view&id=1Yx7z3xyj9cD1G2Ku24s_vcgTq838S5Wx
+",2021-12-22,East Village,,54,2,Count/East Village_2021_count.json
+"https://drive.google.com/uc?export=view&id=1Q4x2iIaHC75CqCjXXjeYfXsJQz0mBfsK
+",2022-01-27,Golden Hill,,,2,Count/Golden Hill_2022_count.json
+"https://drive.google.com/uc?export=view&id=1JSIEabY8kTqdC_qkXz375cWLupdv1tAk
+",2022-03-01,Golden Hill,,,2,Count/Golden Hill_2022_count.json
+"https://drive.google.com/uc?export=view&id=1KwHt3C67z3HN6nw50xMsC9waz6uJU1g_
+",2022-03-29,Golden Hill,,,2,Count/Golden Hill_2022_count.json
+"https://drive.google.com/uc?export=view&id=1NFvPYQ3xNrgUvAMY90Tbd03s4URl8o2l
+",2022-04-29,Golden Hill,,,2,Count/Golden Hill_2022_count.json
+"https://drive.google.com/uc?export=view&id=1axODAzv9BOjVlHQBtpIqD7qKaHV4Uh3M
+",2022-05-27,Golden Hill,,,2,Count/Golden Hill_2022_count.json
+"https://drive.google.com/uc?export=view&id=1J-GTAS2jGlqQm1OzvJy9qjc_s54Mx2cH
+",2022-06-30,Golden Hill,,,2,Count/Golden Hill_2022_count.json
+"https://drive.google.com/uc?export=view&id=1q3H3KCSD9WyZAzY_7KJuJBTZq_-h3hz2
+",2022-07-29,Golden Hill,,,2,Count/Golden Hill_2022_count.json
+"https://drive.google.com/uc?export=view&id=1O0MzwTQf-NJU4jGZoFE5nL8MFg90QfXL
+",2022-08-25,Golden Hill,,,2,Count/Golden Hill_2022_count.json
+"https://drive.google.com/uc?export=view&id=1X-xvLNyfWDjB_ACiVBUL6DMVXiSHjq1m
+",2022-09-30,Golden Hill,,,2,Count/Golden Hill_2022_count.json
+"https://drive.google.com/uc?export=view&id=1jeZZ-m2a5oOvNFTjk2vGhNYveYE46Nnj
+",2022-10-28,Golden Hill,,,2,Count/Golden Hill_2022_count.json
+"https://drive.google.com/uc?export=view&id=16RvN_pUoYTAhs4p3razhBqcOhjNwNOfL
+",2022-11-23,Golden Hill,,,2,Count/Golden Hill_2022_count.json
+"https://drive.google.com/uc?export=view&id=1936wwkS_urDIm0KY2XVJpT9t-9lVnWmv
+",2022-12-29,Golden Hill,,,2,Count/Golden Hill_2022_count.json
+"https://drive.google.com/uc?export=view&id=1-quXvc0GNjU7svP4tIIK4wqNEpNSno88
+",2021-01-28,City Center,,46,2,Count/City Center_2021_count.json
+"https://drive.google.com/uc?export=view&id=1cFqbXlMFV5V-ppHDuntQkmgIONI8juWS
+",2021-02-25,City Center,,55,2,Count/City Center_2021_count.json
+"https://drive.google.com/uc?export=view&id=1f9Zr_0JkeOIKeBJTIOWK2N9_FihSM2GR
+",2021-03-25,City Center,,54,2,Count/City Center_2021_count.json
+"https://drive.google.com/uc?export=view&id=1H8eqGjzxVmD9FEqtSwX46gxOinjPMomE
+",2021-04-29,City Center,,61,2,Count/City Center_2021_count.json
+"https://drive.google.com/uc?export=view&id=1uq3RrEHYVCsQ9s-HICa3pfu7b2i7iKIn
+",2021-05-27,City Center,,59,2,Count/City Center_2021_count.json
+"https://drive.google.com/uc?export=view&id=1XHcELSmWLCUGqZa0HQ7lez2UoYwbwBET
+",2021-06-01,City Center,,,2,Count/City Center_2021_count.json
+"https://drive.google.com/uc?export=view&id=1oFE1MChhntKGyV3rTDH9OGSiNFGksDDo
+",2021-07-30,City Center,,66,2,Count/City Center_2021_count.json
+"https://drive.google.com/uc?export=view&id=1TPcrSFjPgEr553QdR933vFd8-C7pmzuV
+",2021-08-27,City Center,,70,2,Count/City Center_2021_count.json
+"https://drive.google.com/uc?export=view&id=1DjUZoFEg_hAagWyrG_sNkC7FnmL7LJcR
+",2021-09-30,City Center,,66,2,Count/City Center_2021_count.json
+"https://drive.google.com/uc?export=view&id=1Nk2roOnNWz_zJGq_kr6RMLkt8WC1kDLP
+",2021-10-28,City Center,,61,2,Count/City Center_2021_count.json
+"https://drive.google.com/uc?export=view&id=1CFjNNuZZ1Z26WcVPjN2N1pVdRJyCLpe1
+",2021-11-23,City Center,,59,2,Count/City Center_2021_count.json
+"https://drive.google.com/uc?export=view&id=1O5Lauo5EWQ60TcILmDn2QPdIUpLcFNzo
+",2021-12-22,City Center,,54,2,Count/City Center_2021_count.json
+"https://drive.google.com/uc?export=view&id=12xgzo05bPEMmcr-0MFAiFE86s6rOtoJP
+",2022-01-27,Columbia,,48,2,Count/Columbia_2022_count.json
+"https://drive.google.com/uc?export=view&id=1kbs9tKp_DnRtg8NzNhTMaPj7H0n_NJLx
+",2022-03-01,Columbia,,54,2,Count/Columbia_2022_count.json
+"https://drive.google.com/uc?export=view&id=1L8_xGqJ3fQBN4SXvcPEF4AFiZPdfRU9p
+",2022-03-29,Columbia,,55,2,Count/Columbia_2022_count.json
+"https://drive.google.com/uc?export=view&id=1992xIeDr6Iz4_JbmbPMYx2hrj09tbJWc
+",2022-04-29,Columbia,,55,2,Count/Columbia_2022_count.json
+"https://drive.google.com/uc?export=view&id=1Aha-nSDs4PaLlzNY5FpqoVk75YNx4O4L
+",2022-05-27,Columbia,,61,2,Count/Columbia_2022_count.json
+"https://drive.google.com/uc?export=view&id=14TC9eKafp9urJCWqbYstOT12IHHR9S4y
+",2022-06-30,Columbia,,67,2,Count/Columbia_2022_count.json
+"https://drive.google.com/uc?export=view&id=1SA4OWaWMnQXBYICf6Njf6ej42a5o-ofk
+",2022-07-29,Columbia,,70,2,Count/Columbia_2022_count.json
+"https://drive.google.com/uc?export=view&id=13Je-_TyQWnLgyL00FxAb9lidW7MXBHm2
+",2022-08-25,Columbia,,68,2,Count/Columbia_2022_count.json
+"https://drive.google.com/uc?export=view&id=1_43cswrv_720AiCAfmFTj0HgShwyFbwD
+",2022-09-30,Columbia,,67,2,Count/Columbia_2022_count.json
+"https://drive.google.com/uc?export=view&id=15DJzhLMSWYnJW4mpPCAjoRB5jTPBp1qY
+",2022-10-28,Columbia,,57,2,Count/Columbia_2022_count.json
+"https://drive.google.com/uc?export=view&id=1dqnu1felW8hJJRSoMp_KRTrDDWLauYqp
+",2022-11-23,Columbia,,50,2,Count/Columbia_2022_count.json
+"https://drive.google.com/uc?export=view&id=18cb76MUM8c-HRpLaDt9jCZf2jGYhBb7c
+",2022-12-29,Columbia,,59,2,Count/Columbia_2022_count.json
+"https://drive.google.com/uc?export=view&id=17t2YDy4VwYw35yfGHiDyXSFhRt9ln7z4
+",2022-01-27,East Village South,,52,2,Count/East Village South_2022_count.json
+"https://drive.google.com/uc?export=view&id=1MG2VAO_3135Qm4lteKZJeBlmXrbfAPrJ
+",2022-02-01,East Village South,,56,2,Count/East Village South_2022_count.json
+"https://drive.google.com/uc?export=view&id=13VnDPxFccuyacazTWbUVlSEGj4hBi1JQ
+",2022-03-29,East Village South,,55,2,Count/East Village South_2022_count.json
+"https://drive.google.com/uc?export=view&id=1BcQDPzWGhFnWJHcc0ZtsY7WZGBfRu8w-
+",2022-04-29,East Village South,,58,2,Count/East Village South_2022_count.json
+"https://drive.google.com/uc?export=view&id=1dHge2A2RJaA3FH2wyDLrtgDr5PS5Ns5_
+",2022-05-27,East Village South,,61,2,Count/East Village South_2022_count.json
+"https://drive.google.com/uc?export=view&id=1WXVznBYZmcfHR88fmY9WGDJPyJgBmBIj
+",2022-06-22,East Village South,,67,2,Count/East Village South_2022_count.json
+"https://drive.google.com/uc?export=view&id=1s64grHT85OJZblAugXjzHdwg-MlDmPmi
+",2022-07-29,East Village South,,70,2,Count/East Village South_2022_count.json
+"https://drive.google.com/uc?export=view&id=1DJM-aYOV6fayWjWJrUhnV3SBGYlY7WVY
+",2022-08-25,East Village South,,68,2,Count/East Village South_2022_count.json
+"https://drive.google.com/uc?export=view&id=1Q_al-1u42wkGFVsZtnWS2l0Ol7QjR3zb
+",2022-09-30,East Village South,,67,2,Count/East Village South_2022_count.json
+"https://drive.google.com/uc?export=view&id=1DkAPadlZe5TuiCLbquZdwWg_ZoWoeKyh
+",2022-10-28,East Village South,,57,2,Count/East Village South_2022_count.json
+"https://drive.google.com/uc?export=view&id=1HBGN6jb_1H3tC2eBYnHRbO_WjGBiL9Zu
+",2022-11-23,East Village South,,50,2,Count/East Village South_2022_count.json
+"https://drive.google.com/uc?export=view&id=1Q6FrnqKT2ILGjcnYnNtozfDL9jgy2Iww
+",2022-12-29,East Village South,,,2,Count/East Village South_2022_count.json
+"https://drive.google.com/uc?export=view&id=1KzODuR2syysVKBOjkTq0LcG8bNGuQ--3
+",2020-01-01,Cortez,,48,2,Count/Cortez_2020_count.json
+"https://drive.google.com/uc?export=view&id=1ty9xqXqc4GWUkbTVqt8lGMZce0TMCXU0
+",2020-02-26,Cortez,,55,2,Count/Cortez_2020_count.json
+"https://drive.google.com/uc?export=view&id=16XnK8mHJUZhc_DrTdIMVypIAJzUnSgPP
+",2020-03-26,Cortez,,55,1,Count/Cortez_2020_count.json
+"https://drive.google.com/uc?export=view&id=1AjO-sR0EmucecxO49bFDsqgCwXOEYGOt
+",2020-04-30,Cortez,,,2,Count/Cortez_2020_count.json
+"https://drive.google.com/uc?export=view&id=136oiqanNwgEDEKxI5LyX8jPx36dH0RPh
+",2020-05-01,Cortez,,,2,Count/Cortez_2020_count.json
+"https://drive.google.com/uc?export=view&id=18HzcQ0AY9rdQ4Q4glwMBmYIVqgkBq751
+",2020-06-25,Cortez,,60,2,Count/Cortez_2020_count.json
+"https://drive.google.com/uc?export=view&id=1lHJALPX7f5s6Qoc4hOjirf1K1w-SGosH
+",2020-07-29,Cortez,,64,2,Count/Cortez_2020_count.json
+"https://drive.google.com/uc?export=view&id=1p8Jb1OdwlCRMH7EM22d6eBKEszBmV7-e
+",2020-08-27,Cortez,,74,2,Count/Cortez_2020_count.json
+"https://drive.google.com/uc?export=view&id=1JeIO3LT9B-za2nQy_VA-HvjfwIRn15hu
+",2020-09-29,Cortez,,70,2,Count/Cortez_2020_count.json
+"https://drive.google.com/uc?export=view&id=1qDVzD2hVI7yW34CPEqew_V_OcB3Kv6zf
+",2020-10-29,Cortez,,61,2,Count/Cortez_2020_count.json
+"https://drive.google.com/uc?export=view&id=14tuVLLM1NPGz3TeiYoM8GNJg5aetSylq
+",2020-11-24,Cortez,,59,2,Count/Cortez_2020_count.json
+"https://drive.google.com/uc?export=view&id=1IMsurPTfAepRTIhJi8a_J0bST1hY6E-i
+",2020-12-29,Cortez,,53,1,Count/Cortez_2020_count.json
+"https://drive.google.com/uc?export=view&id=1fkcIu-pbR9lz7Ipu76-TIA6SuuEYEm37
+",2021-05-27,Sherman Height,,,2,Count/Sherman Height_2021_count.json
+"https://drive.google.com/uc?export=view&id=12SDFZYyZdtZIno3Qmp3226xwEt4aObbz
+",2021-06-24,Sherman Height,,,2,Count/Sherman Height_2021_count.json
+"https://drive.google.com/uc?export=view&id=1Zb2WTZlz7sHgCeeAZTcFYmrFFw2Y_gZp
+",2021-07-30,Sherman Height,,,2,Count/Sherman Height_2021_count.json
+"https://drive.google.com/uc?export=view&id=1aQedr8rzCfNHYkL2_R-GfU1YeGwRFi67
+",2021-08-27,Sherman Height,,,2,Count/Sherman Height_2021_count.json
+"https://drive.google.com/uc?export=view&id=1OqB_YymJncu2TjN1q2bI5lwBykbJNCk5
+",2021-09-30,Sherman Height,,,2,Count/Sherman Height_2021_count.json
+"https://drive.google.com/uc?export=view&id=1YSr11zVKNsp4EL-XojZkwd4MYLHY9pfW
+",2021-10-28,Sherman Height,,,2,Count/Sherman Height_2021_count.json
+"https://drive.google.com/uc?export=view&id=1Mys0HZa10JcA3LcTxCvMQSONGlFgYXQd
+",2021-11-23,Sherman Height,,,2,Count/Sherman Height_2021_count.json
+"https://drive.google.com/uc?export=view&id=1VfIM7eh6vMEsGvLbBSB6UUzApd3Vsup_
+",2021-12-22,Sherman Height,,,2,Count/Sherman Height_2021_count.json
+"https://drive.google.com/uc?export=view&id=1wRDD6VqlX6PNHG5stKR8bZcFPAOm7OK7
+",2022-01-27,Gaslamp,,48,2,Count/Gaslamp_2022_count.json
+"https://drive.google.com/uc?export=view&id=1Rzx7_fNun25_2Qd8RUYrv2Opr5iYDd25
+",2022-03-01,Gaslamp,,54,2,Count/Gaslamp_2022_count.json
+"https://drive.google.com/uc?export=view&id=14ZC0OBtrk75PFSEU2_oXOjw2SWCDB6h6
+",2022-03-29,Gaslamp,,55,2,Count/Gaslamp_2022_count.json
+"https://drive.google.com/uc?export=view&id=1Jk1p94LmGAcG2lO0Hjdw1LuTrCez_13M
+",2022-04-29,Gaslamp,,56,2,Count/Gaslamp_2022_count.json
+"https://drive.google.com/uc?export=view&id=1eBlW6LuQbrqb3BQsdcsj7mOqzIFRkT8Z
+",2022-05-27,Gaslamp,,61,2,Count/Gaslamp_2022_count.json
+"https://drive.google.com/uc?export=view&id=1XjBhIT8xcavDqORne2ZC1DUZx7H5k648
+",2022-06-30,Gaslamp,,67,2,Count/Gaslamp_2022_count.json
+"https://drive.google.com/uc?export=view&id=1wNfjk1R7D97L_OVtpSv3E2YbjwesXa3K
+",2022-07-29,Gaslamp,,70,2,Count/Gaslamp_2022_count.json
+"https://drive.google.com/uc?export=view&id=1rM52xBz0FWtUbDA6pTrP3AMvgq_-ekCd
+",2022-08-25,Gaslamp,,68,2,Count/Gaslamp_2022_count.json
+"https://drive.google.com/uc?export=view&id=1XWOXBlVw3SjnIVLkd77jm0Xdj_an0v0A
+",2022-09-30,Gaslamp,,67,2,Count/Gaslamp_2022_count.json
+"https://drive.google.com/uc?export=view&id=1-fX8Zc7gzmQjgGR5MEohf8lPONb6_q69
+",2022-10-28,Gaslamp,,57,2,Count/Gaslamp_2022_count.json
+"https://drive.google.com/uc?export=view&id=1fM6cN3rVVW3WIFctsvqkbYV379zbOwY2
+",2022-11-23,Gaslamp,,50,2,Count/Gaslamp_2022_count.json
+"https://drive.google.com/uc?export=view&id=1PthnzWCvVV-rRKyVt3EXOiHj5bspYw1e
+",2022-12-29,Gaslamp,,59,2,Count/Gaslamp_2022_count.json
+"https://drive.google.com/uc?export=view&id=1v2t9rbfMhyDSTYhdrJyVDFqqO4ao9GwT
+",2022-01-27,Marina,,48,2,Count/Marina_2022_count.json
+"https://drive.google.com/uc?export=view&id=134U0zDvtSC3u-Ykoi4877xBFEGgbERxB
+",2022-03-01,Marina,,54,2,Count/Marina_2022_count.json
+"https://drive.google.com/uc?export=view&id=1mXGPg6Z2ECh0VObEMqr74iaF6IlN1AlR
+",2022-03-29,Marina,,55,2,Count/Marina_2022_count.json
+"https://drive.google.com/uc?export=view&id=1vnrIRBHIfn0N0GKFQIumygirrUXdAn-U
+",2022-04-29,Marina,,55,2,Count/Marina_2022_count.json
+"https://drive.google.com/uc?export=view&id=1dotg69Glm_Sc-BRcJSsBOsYPax3_j__G
+",2022-05-27,Marina,,61,2,Count/Marina_2022_count.json
+"https://drive.google.com/uc?export=view&id=1tzi0phjEbIeDjGEWOv3orNBu-vdMadnC
+",2022-06-30,Marina,,67,2,Count/Marina_2022_count.json
+"https://drive.google.com/uc?export=view&id=1FvvFuLvS2PQ3Ru4OKrq_akVZaUCIV5TI
+",2022-07-29,Marina,,70,2,Count/Marina_2022_count.json
+"https://drive.google.com/uc?export=view&id=11YYBXszE_I7x663zeX70_t8vxvgYTsLn
+",2022-08-25,Marina,,68,2,Count/Marina_2022_count.json
+"https://drive.google.com/uc?export=view&id=1U5RtrB7adzZE43rtcKKz7YEVA507Ilxt
+",2022-09-30,Marina,,,2,Count/Marina_2022_count.json
+"https://drive.google.com/uc?export=view&id=145uEVJZMg7wIt1-fw9v_j5CEGa7Y6hSo
+",2022-10-28,Marina,,57,2,Count/Marina_2022_count.json
+"https://drive.google.com/uc?export=view&id=1GIMbJxOWhw_4nmETgOYpN5WhplYzkaZy
+",2022-11-23,Marina,,50,2,Count/Marina_2022_count.json
+"https://drive.google.com/uc?export=view&id=1rh0JD8wVFi4zIV-WbP3D5sH_9VTLbi4G
+",2022-12-29,Marina,,59,2,Count/Marina_2022_count.json
+"https://drive.google.com/uc?export=view&id=1LQ_PRKI0k0LimFVuGAI_wEfuiJq6c6Yn
+",2019-01-31,East Village,,55,2,Count/East Village_2019_count.json
+"https://drive.google.com/uc?export=view&id=1MisQCJiDe2LpfZ-LlgGuRVVkAYNMiYjQ
+",2019-02-27,East Village,,55,2,Count/East Village_2019_count.json
+"https://drive.google.com/uc?export=view&id=1Jf_LL8gBgCUjvVw55aLLidO0D7zXIzC7
+",2019-03-01,East Village,,,2,Count/East Village_2019_count.json
+"https://drive.google.com/uc?export=view&id=1wol81xePB0Akl-6boE0wPYy5CI2J5rw4
+",2019-04-25,East Village,,59,2,Count/East Village_2019_count.json
+"https://drive.google.com/uc?export=view&id=1nV2LyKCyUSpAsGk6xkbQ87lVkUlj_OPQ
+",2019-05-29,East Village,,60,2,Count/East Village_2019_count.json
+"https://drive.google.com/uc?export=view&id=1dkMoB5G5SqSuXqrnGEtNwp4g5fkarDYy
+",2019-06-26,East Village,,63,2,Count/East Village_2019_count.json
+"https://drive.google.com/uc?export=view&id=1aaoQk_9m4bhHQDtv1cJvBlErCTdcQMoi
+",2019-07-24,East Village,,73,2,Count/East Village_2019_count.json
+"https://drive.google.com/uc?export=view&id=1DNhro3EZhc8FBJSwbevTdi02J2fm4Q_y
+",2019-08-01,East Village,,,2,Count/East Village_2019_count.json
+"https://drive.google.com/uc?export=view&id=192YWD-z6GXrwxZ6yKa7y3seAU7uevPhL
+",2019-09-01,East Village,,,1,Count/East Village_2019_count.json
+"https://drive.google.com/uc?export=view&id=12kKk06fOSIXauqYt0dX13i26pl_zTJrU
+",2019-10-30,East Village,,,2,Count/East Village_2019_count.json
+"https://drive.google.com/uc?export=view&id=1DjMrlyK7EPpFi241qQtCAylH6S2QN0eS
+",2019-11-26,East Village,,55,2,Count/East Village_2019_count.json
+"https://drive.google.com/uc?export=view&id=1SD801gPZJOLjfKDe0-JBVS_ncqr5KZEL
+",2022-01-27,Barrio Logan,,,2,Count/Barrio Logan_2022_count.json
+"https://drive.google.com/uc?export=view&id=15hSm9tTuktVaMMGr9pT8BxW6vb_Fk7m4
+",2022-03-01,Barrio Logan,,,2,Count/Barrio Logan_2022_count.json
+"https://drive.google.com/uc?export=view&id=1gdYu_eshlXnS5Vgl5fxUp6prU2BNh16g
+",2022-03-01,Barrio Logan,,,2,Count/Barrio Logan_2022_count.json
+"https://drive.google.com/uc?export=view&id=1QZVeH22lk52XNV-hy1QbFwkVzL_o95al
+",2022-04-29,Barrio Logan,,,2,Count/Barrio Logan_2022_count.json
+"https://drive.google.com/uc?export=view&id=19mFnpQYFbUpu320Iwmhd9Nfw4hhZ4x08
+",2022-05-27,Barrio Logan,,,2,Count/Barrio Logan_2022_count.json
+"https://drive.google.com/uc?export=view&id=1sT-I5VeAdaW4K4IEgqJz9ShUCYDB4vtH
+",2022-06-01,Barrio Logan,,,2,Count/Barrio Logan_2022_count.json
+"https://drive.google.com/uc?export=view&id=144F0aPYTQ0JLQA1Wdd7Ecun4HN9DVCLv
+",2022-07-01,Barrio Logan,,,2,Count/Barrio Logan_2022_count.json
+"https://drive.google.com/uc?export=view&id=146b1VZKq8Izf2hmzqUhi6sOpA5iVnuFA
+",2022-08-01,Barrio Logan,,,2,Count/Barrio Logan_2022_count.json
+"https://drive.google.com/uc?export=view&id=19ppYthokhlt7rl4zLuDyzOWmDWBo98G7
+",2022-09-01,Barrio Logan,,,2,Count/Barrio Logan_2022_count.json
+"https://drive.google.com/uc?export=view&id=12RVwJWcbA5Sw9AvVGH_5aRHLAyDCIvVl
+",2022-10-01,Barrio Logan,,,2,Count/Barrio Logan_2022_count.json
+"https://drive.google.com/uc?export=view&id=1flEWsKci1bsoLCsxUPdRwKQU9eJ2yO3B
+",2022-11-01,Barrio Logan,,,2,Count/Barrio Logan_2022_count.json
+"https://drive.google.com/uc?export=view&id=1WjHPFJbhiCNXnQILkb6jDkksl2V9bpEn
+",2022-12-01,Barrio Logan,,,2,Count/Barrio Logan_2022_count.json
+"https://drive.google.com/uc?export=view&id=107JASMcwG6HC3Eo0MWxIiQXyLz6V2sLP
+",2022-01-27,Cortez,,50,2,Count/Cortez_2022_count.json
+"https://drive.google.com/uc?export=view&id=1H4OlqGzVi2pRcFCqv-a8EYE05Nprjiwg
+",2022-03-01,Cortez,,55,2,Count/Cortez_2022_count.json
+"https://drive.google.com/uc?export=view&id=1IKub0XpDRiKVwD4nIKigXc9IlRbAnt7y
+",2022-03-29,Cortez,,55,2,Count/Cortez_2022_count.json
+"https://drive.google.com/uc?export=view&id=1yOrAPFbPOpWADM33XNjHtks7cVoT_3Eg
+",2022-04-29,Cortez,,57,2,Count/Cortez_2022_count.json
+"https://drive.google.com/uc?export=view&id=16s_t5uyuNkA2jTNU8jWjYv_HqXyJ7f8Z
+",2022-05-27,Cortez,,61,2,Count/Cortez_2022_count.json
+"https://drive.google.com/uc?export=view&id=1Kra02z5xmvPMAY66ozBub63RgIsi_fIO
+",2022-06-30,Cortez,,67,2,Count/Cortez_2022_count.json
+"https://drive.google.com/uc?export=view&id=1WwxA36v23x27hmUYUpXhqvCbHbkWr7zh
+",2022-07-29,Cortez,,70,2,Count/Cortez_2022_count.json
+"https://drive.google.com/uc?export=view&id=1qUZmXUPGPwgYFRs96zR-oUy5-YJmyqlW
+",2022-08-25,Cortez,,68,2,Count/Cortez_2022_count.json
+"https://drive.google.com/uc?export=view&id=1oXq2RPUaetSuA9VGcQ7lwqam3ECmkPgV
+",2022-09-30,Cortez,,67,2,Count/Cortez_2022_count.json
+"https://drive.google.com/uc?export=view&id=1sptrg9XROE1fVyPKO8WhdP-k16as-Nok
+",2022-10-28,Cortez,,57,2,Count/Cortez_2022_count.json
+"https://drive.google.com/uc?export=view&id=1Z8d_6se08ypzSrLyzrToyWIUdj_jZhfp
+",2022-11-23,Cortez,,50,2,Count/Cortez_2022_count.json
+"https://drive.google.com/uc?export=view&id=1r15acW-XodD2srfYZ6QT82c9c4_v17ZW
+",2022-12-29,Cortez,,59,2,Count/Cortez_2022_count.json
+"https://drive.google.com/uc?export=view&id=1Gt_Ulr8FjbDJtKk6yY8XlGzS3jtyagBG
+",2020-01-01,Columbia,,48,2,Count/Columbia_2020_count.json
+"https://drive.google.com/uc?export=view&id=1dzGXSMVjdqz3dS-ulrPWFk08SNGwbp_w
+",2020-02-26,Columbia,,55,2,Count/Columbia_2020_count.json
+"https://drive.google.com/uc?export=view&id=1xyc9murWg5F55nEng39dXg34RczzqILN
+",2020-03-26,Columbia,,55,1,Count/Columbia_2020_count.json
+"https://drive.google.com/uc?export=view&id=1gIBE8cIabyeNohxEyHkWm7ejY8M_F5YZ
+",2020-04-30,Columbia,,,2,Count/Columbia_2020_count.json
+"https://drive.google.com/uc?export=view&id=17hkC62XS3FINvKNQN5udDMpTY1da_ccB
+",2020-05-28,Columbia,,,2,Count/Columbia_2020_count.json
+"https://drive.google.com/uc?export=view&id=11Bdlbt2rw7PGpjWvfqiN2d_uYq29RL8G
+",2020-06-25,Columbia,,60,2,Count/Columbia_2020_count.json
+"https://drive.google.com/uc?export=view&id=1LL6YxZCrw24Bhl392Vnh0WiCPy7gD2Dn
+",2020-07-29,Columbia,,64,2,Count/Columbia_2020_count.json
+"https://drive.google.com/uc?export=view&id=1xsYk3jwhD1nUUMXhoQA8LNWgvbUXTFhI
+",2020-08-27,Columbia,,76,2,Count/Columbia_2020_count.json
+"https://drive.google.com/uc?export=view&id=1AXvtpK52XUh12UZqt42hA2Z63Jf9655z
+",2020-09-29,Columbia,,70,2,Count/Columbia_2020_count.json
+"https://drive.google.com/uc?export=view&id=19z0ymgspQXnXiVj8uPHNGR5dG9farIap
+",2020-10-01,Columbia,,61,2,Count/Columbia_2020_count.json
+"https://drive.google.com/uc?export=view&id=10poS3xIt-gHZaRY8BBLywTtlaYC6-FMZ
+",2020-11-24,Columbia,,59,2,Count/Columbia_2020_count.json
+"https://drive.google.com/uc?export=view&id=1hIFzvV-5-O5jkG5TTcjFiKUkSBweeXF4
+",2020-12-29,Columbia,,53,1,Count/Columbia_2020_count.json
+"https://drive.google.com/uc?export=view&id=1tpbGnwWhz72qXUuPe0z_UWSoSx8V_pd7
+",2020-01-01,East Village South,,48,2,Count/East Village South_2020_count.json
+"https://drive.google.com/uc?export=view&id=166AZTAzTEvxVS1ygg77s-4GjsBn31Pst
+",2020-02-26,East Village South,,55,2,Count/East Village South_2020_count.json
+"https://drive.google.com/uc?export=view&id=1ipRjN1IMO8oMT0lLCy1q4mbSLgN7ARMC
+",2020-03-26,East Village South,,55,2,Count/East Village South_2020_count.json
+"https://drive.google.com/uc?export=view&id=1MA9rrb-kQLwzhqnGMns4HjzaAxrA2cyp
+",2020-04-30,East Village South,,63,2,Count/East Village South_2020_count.json
+"https://drive.google.com/uc?export=view&id=1k_RODyEeldinCz_T-NrtrdUD4LcCJHME
+",2020-05-01,East Village South,,,2,Count/East Village South_2020_count.json
+"https://drive.google.com/uc?export=view&id=1FHFOrbE1s7OY-7gdemJJZBkRhqQrcExx
+",2020-06-25,East Village South,,60,2,Count/East Village South_2020_count.json
+"https://drive.google.com/uc?export=view&id=1_Ku4FaybtgRAlG4WE6P57v_gOxdufK-B
+",2020-07-29,East Village South,,67,2,Count/East Village South_2020_count.json
+"https://drive.google.com/uc?export=view&id=1lgU5SFxtVA2LwMnBXX0czjAnUZmWlcZv
+",2020-08-01,East Village South,,,2,Count/East Village South_2020_count.json
+"https://drive.google.com/uc?export=view&id=1N5wkOxHJNZae5yRTbZA7H5KFBYfpgHrW
+",2020-09-29,East Village South,,70,2,Count/East Village South_2020_count.json
+"https://drive.google.com/uc?export=view&id=1L0qzDwghqgL1VNpUklkLKvNq_NlhdV53
+",2020-10-29,East Village South,,61,2,Count/East Village South_2020_count.json
+"https://drive.google.com/uc?export=view&id=15n8926qbueHx58Qenj93VlvSAmQND8vb
+",2020-11-24,East Village South,,59,2,Count/East Village South_2020_count.json
+"https://drive.google.com/uc?export=view&id=18OC-wEsjejglo6IfQOcsQnl27ifgS4KJ
+",2020-12-29,East Village South,,53,2,Count/East Village South_2020_count.json
+"https://drive.google.com/uc?export=view&id=1kmTnx8ft3lwAPN3yR5y9tzzKKY6ro7aY
+",2020-01,Gaslamp,,48,2,Count/Gaslamp_2020_count.json
+"https://drive.google.com/uc?export=view&id=1SgK1ALhq7NtWmmUWZO7OEP7pUTMWA9OL
+",2020-02-26,Gaslamp,,55,2,Count/Gaslamp_2020_count.json
+"https://drive.google.com/uc?export=view&id=1mOFcsRL0-gvfwuYkIBDWGcmMLIFfAlO7
+",2020-03-26,Gaslamp,,55,1,Count/Gaslamp_2020_count.json
+"https://drive.google.com/uc?export=view&id=1SXXH0TY68zp3KgJ3haG73D9CIMO3QQJk
+",2020-04-30,Gaslamp,,63,2,Count/Gaslamp_2020_count.json
+"https://drive.google.com/uc?export=view&id=1l8cfiy0xp1UnlCRwgGktOcnFnMa8J6mQ
+",2020-05-28,Gaslamp,,,2,Count/Gaslamp_2020_count.json
+"https://drive.google.com/uc?export=view&id=1crE0RwAKZvIl0KWeMCBgOBBwWYvYpaAd
+",2020-06-25,Gaslamp,,60,2,Count/Gaslamp_2020_count.json
+"https://drive.google.com/uc?export=view&id=1xnb36ikoavkB_DN_40K0UH6s-LhdqDCi
+",2020-07-29,Gaslamp,,64,2,Count/Gaslamp_2020_count.json
+"https://drive.google.com/uc?export=view&id=1NeoQngdmEUe-WjIKGVro3FL8Lt91Fg2l
+",2020-08-27,Gaslamp,,76,2,Count/Gaslamp_2020_count.json
+"https://drive.google.com/uc?export=view&id=1jGh7ANG63RQIq1clI4FjDim5DNVFI1rl
+",2020-09-29,Gaslamp,,70,2,Count/Gaslamp_2020_count.json
+"https://drive.google.com/uc?export=view&id=12vqA90mBKjCHum3HYobsLOpEL3C2FXKA
+",2020-10-29,Gaslamp,,61,2,Count/Gaslamp_2020_count.json
+"https://drive.google.com/uc?export=view&id=1nhow0KfiLt-VCS01gVVedD4nDQpNe3cw
+",2020-11-24,Gaslamp,,59,2,Count/Gaslamp_2020_count.json
+"https://drive.google.com/uc?export=view&id=1pLXU6vLdwSHTgxtzeQ8yq2t7cIAgjArz
+",2020-12-29,Gaslamp,,53,1,Count/Gaslamp_2020_count.json
