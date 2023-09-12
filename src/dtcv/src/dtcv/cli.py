@@ -46,26 +46,21 @@ def parse_args(args):
 
     cwd = Path().cwd()
 
-    parser.add_argument('source_dir', default=cwd, nargs='?',
-                        help='Source directory for GCP files. If none, get files from S3')
+    parser.add_argument('-c', '--counts', default=False,type=lambda p: Path(p) if p is not False else False,
+                        help='Process counts from the given directory')
 
-    parser.add_argument('-c', '--counts', default=cwd.joinpath('Counts'), help='Process counts from the given directory')
-
-    parser.add_argument('-g', '--gcp', default=cwd.joinpath('GCP'), help='Process ground control points from the given directory')
+    parser.add_argument('-g', '--gcp',  default=False,type=lambda p: Path(p)if p is not False else False,
+                        help='Process ground control points from the given directory')
 
     parser.add_argument('-f', '--final', action='store_true', help='Create final datasets')
 
-    parser.add_argument('-i', '--intersections', default=None, help='Path to intersections file')
+    parser.add_argument('-i', '--intersections', default=None, help='Path to intersections file, required for GCP processing')
 
-
-    parser.add_argument('dest_dir', default=None, nargs='?',
+    parser.add_argument('dest_dir', default=cwd.joinpath('output'), nargs='?',
+                        type=lambda p: Path(p),
                         help='Destination directory for output files')
 
     pa = parser.parse_args()
-
-    # If only one if given, it is the destination directory
-    if (pa.source_dir and not pa.dest_dir):
-        pa.source_dir, pa.dest_dir = pa.dest_dir, pa.source_dir
 
     return pa
 
@@ -85,37 +80,30 @@ def run():
     """Entry point for console_scripts
     """
 
+
     args = parse_args(sys.argv[1:])
     setup_logging(args.loglevel)
 
-    if args.dest_dir:
-        dest = Path(args.dest_dir)
-    else:
-        dest = Path.cwd()
+    dest = Path(args.dest_dir)
 
     if not dest.exists():
         dest.mkdir(parents=True)
 
-    if args.source_dir:
-        source = Path(args.source_dir)
-    else:
-        source = None
-
     if not any([args.gcp, args.counts, args.final ]):
-        args.gcp, args.counts, args.final = True, True, True
-        print("Source", source)
-        print("Dest", dest)
+        args.final = True
+        args.gcp = Path().cwd().joinpath('GCP').absolute()
+        args.counts = Path().cwd().joinpath('Count').absolute()
 
 
-    if args.gcp:
-        load_gcp(args, source, dest)
+    if args.gcp is not False:
+        load_gcp(args, args.gcp, dest)
 
-    if args.counts:
-        load_counts(args, source, dest)
+    if args.counts is not False:
+        load_counts(args, args.counts, dest)
 
     if args.final:
-        run_clean_files(args, source, dest)
-        run_clean_counts(args, source, dest)
+        run_clean_files(dest)
+        run_clean_counts(dest)
 
 
 if __name__ == "__main__":
@@ -123,8 +111,7 @@ if __name__ == "__main__":
 
 
 def load_gcp(args, source, dest):
-    if not dest.exists():
-        dest.mkdir(parents=True)
+
 
     intr_gpd = intersections_df(args.intersections)
 
@@ -151,7 +138,7 @@ def load_counts(args, source, dest):
     fdf.to_csv(fdf_out, index=False)
 
 
-def run_clean_files(args, source, dest):
+def run_clean_files(dest):
 
     fdf_out = dest.joinpath('raw_file_annotations.csv')
 
@@ -163,7 +150,7 @@ def run_clean_files(args, source, dest):
     df.to_csv(fdf_out, index=False)
 
 
-def run_clean_counts(args, source, dest):
+def run_clean_counts(dest):
 
     rc_df = pd.read_csv(dest.joinpath('raw_count_annotations.csv'))
 

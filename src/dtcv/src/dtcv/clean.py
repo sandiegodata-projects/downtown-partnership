@@ -8,6 +8,11 @@ import pandas as pd
 from dtcv.pt_lib import transform_point, invert_point
 from shapely.geometry import Polygon
 from pathlib import Path
+import logging
+
+logger = logging.getLogger('gcp')
+
+
 def uninvert_point(p):
     x, y = p
 
@@ -123,10 +128,12 @@ def clean_file_annotations(file_df):
         # The url structure was idosyncratic to the first round of the project, the 2023
         # the 2023 update did not have this structure.
 
+        fa['url_neighborhood'] = fa.image_url.apply(lambda v: v.strip().split('/')[-2])
+
         fa['url_year'] = fa.image_url.apply(lambda v: int(Path(v.strip()).stem[0:4]))
         fa['url_month'] = fa.image_url.apply(lambda v: int(Path(v.strip()).stem[4:6]))
-        fa['url_date'] = pd.to_datetime(fa.apply(lambda r: r.date if r.date else f'{r.url_year}-{r.url_month:02d}-01', axis=1))
-        fa['url_neighborhood'] = fa.image_url.apply(lambda v: v.strip().split('/')[-2])
+        fa['url_date'] = pd.to_datetime(fa.apply(lambda r:  f'{r.url_year}-{r.url_month:02d}-01', axis=1))
+
 
         # Fix Dates. Maps for November 2016 and October 2016 both have
         # dates of enumeration in October 2016. The maps with enumeration dates
@@ -145,27 +152,28 @@ def clean_file_annotations(file_df):
 
         fa['date'] = None
     except ValueError:
-        pass
 
-    try:
         fa['url_year'] = None
         fa['url_month'] = None
         fa['url_neighborhood'] = None
         fa['url_date'] = None
 
-        fa['date'] = pd.to_datetime(fa.date)
-    except:
-        # Don't know what exception will get thrown if there is not date column in the file, but
-        # we will find out eventually
-        raise
+    if fa[fa.date.isnull()].shape[0] > 0:
+        try:
+            fa['date'] = pd.to_datetime(fa.date)
+        except:
+            # Don't know what exception will get thrown if there is not date column in the file, but
+            # we will find out eventually
+            raise
 
     if fa[fa.date.isnull()].shape[0] > 0:
         fa['date'] = fa['url_date']
 
     if fa[fa.date.isnull()].shape[0] > 0:
-        raise Exception('There are still null dates')
+        nd = fa[fa.date.isnull()]
+        print(nd)
+        logger.error(f'There are still {nd.shape[0]}  null dates')
 
-    pd.set_option('display.width', 1000)
 
     def file_id_hash(v):
         # Git rid of digits, so Excel doesn't mangle the ids.

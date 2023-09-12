@@ -24,7 +24,7 @@ def get_gcp_files():
             yield download_to_file(url)
 
 
-def extract_gcp_annotations(o):
+def extract_gcp_annotations(fn, o):
     """Extract GCP data from VIA JSON file data"""
 
     cols = 'x y width height'.split()
@@ -35,7 +35,14 @@ def extract_gcp_annotations(o):
     neib_map = {}
 
     for k, v in d.items():
-        neib_map[k] = v['file_attributes']['neighborhood']
+        try:
+            # For 2023, the neighborhood is a file attribute
+            neighborhood = v['file_attributes']['neighborhood'].lower().replace(' ','_')
+        except KeyError:
+            # For 2019, the neighborhood was part of the file name
+            neighborhood = fn.stem.split('-')[0]
+
+        neib_map[k] = neighborhood
 
     annotations = []
 
@@ -44,7 +51,6 @@ def extract_gcp_annotations(o):
     except KeyError:
         print(o["_via_attributes"]["region"])
         raise
-
 
     for k, v in d.items():
 
@@ -62,7 +68,7 @@ def extract_gcp_annotations(o):
                     'y': y,
                     'width': width,
                     'height': height,
-                    'neighborhood': neib_map[v['filename']].lower().replace(' ','_'),
+                    'neighborhood': neib_map[v['filename']],
                     'intersection': inter_map[region['region_attributes']['Intersection']]
                 })
 
@@ -86,7 +92,7 @@ def load_gcp_rows(fn=None):
 
         with e.open() as f:
             try:
-                rows.extend(extract_gcp_annotations(json.load(f)))
+                rows.extend(extract_gcp_annotations(e, json.load(f)))
             except Exception as exc:
                 print(f"ERROR in file {e}: {exc}")
                 raise

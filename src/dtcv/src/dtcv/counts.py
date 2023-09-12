@@ -24,7 +24,7 @@ def get_count_files():
 
             yield download_to_file(url)
 
-def extract_region_annotations(o):
+def extract_region_annotations(fn, o):
     pass
 
     reg_cols = 'Type count'.split()
@@ -40,26 +40,44 @@ def extract_region_annotations(o):
             continue
 
         for region in v['regions']:
+
             try:
-
                 cx, cy, r = list(shape_ig(region['shape_attributes']))
-                typ, count = list(reg_ig(region['region_attributes']))
-
-                o={'image_url':v['filename']}
-
-                o.update({
-                    'cx': cx,
-                    'cy': cy,
-                    'r': r,
-                    'type': typ,
-                    'count': count
-
-                })
-
-                yield o
-
             except KeyError as e:
-                logger.debug("Error in count extraction; wrong keys in shape attributes: ", region['shape_attributes'])
+                logger.error(f"Error in count extraction; wrong keys in shape attributes for file {fn}, expected {e}: {region['shape_attributes']}")
+                return
+
+
+            try:
+                typ, count = list(reg_ig(region['region_attributes']))
+            except KeyError as e:
+                try:
+                    typ = region['region_attributes']['Type']
+                except KeyError:
+                    typ = '1'
+                    logger.info(f"Missing 'Type' in region attributes, assuming 1, Individual, {fn}, image {v['filename'].strip()}")
+
+                try:
+                    count = region['region_attributes']['count']
+                except KeyError:
+                    count = 1
+                    logger.info(f"Missing 'count' in region attributes, assuming 1, {fn}, image {v['filename'].strip()}")
+
+
+            o={'image_url':v['filename']}
+
+            o.update({
+                'cx': cx,
+                'cy': cy,
+                'r': r,
+                'type': typ,
+                'count': count
+
+            })
+
+            yield o
+
+
 
 
 def load_count_rows(fn):
@@ -79,11 +97,12 @@ def load_count_rows(fn):
         with e.open() as f:
             o = json.load(f)
 
-            for a in extract_region_annotations(o):
+            for a in extract_region_annotations(e, o):
                 if headers is None:
                     headers = list(a.keys())
 
                 rows.append(list(a.values()))
+
 
     return headers, rows
 
