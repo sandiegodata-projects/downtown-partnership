@@ -52,6 +52,7 @@ def extract_gcp_annotations(fn, o):
         print(o["_via_attributes"]["region"])
         raise
 
+    errors = []
     for k, v in d.items():
 
         if k == 'example':
@@ -71,11 +72,14 @@ def extract_gcp_annotations(fn, o):
                     'neighborhood': neib_map[v['filename']],
                     'intersection': inter_map[region['region_attributes']['Intersection']]
                 })
+                #logger.debug(f"Extracted GCP for  {v['filename'].strip()} at {x}, {y} ({width}x{height})")
 
-            except KeyError:
-                raise
-                logger.debug("Error in GCP extraction; Wrong keys in shape attributes: {}".format(region['shape_attributes']))
+            except KeyError as e:
+                logger.error(f"Error in GCP extraction for {neib_map[v['filename']]} {v['filename'].strip()} ({str(e)};) ")
+                logger.error(f"Wrong keys in shape attributes: {format(region['shape_attributes'])}")
+                errors.append((fn, e))
 
+    logger.debug(f"Extracted {len(annotations)} GCP annotations from {fn}; {len(errors)} errors")
 
     return annotations
 

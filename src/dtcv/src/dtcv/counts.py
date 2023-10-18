@@ -33,7 +33,12 @@ def extract_region_annotations(fn, o):
     shape_cols = 'cx cy r'.split()
     shape_ig = itemgetter(*shape_cols)
 
+    rect_shape_cols = 'x y width height'.split()  # in case the shape is a rectangle, rather than a circle
+    rect_shape_ig = itemgetter(*rect_shape_cols)
+
     d = o['_via_img_metadata']
+
+    warnings = set()
 
     for k, v in d.items():
         if k == 'example':
@@ -41,12 +46,21 @@ def extract_region_annotations(fn, o):
 
         for region in v['regions']:
 
-            try:
+            if region['shape_attributes']['name'] == 'rect':
+                k = (fn, v['filename'].strip())
+                if k not in warnings:
+                    logger.warning( f"Got a rect for {fn}, image {v['filename'].strip()}. This should be a circle, but was converted sucessfully.")
+                    warnings.add(k)
+
+                x, y, width, height = list(rect_shape_ig(region['shape_attributes']))
+                cx, cy = x + (width / 2), y + (height / 2)
+                r = width / 2
+
+            elif region['shape_attributes']['name'] == 'circle':
                 cx, cy, r = list(shape_ig(region['shape_attributes']))
-            except KeyError as e:
+            else:
                 logger.error(f"Error in count extraction; wrong keys in shape attributes for file {fn}, expected {e}: {region['shape_attributes']}")
                 return
-
 
             try:
                 typ, count = list(reg_ig(region['region_attributes']))

@@ -79,8 +79,6 @@ def setup_logging(loglevel):
 def run():
     """Entry point for console_scripts
     """
-
-
     args = parse_args(sys.argv[1:])
     setup_logging(args.loglevel)
 
