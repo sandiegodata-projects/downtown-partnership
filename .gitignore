@@ -109,3 +109,6 @@ images
 cv/frozen_east_text_detection.pb
 venv
 .idea
+
+datasets
+_build
