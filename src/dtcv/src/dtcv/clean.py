@@ -161,6 +161,9 @@ def clean_file_annotations(file_df):
     if fa[fa.date.isnull()].shape[0] > 0:
         try:
             fa['date'] = pd.to_datetime(fa.date)
+        except ValueError as e:
+            # The date column has some errors. See the documentation README for more information.
+            fa['date'] = None
         except:
             # Don't know what exception will get thrown if there is not date column in the file, but
             # we will find out eventually
@@ -168,12 +171,6 @@ def clean_file_annotations(file_df):
 
     if fa[fa.date.isnull()].shape[0] > 0:
         fa['date'] = fa['url_date']
-
-    if fa[fa.date.isnull()].shape[0] > 0:
-        nd = fa[fa.date.isnull()]
-        print(nd)
-        logger.error(f'There are still {nd.shape[0]}  null dates')
-
 
     def file_id_hash(v):
         # Git rid of digits, so Excel doesn't mangle the ids.

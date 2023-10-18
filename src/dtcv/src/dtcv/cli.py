@@ -145,6 +145,13 @@ def run_clean_files(dest):
     fdf_out = dest.joinpath('files.csv')
     _logger.info(f'Writing {fdf_out}')
     df = clean_file_annotations(file_df)
+
+    if df[df.date.isnull()].shape[0] > 0:
+        nd = df[df.date.isnull()]
+        print(nd.head())
+        print(f' ERROR: There are still {nd.shape[0]}  null dates')
+        print(nd.source_file.unique())
+
     df.to_csv(fdf_out, index=False)
 
 
