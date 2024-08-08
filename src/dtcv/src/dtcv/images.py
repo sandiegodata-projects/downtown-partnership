@@ -8,7 +8,7 @@ from shapely.geometry import Polygon
 from shapely import wkt
 from pathlib import Path
 import urllib.request
-import cv2
+#import cv2
 
 # Pad and unpack the transformation matrix to be 3x1 or 3x3,
 # necessary for it to handle both rotation and translation
