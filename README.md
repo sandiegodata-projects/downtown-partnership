@@ -32,8 +32,8 @@ The ``gcp-errors`` and ``output`` directories are created by the programs.
 To process the files, run these programs: 
 
 ```bash
-dt_process -i intersection.csv -c count output
-dt_process -i intersection.csv -g gcp output
+dt_process -v -i intersection.csv -c count output
+dt_process -v -i intersection.csv -g gcp output
 dt_process --final output
 ```
 
