@@ -1,0 +1,77 @@
+Script started on 2024-08-13 02:21:05+00:00 [TERM="xterm-256color" TTY="/dev/pts/3" COLUMNS="155" LINES="29"]
+[?2004h[0;32m@mlyang1 [0m➜ [1;34m/workspaces/downtown-partnership/update-2024/SDDT_20240808 [0;36m([1;31mmaster[0;36m) [0m$ [7mdt_process -v -i intersection.csv -c count output[27m
+[7mdt_process -v -i intersection.csv -g gcp output[27m
+[7mdt_process --final output[27m[A[A[0;32m@mlyang1 [0m➜ [1;34m/workspaces/downtown-partnership/update-2024/SDDT_20240808 [0;36m([1;31mmaster[0;36m) [0m$ dt_process -v -i intersection.csv -c count output
+dt_process -v -i intersection.csv -g gcp output
+dt_process --final output
+[?2004l[2024-08-13 02:21:11] INFO:dtcv.cli:Writing output/raw_file_annotations.csv
+[2024-08-13 02:21:11] INFO:dtcv.cli:Writing output/raw_count_annotations.csv
+[2024-08-13 02:21:12] INFO:dtcv.cli:Writing output/raw_gcp.csv
+Traceback (most recent call last):
+  File "/home/vscode/.local/bin/dt_process", line 33, in <module>
+    sys.exit(load_entry_point('dtcv', 'console_scripts', 'dt_process')())
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspaces/downtown-partnership/src/dtcv/src/dtcv/cli.py", line 97, in run
+    load_gcp(args, args.gcp, dest)
+  File "/workspaces/downtown-partnership/src/dtcv/src/dtcv/cli.py", line 121, in load_gcp
+    tf = gcp_transform_df(intr_gpd, gcp)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspaces/downtown-partnership/src/dtcv/src/dtcv/gcp.py", line 177, in gcp_transform_df
+    df['matrix'] = m
+    ~~^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/pandas/core/frame.py", line 4301, in __setitem__
+    self._set_item_frame_value(key, value)
+  File "/usr/local/lib/python3.12/site-packages/pandas/core/frame.py", line 4459, in _set_item_frame_value
+    raise ValueError(
+ValueError: Cannot set a DataFrame with multiple columns to the single column matrix
+                                           image_url                                   file_id                     source_file  ... total_count  temp rain
+0   https://lh3.googleusercontent.com/d/1djwCzJ2b...  zLj67dnGmkUxevSJIF/YKhcHYO7LmnNYInr+EQ==  count/Columbia_2023_count.json  ...         NaN  60.0    1
+1   https://lh3.googleusercontent.com/d/131RB-CWq...  OsnFmfsrEZPsEzWOS/HEL7J8IdpCoIKszzLKIQ==  count/Columbia_2023_count.json  ...         NaN  47.0    1
+2   https://lh3.googleusercontent.com/d/1VRi89o-U...  hh9Jx9voMgEz3VVd+FZxYAAMByp+kXDHjnqoug==  count/Columbia_2023_count.json  ...         NaN  52.0    1
+3   https://lh3.googleusercontent.com/d/1tMBcsFsn...  R7EpN4StowhCXdAwJserZXqUgh+ki97iuwzxqQ==  count/Columbia_2023_count.json  ...         NaN  59.0    2
+4   https://lh3.googleusercontent.com/d/1AcYP_CYq...  5As5SW35v77TtmNjE25aMng1RHxqHgkn+J/pQQ==  count/Columbia_2023_count.json  ...         NaN  60.0    2
+
+[5 rows x 12 columns]
+ ERROR: There are still 170  null dates
+['count/Columbia_2023_count.json' 'count/Golden Hill_2023_count.json'
+ 'count/Golden Hill_2024_count.json' 'count/Cortez_2024_count.json'
+ 'count/Columbia_2024_count.json' 'count/Gaslamp_2023_count.json'
+ 'count/Sherman Heights_2023_count.json'
+ 'count/City Center_2023_count.json' 'count/Barrio Logan_2023_count.json'
+ 'count/East Village_2023_count.json'
+ 'count/East Village South_2023_count.json'
+ 'count/East Village South_2024_count_.json'
+ 'count/Marina_2023_count.json' 'count/East Village_2024_count_.json'
+ 'count/City Center_2024_count.json' 'count/Marina_2024_count.json'
+ 'count/Sherman Heights_2024_count.json'
+ 'count/Barrio Logan_2024_count.json' 'count/Gaslamp_2024_count_.json'
+ 'count/Cortez_2023_count.json']
+Traceback (most recent call last):
+  File "/home/vscode/.local/bin/dt_process", line 33, in <module>
+    sys.exit(load_entry_point('dtcv', 'console_scripts', 'dt_process')())
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspaces/downtown-partnership/src/dtcv/src/dtcv/cli.py", line 104, in run
+    run_clean_counts(dest)
+  File "/workspaces/downtown-partnership/src/dtcv/src/dtcv/cli.py", line 164, in run_clean_counts
+    tf_df = pd.read_csv(dest.joinpath('gcp_transforms.csv'))
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/pandas/io/parsers/readers.py", line 1026, in read_csv
+    return _read(filepath_or_buffer, kwds)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/pandas/io/parsers/readers.py", line 620, in _read
+    parser = TextFileReader(filepath_or_buffer, **kwds)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/pandas/io/parsers/readers.py", line 1620, in __init__
+    self._engine = self._make_engine(f, self.engine)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/pandas/io/parsers/readers.py", line 1880, in _make_engine
+    self.handles = get_handle(
+                   ^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/pandas/io/common.py", line 873, in get_handle
+    handle = open(
+             ^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'output/gcp_transforms.csv'
+[?2004h[0;32m@mlyang1 [1;31m➜ [1;34m/workspaces/downtown-partnership/update-2024/SDDT_20240808 [0;36m([1;31mmaster[0;36m) [0m$ [?2004l
+exit
+
+Script done on 2024-08-13 02:21:21+00:00 [COMMAND_EXIT_CODE="1"]

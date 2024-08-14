@@ -1,0 +1,341 @@
+image_url,date,neighborhood,total_count,temp,rain,source_file
+" https://lh3.googleusercontent.com/d/1djwCzJ2b-FE1AGoaKom4iTn35d7VgCfU
+",2023-01-31,Columbia,,60,1,count/Columbia_2023_count.json
+" https://lh3.googleusercontent.com/d/131RB-CWqippuqZwDXLG-3ZM4ENi5hqXb
+",2023-02-23,Columbia,,47,1,count/Columbia_2023_count.json
+" https://lh3.googleusercontent.com/d/1VRi89o-UiZ2_rhcuC6uNgapqpi7OfLGs
+",2023-03-30,Columbia,,52,1,count/Columbia_2023_count.json
+" https://lh3.googleusercontent.com/d/1tMBcsFsnfpBIjyM6pcJA0OyBoD8-J8-t
+",2023-04-27,Columbia,,59,2,count/Columbia_2023_count.json
+" https://lh3.googleusercontent.com/d/1AcYP_CYqi1XCVwCTn5w02noI5jpJXd-U
+",2023-05-25,Columbia,,60,2,count/Columbia_2023_count.json
+" https://lh3.googleusercontent.com/d/1xQ2Up-Tsx26MrZjH_nhKN6g8r6-m6v_y
+",2023-06-28,Columbia,,58,2,count/Columbia_2023_count.json
+" https://lh3.googleusercontent.com/d/1uapMwBP10goQ699OV87gpLoW1zFc7Cfd
+",2023-07-27,Columbia,,68,2,count/Columbia_2023_count.json
+" https://lh3.googleusercontent.com/d/1w3FSHtbr_d9nL8wo4_FiBdSDhVQ4TrrG
+",2023-09-01,Columbia,,66,2,count/Columbia_2023_count.json
+" https://lh3.googleusercontent.com/d/1s2c3bbmjNp31tPhNajdjJHPjZfcPD9Fy
+",2023-09-28,Columbia,,62,2,count/Columbia_2023_count.json
+" https://lh3.googleusercontent.com/d/1DEOnlAVa4-eNTqmx8HwdLsBC39VWbxqc
+",2023-10-26,Columbia,,62,2,count/Columbia_2023_count.json
+" https://lh3.googleusercontent.com/d/1ezUu44N9sEIeolireFvQC9jeaKSdad4b
+",2023-11-30,Columbia,,55,2,count/Columbia_2023_count.json
+" https://lh3.googleusercontent.com/d/1Og9_sW8INUPA27QdlndXRluMSvDZk_jE
+",2023-12-28,Columbia,,55,2,count/Columbia_2023_count.json
+" https://lh3.googleusercontent.com/d/1aDvSUODpM7VYGqeFeJ3EWaVlJagDWLTP
+",,Golden Hill,44,,2,count/Golden Hill_2023_count.json
+" https://lh3.googleusercontent.com/d/1DiOOwLPPQqbBHxB3ee07wlpaiMwXkM8m
+",,Golden Hill,,,2,count/Golden Hill_2023_count.json
+" https://lh3.googleusercontent.com/d/1F7c_Yf-W4Zn6RbGUrXuM-zkjypQmbQ9H
+",2023-03-30,Golden Hill,12.75,,2,count/Golden Hill_2023_count.json
+" https://lh3.googleusercontent.com/d/1nnrFZZsRlDyd_rGZbfNRGH_F9zt8A2d5
+",2023-04-27,Golden Hill,56.62,59,2,count/Golden Hill_2023_count.json
+" https://lh3.googleusercontent.com/d/1qYOo9Z8uDf3nULb338mOrP04pFtUI2Ve
+",2023-05-25,Golden Hill,8.75,60,2,count/Golden Hill_2023_count.json
+" https://lh3.googleusercontent.com/d/1A60wsD1MRr0ZpILnBiC6PaSdBJUJQ6Vg
+",,Golden Hill,0,,2,count/Golden Hill_2023_count.json
+" https://lh3.googleusercontent.com/d/159d-xqSwdbvcZrOrxYS8WVYV-mpxK0A8
+",,Golden Hill,10.5,,2,count/Golden Hill_2023_count.json
+" https://lh3.googleusercontent.com/d/16cuH0QsJ0wNhOia2FUKpzGm_KXbZDL9H
+",,Golden Hill,,67,2,count/Golden Hill_2023_count.json
+" https://lh3.googleusercontent.com/d/1gNSp-waDvLoo0ho_L3Ok5NTyeyP4eoeD
+",,Golden Hill,,,2,count/Golden Hill_2023_count.json
+" https://lh3.googleusercontent.com/d/1ku4P4fAyhQWu4ky__WdIJbiZCUQHds2G
+",,Golden Hill,,,2,count/Golden Hill_2023_count.json
+" https://lh3.googleusercontent.com/d/1yBHMVCSA9wbc9zYuDAY627_I3GaWRE5L
+",,Golden Hill,,,2,count/Golden Hill_2023_count.json
+" https://lh3.googleusercontent.com/d/1b4huA-83LQKYhCgm-64wqnhEb1E0hkGu
+",,Golden Hill,,,2,count/Golden Hill_2023_count.json
+"https://lh3.googleusercontent.com/d/17vz0hbrFa_synVZRWQGrcrhSvQq54V1k
+",,Golden Hill,,,2,count/Golden Hill_2024_count.json
+"https://lh3.googleusercontent.com/d/1Gk6qM0KqfvjVnR4bKc8bvzBfdjDhVdTz
+",,Golden Hill,,,2,count/Golden Hill_2024_count.json
+"https://lh3.googleusercontent.com/d/1xD95O13kI-8ynF3iyHxeUu_D7V2fN-2D
+",,Golden Hill,,,2,count/Golden Hill_2024_count.json
+"https://lh3.googleusercontent.com/d/1QTEdKGZsd7HowGSlk6KvzP13jpFUIvah
+",,Golden Hill,,,2,count/Golden Hill_2024_count.json
+"https://lh3.googleusercontent.com/d/10mmmOHFcAh49dPmh3EFJysg3mAc8vc2m
+",,Golden Hill,,,2,count/Golden Hill_2024_count.json
+"https://lh3.googleusercontent.com/d/1nZCxcvLS9gvVcyZCpeuBtMCGbha3t5XQ
+",2024-01-25,Cortez,,63,2,count/Cortez_2024_count.json
+"https://lh3.googleusercontent.com/d/1I7QHZ4DQnNh_vVZkbkfxoHdJOsn4RDCT
+",2024-02-22,Cortez,,55,2,count/Cortez_2024_count.json
+"https://lh3.googleusercontent.com/d/1ZPmKcrWE57Ll9vwbj523IUjq_skw014h
+",2024-03-21,Cortez,,55,2,count/Cortez_2024_count.json
+"https://lh3.googleusercontent.com/d/1nV-Ruhx-mAwhLQ7A9_1HcPIzLb5Ib5l0
+",2024-04-25,Cortez,,59,2,count/Cortez_2024_count.json
+"https://lh3.googleusercontent.com/d/1XdLe07Grb86YH86SSvS-Ab4nB4kB2GBp
+",2024-05-23,Cortez,,61,2,count/Cortez_2024_count.json
+"https://lh3.googleusercontent.com/d/16VRROE_LkeQ2EnxRc16Ah-gSr8Zw2iKy
+",2024-01-25,Columbia,,63,2,count/Columbia_2024_count.json
+"https://lh3.googleusercontent.com/d/1adhv9IoylGWPQpKjzXjFHPXHrvZEZZOj
+",2024-02-22,Columbia,,52,2,count/Columbia_2024_count.json
+"https://lh3.googleusercontent.com/d/1RPcE2dTMtF4vuJ0cJ6_RgtqSxPKQ3ZEs
+",2024-03-21,Columbia,,55,2,count/Columbia_2024_count.json
+"https://lh3.googleusercontent.com/d/1rq44Zkqit2Vc6ClIZBU-h1vM8iuQCX6Q
+",2024-04-25,Columbia,,58,2,count/Columbia_2024_count.json
+"https://lh3.googleusercontent.com/d/1Zaj_pyw3GPZY_meCP57obtyrEoLrgx92
+",2024-05-23,Columbia,,60,2,count/Columbia_2024_count.json
+" https://lh3.googleusercontent.com/d/1SeWTYj-TCm3BasxQGClmvaZZcnsqeRan
+",2023-01-31,Gaslamp,,60,1,count/Gaslamp_2023_count.json
+" https://lh3.googleusercontent.com/d/10G8jwmpzz2kxDX71poLV7HzOu1iYp1bi
+",2023-02-23,Gaslamp,,47,1,count/Gaslamp_2023_count.json
+" https://lh3.googleusercontent.com/d/1rRG3c_4diWr8j18dzccItLCFP00eifeJ
+",2023-03-30,Gaslamp,,52,1,count/Gaslamp_2023_count.json
+" https://lh3.googleusercontent.com/d/1DKzLl8asQyOne63N2Z-CSFcuPHsnIL6e
+",2023-04-27,Gaslamp,,59,2,count/Gaslamp_2023_count.json
+" https://lh3.googleusercontent.com/d/19AESclB7D9EYxWqeM755R06jSXysnR73
+",2023-05-25,Gaslamp,,60,2,count/Gaslamp_2023_count.json
+" https://lh3.googleusercontent.com/d/1FFRkB5yObHb-ffhSYAeI4OqVK97ZxcRV
+",2023-06-28,Gaslamp,,59,2,count/Gaslamp_2023_count.json
+" https://lh3.googleusercontent.com/d/1c14ZggpQGjPU3HUtf_IOXztYg5-ZLT9F
+",2023-07-27,Gaslamp,,67,2,count/Gaslamp_2023_count.json
+" https://lh3.googleusercontent.com/d/1qKqJCMEj5tEjh3lMq8Q3kbkUuE9qCzU7
+",2023-09-01,Gaslamp,,66,2,count/Gaslamp_2023_count.json
+" https://lh3.googleusercontent.com/d/182KCPGx2YhUZHkU4PvNtkYJX4pGpzLWP
+",2023-09-28,Gaslamp,,62,2,count/Gaslamp_2023_count.json
+" https://lh3.googleusercontent.com/d/1447m1SItGMB2SODC9aZcnoQlkSQfNEuE
+",2023-10-26,Gaslamp,,61,2,count/Gaslamp_2023_count.json
+" https://lh3.googleusercontent.com/d/1awTo-JiLxdZawqcJC3MZEp64Jh8TqhWJ
+",2023-11-30,Gaslamp,,55,2,count/Gaslamp_2023_count.json
+" https://lh3.googleusercontent.com/d/1CerIW2H3lRs-5f6QNvvvU9OznF38ZPXQ
+",2023-12-28,Gaslamp,,57,2,count/Gaslamp_2023_count.json
+" https://lh3.googleusercontent.com/d/1qYXD_oaQfzIDvKAUlQ2j5-dNhYIacRmd
+",,Sherman Heights,185,,2,count/Sherman Heights_2023_count.json
+" https://lh3.googleusercontent.com/d/15LybyLDB2bmxijNl3Qp9sPQAP-E2xMKV
+",2023-02-23,Sherman Heights,,,2,count/Sherman Heights_2023_count.json
+" https://lh3.googleusercontent.com/d/1QuBdzLXS1MRpu7Lb-txG44kO3ReyJ2IY
+",2023-03-30,Sherman Heights,82.24,,2,count/Sherman Heights_2023_count.json
+" https://lh3.googleusercontent.com/d/1ugbbuRIedruV2YL-f2VPvVBwUYjxhdYS
+",2023-04-27,Sherman Heights,108.87,59,2,count/Sherman Heights_2023_count.json
+" https://lh3.googleusercontent.com/d/1udsy7Aey5WL57FQKi18qb9mxaxWxr29j
+",2023-05-25,Sherman Heights,200.5,60,2,count/Sherman Heights_2023_count.json
+" https://lh3.googleusercontent.com/d/1q8lZK905P2QRm3N_343ujDDVZVKOH0IL
+",,Sherman Heights,206.84,,2,count/Sherman Heights_2023_count.json
+" https://lh3.googleusercontent.com/d/1lKx2jGJzfhI4LhHpd29tt3tGw0ij251E
+",,Sherman Heights,268.74,,2,count/Sherman Heights_2023_count.json
+" https://lh3.googleusercontent.com/d/1TEsZpohGbUeEgXDn8U7HWb-BTUi21jBX
+",,Sherman Heights,,66,2,count/Sherman Heights_2023_count.json
+" https://lh3.googleusercontent.com/d/1FpbJfvhJ7cxMTMmKwxIl8lw9is9Fx0gm
+",,Sherman Heights,,,2,count/Sherman Heights_2023_count.json
+" https://lh3.googleusercontent.com/d/1jv2a0l28JMc4frk3WE16jLLRvAb_SGvH
+",,Sherman Heights,,,2,count/Sherman Heights_2023_count.json
+" https://lh3.googleusercontent.com/d/1T2BHMQBBwewdCRciVj-2GNFEqAnuVw5D
+",,Sherman Heights,,,2,count/Sherman Heights_2023_count.json
+" https://lh3.googleusercontent.com/d/1_se1Cs74Tzzp3zOkRlVPmi5BblrkC-jd
+",,Sherman Heights,,,2,count/Sherman Heights_2023_count.json
+" https://lh3.googleusercontent.com/d/1wHUi4q42gMyS2yBP39HXXS88ArKtUHbu
+",2023-01-31,City Center,,60,1,count/City Center_2023_count.json
+" https://lh3.googleusercontent.com/d/1TpSvRn-AZExMVNX0BCGVyfAkjrom1sO2
+",2023-02-23,City Center,,47,1,count/City Center_2023_count.json
+" https://lh3.googleusercontent.com/d/1zRkYbe5DIRRRQQF0PU_dl6R-J-RjIa4t
+",2023-03-30,City Center,,52,1,count/City Center_2023_count.json
+" https://lh3.googleusercontent.com/d/1I14LHVmWQHTbyiELTBX18aCuQ9q4_DO0
+",2023-04-27,City Center,,59,2,count/City Center_2023_count.json
+" https://lh3.googleusercontent.com/d/15_wB6kw_J5ySfjMQX8NvB__HOXjTAW0c
+",2023-05-25,City Center,,60,2,count/City Center_2023_count.json
+" https://lh3.googleusercontent.com/d/10UFPcmC-ACZwXJCWh3q41jNmd16rBVvZ
+",2023-06-28,City Center,,58,2,count/City Center_2023_count.json
+" https://lh3.googleusercontent.com/d/1e9zBeIdcLc213gLZljiFT3HIaUapJ83s
+",2023-07-27,City Center,,67,2,count/City Center_2023_count.json
+" https://lh3.googleusercontent.com/d/1-Fu19gfaeZ9jhbV6gRJtT6vGPVAl7YLD
+",2023-09-01,City Center,,66,2,count/City Center_2023_count.json
+" https://lh3.googleusercontent.com/d/1ycRt4ppKdhDXPsF9log2WBG7e0dxQb4K
+",2023-09-28,City Center,,63,2,count/City Center_2023_count.json
+" https://lh3.googleusercontent.com/d/1U-QuSW5Bguq6smht-dl_vLWYVDajAhjf
+",2023-10-26,City Center,,62,2,count/City Center_2023_count.json
+" https://lh3.googleusercontent.com/d/1N5QfFSIgGy0TYu8IYqJpui5KdwKC6nY3
+",2023-11-30,City Center,,55,2,count/City Center_2023_count.json
+" https://lh3.googleusercontent.com/d/1RWHKW6oOLMRiGXvhMoDq6jd7nJeqVygk
+",2023-12-28,City Center,,55,2,count/City Center_2023_count.json
+" https://lh3.googleusercontent.com/d/1APzqM6U3XJt3i4vJIzOsnfGRM1cRwuuT
+",,Barrio Logan,,,2,count/Barrio Logan_2023_count.json
+" https://lh3.googleusercontent.com/d/1KMra2AYYhbcjH1JymT20skMJOxqxZBcY
+",,Barrio Logan,,,2,count/Barrio Logan_2023_count.json
+" https://lh3.googleusercontent.com/d/1vzt9x2YrkERF1WGjztNtPYkJlTXQSUym
+",2023-03-30,Barrio Logan,,,2,count/Barrio Logan_2023_count.json
+" https://lh3.googleusercontent.com/d/1b2AFwVZ0eP8DUBVz8Oio31EsTx3W4INb
+",2023-04-27,Barrio Logan,,59,2,count/Barrio Logan_2023_count.json
+" https://lh3.googleusercontent.com/d/1Q6yPC8Qswwe0uygCkNor6faHwulZcssk
+",2023-05-25,Barrio Logan,,60,2,count/Barrio Logan_2023_count.json
+" https://lh3.googleusercontent.com/d/1wbU5OxnrZE7T0QsBtfb76tifbW0jXLp-
+",,Barrio Logan,,,2,count/Barrio Logan_2023_count.json
+" https://lh3.googleusercontent.com/d/1xrSNibFCsn5vrRHqYt9AbFMt6-cXyjSN
+",,Barrio Logan,,,2,count/Barrio Logan_2023_count.json
+" https://lh3.googleusercontent.com/d/1HL3yhddZzIisnWHZatszRCCryjsxz39v
+",,Barrio Logan,,66,2,count/Barrio Logan_2023_count.json
+" https://lh3.googleusercontent.com/d/1-3MviYlwl2qkSZh7Xoo6VjO7OuDfTcjl
+",,Barrio Logan,,,2,count/Barrio Logan_2023_count.json
+" https://lh3.googleusercontent.com/d/1YFx1Gz6HcSZOzgL9-Hn8rP7OHsnRtJ6P
+",,Barrio Logan,,,2,count/Barrio Logan_2023_count.json
+" https://lh3.googleusercontent.com/d/1GFW2GsSpr_9Nbe6_GlxtyOBrP0l_QMhp
+",,Barrio Logan,,,2,count/Barrio Logan_2023_count.json
+" https://lh3.googleusercontent.com/d/1bni78ARoQC9ZfNKaMOgYg3gScxfvMHeh
+",,Barrio Logan,,,2,count/Barrio Logan_2023_count.json
+" https://lh3.googleusercontent.com/d/1kIk8VEu5j-KVBYL3xLXr2Xi6934Q5yeK
+",2023-01-31,East Village,,60,1,count/East Village_2023_count.json
+" https://lh3.googleusercontent.com/d/1hYilnSwObzq8ahZzkTxA7YIqXoN4xtOG
+",2023-02-22,East Village,,48,1,count/East Village_2023_count.json
+" https://lh3.googleusercontent.com/d/1h8CwU7Kdmd3afmj3h9Hs_ZiLkCeptZcH
+",2023-03-29,East Village,,52,1,count/East Village_2023_count.json
+" https://lh3.googleusercontent.com/d/1DDU_HDNIA_nKiWvdt9MBJuWPDNNhl-uR
+",2023-04-27,East Village,,59,2,count/East Village_2023_count.json
+" https://lh3.googleusercontent.com/d/1c-tjSdylIZKhj1q0Y9_tpq1ohLtFG4WW
+",2023-05-25,East Village,,60,2,count/East Village_2023_count.json
+" https://lh3.googleusercontent.com/d/1VsvdscdmmSY-y5Zhcwy_gyrg6sjUGmeM
+",2023-06-28,East Village,,60,2,count/East Village_2023_count.json
+" https://lh3.googleusercontent.com/d/11PTER6xFMBKtD_ctUJ_9urBQ6JlrxaMZ
+",2023-07-27,East Village,,68,2,count/East Village_2023_count.json
+" https://lh3.googleusercontent.com/d/10g4xx5J_vlfrrfu_teIoQ3CARwYf-MRQ
+",2023-09-01,East Village,,67,2,count/East Village_2023_count.json
+" https://lh3.googleusercontent.com/d/1bRCI8Hi3FXEVzW4qyL7vtYCDsFFcMV1X
+",2023-09-28,East Village,,63,2,count/East Village_2023_count.json
+" https://lh3.googleusercontent.com/d/12Oj7_g3cd6rPJpP8mh8SlnNL1E-cEwpF
+",2023-10-26,East Village,,62,2,count/East Village_2023_count.json
+" https://lh3.googleusercontent.com/d/1ULwLEhIFm_P-4euWIyk5laXbrE5e50UV
+",2023-11-30,East Village,,56,1,count/East Village_2023_count.json
+" https://lh3.googleusercontent.com/d/1mq1Xm56BQyiFGDdyY1BAmw4keW3FRI1m
+",2023-12-28,East Village,,56,2,count/East Village_2023_count.json
+" https://lh3.googleusercontent.com/d/14yIN8g2lOSkm1b5kEkIRTtFfPM2dFjJc
+",2023-01-31,East Village South,,60,1,count/East Village South_2023_count.json
+" https://lh3.googleusercontent.com/d/13qmYe68bXSsPUbBPK_-lhA2KlYWl1zaD
+",2023-02-23,East Village South,,47,1,count/East Village South_2023_count.json
+" https://lh3.googleusercontent.com/d/1pXz2LR5eQsS0htH7rNV4HfUqX-KLEVYE
+",2023-03-29,East Village South,,52,1,count/East Village South_2023_count.json
+" https://lh3.googleusercontent.com/d/1v4D8-CYvdCx_FwLUq39zyNjvaTShgWgx
+",2023-04-27,East Village South,,59,2,count/East Village South_2023_count.json
+" https://lh3.googleusercontent.com/d/112WG1umhrZYZfjg6BOnvg8VTASZXNMKI
+",2023-05-24,East Village South,,60,2,count/East Village South_2023_count.json
+" https://lh3.googleusercontent.com/d/1P2oj6y2qCGp5mdjYwyIy9PF4cBKgGMHm
+",2023-06-28,East Village South,,60,2,count/East Village South_2023_count.json
+" https://lh3.googleusercontent.com/d/12gEhtrKFM4Qdd7-kh7vYAuQZzF30hs6V
+",2023-07-27,East Village South,,68,2,count/East Village South_2023_count.json
+" https://lh3.googleusercontent.com/d/1xix96nkh9iuIikTWN4eN5oD74ZlIG5Z0
+",2023-09-01,East Village South,,67,2,count/East Village South_2023_count.json
+" https://lh3.googleusercontent.com/d/1p5B2J9sRx3ZpVbI0R4LSi9L02eTMQy1c
+",2023-09-28,East Village South,,63,2,count/East Village South_2023_count.json
+" https://lh3.googleusercontent.com/d/1jyudTsZMN5QToO7AHCZvD2DmJGZigvUf
+",2023-10-25,East Village South,,62,2,count/East Village South_2023_count.json
+" https://lh3.googleusercontent.com/d/1Not8sXySkPX-YDcVZS-djqf_H19eG-r9
+",2023-11-30,East Village South,,56,1,count/East Village South_2023_count.json
+" https://lh3.googleusercontent.com/d/1vxLNSyOZkw_0ZvVAa9ci7TBzeaiZz5Nl
+",2023-12-28,East Village South,,56,2,count/East Village South_2023_count.json
+"https://lh3.googleusercontent.com/d/1fgzm3luMydJJVgiP8QSYyF1JFnk5wCm3
+",2024-01-25,East Village South,,63,2,count/East Village South_2024_count_.json
+"https://lh3.googleusercontent.com/d/1reP3nipQGd7UCs8beYcu21xKCQbXv3BE
+",2024-02-22,East Village South,,53,2,count/East Village South_2024_count_.json
+"https://lh3.googleusercontent.com/d/1lUFNePexJZc4uQ12q-r9TNITL0lB6uCR
+",2024-03-21,East Village South,,56,2,count/East Village South_2024_count_.json
+"https://lh3.googleusercontent.com/d/155Ij6Ywh5j088ptvK3OCa-uaK0NYhdXJ
+",2024-04-25,East Village South,,59,2,count/East Village South_2024_count_.json
+"https://lh3.googleusercontent.com/d/1MHuucXTNJW_QWBkpbjI2diwvjVXfB3X6
+",2024-05-23,East Village South,,60,2,count/East Village South_2024_count_.json
+" https://lh3.googleusercontent.com/d/1A-K9NmIMr0JL7Y5ArTt3OPnKR0S1Oq3A
+",2023-01-31,Marina,23,60,1,count/Marina_2023_count.json
+" https://lh3.googleusercontent.com/d/1wbEgx-Wy26p765msTw-OADlurCpI9jRj
+",2023-03-23,Marina,25,47,1,count/Marina_2023_count.json
+" https://lh3.googleusercontent.com/d/1kpa7UYa3zwjNwZ0Aai9fJPMTwIRCy1Ia
+",2023-03-30,Marina,17.03,52,1,count/Marina_2023_count.json
+" https://lh3.googleusercontent.com/d/13np40otXfS5Ikvq3VYyLEHSmirdLkzSA
+",2023-04-27,Marina,33,59,2,count/Marina_2023_count.json
+" https://lh3.googleusercontent.com/d/1U_12eHboQDS7jJ_K0WASVIYnYwelRkE6
+",2023-05-25,Marina,50.75,60,2,count/Marina_2023_count.json
+" https://lh3.googleusercontent.com/d/1A3NskWQYpZk8oCZOcB0d_qG6tsSSnHrd
+",2023-06-28,Marina,16.75,58,2,count/Marina_2023_count.json
+" https://lh3.googleusercontent.com/d/1tG8pemAQ9p0wVLUHRiRFTfUFgjtup9E9
+",2023-07-27,Marina,12.25,67,2,count/Marina_2023_count.json
+" https://lh3.googleusercontent.com/d/1qee35BarQYSHvkJUhbVgLfDK0rUpEXzH
+",2023-09-01,Marina,20,66,2,count/Marina_2023_count.json
+" https://lh3.googleusercontent.com/d/1osThmVt7tSihDYGZY7_nC9l9YdlDq0OZ
+",2023-09-28,Marina,13,63,2,count/Marina_2023_count.json
+" https://lh3.googleusercontent.com/d/1PKp_xz5ljLlIGIMLiUi-Cc6NP01K5fCh
+",2023-10-26,Marina,22.25,61,2,count/Marina_2023_count.json
+" https://lh3.googleusercontent.com/d/1PGVkLZVuVc61oYWwxF5z6pGI4UKO69T0
+",2023-11-30,Marina,12.75,55,2,count/Marina_2023_count.json
+" https://lh3.googleusercontent.com/d/17lQP05xNkrw4ye2WWtSQNL0nDUYl0QVR
+",2023-12-28,Marina,16.75,55,2,count/Marina_2023_count.json
+"https://lh3.googleusercontent.com/d/1ziRgE--gVMWsxgpeaQk80mWBUXyO5pYo
+",2024-01-25,East Village,,63,2,count/East Village_2024_count_.json
+"https://lh3.googleusercontent.com/d/1pSvJ4xj1BjMLaz2uA_0RnOKCrnvOHycS
+",2024-02-22,East Village,,55,2,count/East Village_2024_count_.json
+"https://lh3.googleusercontent.com/d/1S_2qO2aeC3x_PXbea8kIcWSlCtRfZfeR
+",2024-03-21,East Village,,55,2,count/East Village_2024_count_.json
+"https://lh3.googleusercontent.com/d/1itXcRNwZ88JL6K_EvwAgN6gSKnC1TuBX
+",2024-04-25,East Village,,59,2,count/East Village_2024_count_.json
+"https://lh3.googleusercontent.com/d/148Fa7klb7fld6eKZCtpdjeIKjXDYl8Lk
+",2024-05-23,East Village,,60,2,count/East Village_2024_count_.json
+"https://lh3.googleusercontent.com/d/1fHxdzezLlClfF3RKdyt9HI0RoWs6C2wf
+",2024-01-25,City Center,,63,2,count/City Center_2024_count.json
+"https://lh3.googleusercontent.com/d/1AfUw_YuOg4N0kRTvjM6KwvMjjBCaAst2
+",2024-02-22,City Center,,51,2,count/City Center_2024_count.json
+"https://lh3.googleusercontent.com/d/11V_Bt43y1_rRW8HBB9_5uaVNzgDj_TWs
+",2024-03-21,City Center,,57,2,count/City Center_2024_count.json
+"https://lh3.googleusercontent.com/d/1y8J2nAxRfSIaKawaUFb3z4wyAc457isT
+",2024-04-25,City Center,,59,2,count/City Center_2024_count.json
+"https://lh3.googleusercontent.com/d/19MO8O6UfGTjOZ_PoNCIzIQZUwucqGAu1
+",2024-05-23,City Center,,60,2,count/City Center_2024_count.json
+"https://lh3.googleusercontent.com/d/14Vm6kNGyiUO7IQHwyGC-gxTKhztbX4Ve
+",2024-01-25,Marina,19,63,2,count/Marina_2024_count.json
+"https://lh3.googleusercontent.com/d/1Iavcn3qI9SCuaBVdBRa2LxOvq8Ay4_zJ
+",2024-02-22,Marina,16.75,52,2,count/Marina_2024_count.json
+"https://lh3.googleusercontent.com/d/15evkHjkJbvqdqIJ8nC33LD-mBgsSWfLk
+",2024-03-21,Marina,21.25,55,2,count/Marina_2024_count.json
+"https://lh3.googleusercontent.com/d/1bb-aO4ywduLAZEey66LyRrtcwBYzUZXY
+",2024-04-25,Marina,13.25,58,2,count/Marina_2024_count.json
+"https://lh3.googleusercontent.com/d/1hp3KZaOUJT6KdrZkTjgE3fxYD9jvAOa_
+",2024-05-23,Marina,16.25,59,2,count/Marina_2024_count.json
+"https://lh3.googleusercontent.com/d/1eQiUBuIZrRJ7J3XhIvEyBOLtC6G7PKHS
+",,Sherman Heights,,,2,count/Sherman Heights_2024_count.json
+"https://lh3.googleusercontent.com/d/1LzYGDHFRYyTEf9eI7H8izny_9QF7khz9
+",,Sherman Heights,,,2,count/Sherman Heights_2024_count.json
+"https://lh3.googleusercontent.com/d/15r_81uwdciDo-xsqyFopLn9aausk3ydG
+",,Sherman Heights,,,2,count/Sherman Heights_2024_count.json
+"https://lh3.googleusercontent.com/d/1OWiWYxIcj3cIajR6lIVgNSaoTU75ZoMn
+",,Sherman Heights,,,2,count/Sherman Heights_2024_count.json
+"https://lh3.googleusercontent.com/d/1D7z7b8Zr4zeiqSqpLd5BwS4RoUSkbdhU
+",,Sherman Heights,,,2,count/Sherman Heights_2024_count.json
+"https://lh3.googleusercontent.com/d/1j1RDVwHdx-leQ2vLuof_UhAInG4Y3gAI
+",,Barrio Logan,,,2,count/Barrio Logan_2024_count.json
+"https://lh3.googleusercontent.com/d/1Wli78y2d8CHOuBlapztraYKsbgpIlb4V
+",,Barrio Logan,,,2,count/Barrio Logan_2024_count.json
+"https://lh3.googleusercontent.com/d/1Kifrb1TnWgvj4nMVuWb9TFxoOBPKO3pl
+",,Barrio Logan,,,2,count/Barrio Logan_2024_count.json
+"https://lh3.googleusercontent.com/d/1XBaxK9eAO6r9SZaZh7f7fH-zFeFaFk79
+",,Barrio Logan,,,2,count/Barrio Logan_2024_count.json
+"https://lh3.googleusercontent.com/d/1aX-4Tv_dkseHyB2-3RxKTfNx2HH921PZ
+",,Barrio Logan,,,2,count/Barrio Logan_2024_count.json
+"https://lh3.googleusercontent.com/d/1LnQx7kXNWdKlLZuE2F2G3gtOPbz-_QGf
+",2024-01-25,Gaslamp,,57,2,count/Gaslamp_2024_count_.json
+"https://lh3.googleusercontent.com/d/1WmbKrLu1k6ZiyTrNv_36SoAd9hLTAG9Z
+",2024-02-22,Gaslamp,,51,2,count/Gaslamp_2024_count_.json
+"https://lh3.googleusercontent.com/d/1O2eUOJmmH0KxRuGhgRubyBu3KYB2ujNK
+",2024-03-21,Gaslamp,,58,2,count/Gaslamp_2024_count_.json
+"https://lh3.googleusercontent.com/d/1AbVG7EleBghKOgocIzMuXiZj6sGwJJNR
+",2024-04-25,Gaslamp,,58,2,count/Gaslamp_2024_count_.json
+"https://lh3.googleusercontent.com/d/184AfkcjaUqYHCYl8MAbWau_9maFg2Fyg
+",2024-05-23,Gaslamp,,60,2,count/Gaslamp_2024_count_.json
+" https://lh3.googleusercontent.com/d/1Lt-iZ98BRY79iZ79NN3QjomrKpSh0sQs
+",2023-01-31,Cortez,,60,1,count/Cortez_2023_count.json
+" https://lh3.googleusercontent.com/d/1YKXkkLPmZNp3rDAX9S14H0OoT3JNwjI1
+",2023-02-23,Cortez,,47,1,count/Cortez_2023_count.json
+" https://lh3.googleusercontent.com/d/1YHwz2bneHrf8L6uChlDfxCkI1bUsrx1W
+",2023-03-30,Cortez,,52,1,count/Cortez_2023_count.json
+" https://lh3.googleusercontent.com/d/18muJnpibDMaSoA44oXS-H9yitxGPlsfG
+",2023-04-27,Cortez,,59,2,count/Cortez_2023_count.json
+" https://lh3.googleusercontent.com/d/1pEbMNuZh-FL-eGRTu5enuWCcp7ifZqOj
+",2023-05-25,Cortez,,60,2,count/Cortez_2023_count.json
+" https://lh3.googleusercontent.com/d/1kCMxfov8ZOlPP-gonASdGTJICiw8gcmy
+",2023-06-28,Cortez,,58,2,count/Cortez_2023_count.json
+" https://lh3.googleusercontent.com/d/144KSyDkQghF37kPonqe-nz-VVBv8PIFL
+",2023-07-27,Cortez,,67,2,count/Cortez_2023_count.json
+" https://lh3.googleusercontent.com/d/1KGQWlOU8bin7O8IT1eN-sT5J0U2jIqLX
+",2023-09-01,Cortez,,66,2,count/Cortez_2023_count.json
+" https://lh3.googleusercontent.com/d/1vV-0DZiSMBlNX_Gm_1x_Fh4XlvV9ritj
+",2023-09-28,Cortez,,62,2,count/Cortez_2023_count.json
+" https://lh3.googleusercontent.com/d/1iJr2kFcB7PMxL0Ddq80PCT3JGDAsQaM_
+",2023-10-26,Cortez,,62,2,count/Cortez_2023_count.json
+" https://lh3.googleusercontent.com/d/1lLSJKzWOlj86nhUzmiT0WtHH_8v2SmZO
+",2023-11-30,Cortez,,56,1,count/Cortez_2023_count.json
+" https://lh3.googleusercontent.com/d/17N2HimISm9lB6NQYPdmq09Vm-AuySRGj
+",2023-12-28,Cortez,,55,2,count/Cortez_2023_count.json
