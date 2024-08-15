@@ -115,7 +115,7 @@ def load_gcp(args, source, dest):
 
     gcp = gcp_df(source)
     gcp_out = dest.joinpath('raw_gcp.csv')
-    _logger.info(f'Writing {gcp_out}')
+    _logger.info(f'Writing {gcp_out}, {len(gcp)} records')
     gcp.to_csv(gcp_out, index=False)
 
     tf = gcp_transform_df(intr_gpd, gcp)

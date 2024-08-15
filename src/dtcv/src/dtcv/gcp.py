@@ -35,12 +35,18 @@ def extract_gcp_annotations(fn, o):
     neib_map = {}
 
     for k, v in d.items():
+       
         try:
             # For 2023, the neighborhood is a file attribute
             neighborhood = v['file_attributes']['neighborhood'].lower().replace(' ','_')
-        except KeyError:
-            # For 2019, the neighborhood was part of the file name
-            neighborhood = fn.stem.split('-')[0]
+        except KeyError as e:
+            
+            # For 2019 and 2024 the neighborhood was part of the file name
+            if '-' in fn.stem:
+                neighborhood = fn.stem.split('-')[0]
+            else:
+                neighborhood = fn.stem.split('_')[0]
+            
 
         neib_map[k] = neighborhood
 
@@ -124,10 +130,20 @@ def gcp_df(fn=None):
     return pd.DataFrame([list(d.values()) for d in rows], columns=list(rows[0].keys()))
 
 def gcp_transform_df(intr_gpd, gcpdf):
-    """Return a dataframe of GCP intersection polygons with Affine transformations to EPSG 2230"""
+    """Return a dataframe of GCP intersection polygons with Affine transformations to EPSG 2230
+    
+    * intr_gpd is from intersections.csv
+    * gcpdf is from raw_gcp.csv
+
+    """
+
+    print(gcpdf[['neighborhood', 'intersection']].head())
+    print(intr_gpd[['neighborhood', 'intersection']].head())
 
     gcp_m = gcpdf.merge(intr_gpd, on=['intersection', 'neighborhood']).\
         sort_values(['image_url', 'neighborhood', 'intersection'])
+
+    logger.debug(f'Merging {len(gcpdf)} GCP records with {len(intr_gpd)} intersections to create {len(gcp_m)} records')
 
     df = gpd.GeoDataFrame(gcp_m)
     df['image_x'] = df.x + (df.width / 2)
@@ -137,6 +153,8 @@ def gcp_transform_df(intr_gpd, gcpdf):
     df['geo_y'] = df.geometry.y
 
     rows = []
+
+    logger.info(f"Creating GCP polygons for {len(df)} records")
 
     for name, g in df.groupby(['image_url', 'neighborhood']):
         g = g.sort_values(['image_y', 'image_x'])
@@ -162,6 +180,7 @@ def gcp_transform_df(intr_gpd, gcpdf):
 
     df = pd.DataFrame(rows, columns='url neighborhood source dest'.split())
 
+
     df['source'] = df.source.apply(wkt.loads)
     df['dest'] = df.dest.apply(wkt.loads)
 
@@ -174,10 +193,14 @@ def gcp_transform_df(intr_gpd, gcpdf):
 
     m = df.apply(_get_matrix, axis=1)
 
-    df['matrix'] = m
+    try:
+        df['matrix'] = m
+    except Exception as e:
+        logger.error(f"Error in matrix creation: {e}")
+        print(df.head())
+        raise
 
     return df
-
 
 def test_gcp():
     def test_transform(r):
