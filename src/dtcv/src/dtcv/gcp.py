@@ -137,9 +137,6 @@ def gcp_transform_df(intr_gpd, gcpdf):
 
     """
 
-    print(gcpdf[['neighborhood', 'intersection']].head())
-    print(intr_gpd[['neighborhood', 'intersection']].head())
-
     gcp_m = gcpdf.merge(intr_gpd, on=['intersection', 'neighborhood']).\
         sort_values(['image_url', 'neighborhood', 'intersection'])
 
