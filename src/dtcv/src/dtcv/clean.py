@@ -201,7 +201,13 @@ def clean_counts(rc_df, f_df, tf_df):
 
     t = f_df.merge(rc_df, on='image_url')
 
-    tf_df['tf'] = tf_df.matrix.apply(json.loads)
+    try:
+        tf_df['tf'] = tf_df.matrix.apply(json.loads)
+    except TypeError:
+        logger.error('Error in json.loads')
+        logger.error(tf_df.matrix)
+        raise 
+    
     tf_map = {r.url: np.array(r.tf) for idx, r in tf_df.iterrows()}
 
     rows = []

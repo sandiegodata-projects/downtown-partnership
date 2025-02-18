@@ -50,6 +50,7 @@ def extract_gcp_annotations(fn, o):
 
         neib_map[k] = neighborhood
 
+    
     annotations = []
 
     try:
@@ -64,8 +65,9 @@ def extract_gcp_annotations(fn, o):
         if k == 'example':
             continue
 
+        n_list = []
         for region in v['regions']:
-
+            
             try:
                 x, y, width, height = region_ig(region['shape_attributes'])
 
@@ -78,12 +80,18 @@ def extract_gcp_annotations(fn, o):
                     'neighborhood': neib_map[v['filename']],
                     'intersection': inter_map[region['region_attributes']['Intersection']]
                 })
+                n_list.append(inter_map[region['region_attributes']['Intersection']])
                 #logger.debug(f"Extracted GCP for  {v['filename'].strip()} at {x}, {y} ({width}x{height})")
 
             except KeyError as e:
                 logger.error(f"Error in GCP extraction for {neib_map[v['filename']]} {v['filename'].strip()} ({str(e)};) ")
                 logger.error(f"Wrong keys in shape attributes: {format(region['shape_attributes'])}")
                 errors.append((fn, e))
+
+
+        if len(set(n_list)) != 4:
+            logger.error(f"Error in GCP extraction for {neib_map[v['filename']]} {v['filename'].strip()} ({n_list})")
+            errors.append((fn, 'Missing intersections: got '+str(n_list)))
 
     logger.debug(f"Extracted {len(annotations)} GCP annotations from {fn}; {len(errors)} errors")
 

@@ -2,8 +2,8 @@
 
 
 ```
-dt_process -i intersection.csv -c count output
-dt_process -i intersection.csv -g gcp output
+dt_process -vv -i intersection.csv -c count output
+dt_process -vv -i intersection.csv -g gcp output
 dt_process --final output
 ```
 
